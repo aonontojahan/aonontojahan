@@ -1,6 +1,3 @@
-<p align="center">
-  <img src="https://avatars.githubusercontent.com/u/your-github-id" width="100" alt="Aononto Jahan Junnurain" style="border-radius: 50%;" />
-</p>
 
 <h1 align="center">Hi 👋, I'm Aononto Jahan Junnurain</h1>
 <h3 align="center">🚀 Full Stack Developer | 🧪 Researcher | 🐍 Python Lover</h3>
@@ -67,7 +64,10 @@
 
 ---
 
-> **"Code like an artist, debug like a detective, think like an engineer."** 🚀
+### 🎉 More About Myself
+> I'm Aononto — a passionate Full Stack Developer, curious Researcher, and enthusiastic Python lover based in Bangladesh. I enjoy building clean, scalable web applications and exploring the intersection of code, creativity, and problem-solving.
+My journey in tech started with a love for logic and design. Over time, I’ve dived into modern web development, experimented with AI, and collaborated on open-source projects. Whether it's frontend magic with React or backend architecture with Node.js and MongoDB — I enjoy the whole stack.
+I believe in writing readable code, continuous learning, and creating solutions that actually help people. Outside of code, you’ll probably find me sketching out UI ideas, automating my daily tasks, or debugging something I probably broke myself 😅
 
 ---
 
