@@ -96,5 +96,5 @@
 ---
 
 <p align="center">
-  ![Profile Views](https://komarev.com/ghpvc/?username=AonontoJahan&label=Profile%20views&color=blue&style=flat)
+  ![Profile Views](https://komarev.com/ghpvc/?username=aonontojahan&label=Profile%20views&color=blue&style=flat)
 </p>
