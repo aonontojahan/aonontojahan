@@ -1,4 +1,3 @@
-
 <h1 align="center">Hi 👋, I'm Aononto Jahan Junnurain</h1>
 <h3 align="center">🚀 Full Stack Developer | 🧪 Researcher | 🐍 Python Lover</h3>
 
@@ -12,6 +11,12 @@
   <a href="https://www.facebook.com/aonontojahan">
     <img src="https://img.shields.io/badge/Facebook-1877F2?style=flat-square&logo=facebook&logoColor=white" />
   </a>
+</p>
+
+---
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00C0A7&width=435&lines=Full+Stack+Developer;Machine+Learning+Explorer;Python+%26+AI+Enthusiast" alt="Typing SVG" />
 </p>
 
 ---
@@ -54,6 +59,23 @@
 
 ---
 
+### 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=AonontoJahan&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AonontoJahan&theme=tokyonight" alt="GitHub Streak" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AonontoJahan&layout=compact&theme=tokyonight" alt="Top Languages" />
+</p>
+
+---
+
+### 🚀 Featured Projects
+- [📘 Book Shop Management System](https://github.com/AonontoJahan/BookShopManagementSystem)  
+- [🎓 Student Management System](https://github.com/AonontoJahan/StudentManagementSystem)  
+- [🤖 Machine Learning Experiments](https://github.com/AonontoJahan/Machine-Learning)
+
+---
+
 ### 🎉 Fun Facts
 
 - 🧠 I talk to computers more than humans—and they actually listen!
@@ -65,9 +87,14 @@
 ---
 
 ### 🎉 More About Myself
-> I'm Aononto Jahan, a passionate Full Stack Developer, curious Researcher, and enthusiastic Python lover from Bangladesh. I enjoy building clean, scalable web applications and exploring the intersection of code, creativity, and problem-solving.
-My journey in tech started with a love for logic and design. Over time, I’ve dived into modern web development, experimented with AI, and collaborated on open-source projects. Whether it's frontend magic with React or backend architecture with Node.js and MongoDB. I enjoy the whole stack.
-I believe in writing readable code, continuous learning, and creating solutions that actually help people. Outside of code, you’ll probably find me sketching out UI ideas, automating my daily tasks, or debugging something I probably broke myself 😅
+> I'm Aononto Jahan, a passionate Full Stack Developer, curious Researcher, and enthusiastic Python lover from Bangladesh.  
+> I enjoy building clean, scalable web applications and exploring the intersection of code, creativity, and problem-solving.  
+> My journey in tech started with a love for logic and design. Over time, I’ve dived into modern web development, experimented with AI, and collaborated on open-source projects. Whether it's frontend magic with React or backend architecture with Node.js and MongoDB — I enjoy the whole stack.  
+> I believe in writing readable code, continuous learning, and creating solutions that actually help people.  
+> Outside of code, you’ll probably find me sketching out UI ideas, automating my daily tasks, or debugging something I probably broke myself 😅
 
 ---
 
+<p align="center">
+  ![Profile Views](https://komarev.com/ghpvc/?username=AonontoJahan&label=Profile%20views&color=blue&style=flat)
+</p>
