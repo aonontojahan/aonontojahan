@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Aononto Jahan Junnurain</h1>
-<h3 align="center">🚀 Full Stack Developer | 🧪 Researcher | 🐍 Python Lover</h3>
+<h3 align="center"> 🧪 Researcher | 🐍 Python Lover</h3>
 
 <p align="center">
   <a href="mailto:aonontojahan@gmail.com">
@@ -70,9 +70,9 @@
 ---
 
 ### 🚀 Featured Projects
-- [📘 Book Shop Management System](https://github.com/AonontoJahan/BookShopManagementSystem)  
-- [🎓 Student Management System](https://github.com/AonontoJahan/StudentManagementSystem)  
-- [🤖 Machine Learning Experiments](https://github.com/AonontoJahan/Machine-Learning)
+- [📘 Event_Management_System](https://github.com/aonontojahan/Event-Management-System)
+- [🎓 Student Management System](https://github.com/aonontojahan/Student-Management-System)
+- [🤖 Machine Learning Experiments](https://github.com/aonontojahan/Machine-Learning)
 
 ---
 
