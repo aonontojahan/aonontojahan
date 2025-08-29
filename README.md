@@ -95,6 +95,7 @@
 
 ---
 
+
 <p align="center">
-  ![Profile Views](https://komarev.com/ghpvc/?username=aonontojahan&label=Profile%20views&color=blue&style=flat)
+  <em>"The best code is simple, readable, and built to last."</em>
 </p>
