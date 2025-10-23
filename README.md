@@ -23,7 +23,6 @@
 
 ### 🧑‍💻 About Me
 
--🌐 Currently finding an **internship in Software Engineering**
 - 🌐 Currently building my **personal portfolio website**
 - 🌱 Always learning **new frameworks & dev tools**
 - 🤝 Open to **collaborating on open-source** or research projects
