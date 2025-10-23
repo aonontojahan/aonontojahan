@@ -87,11 +87,11 @@
 ---
 
 ### 🎉 More About Myself
-> I'm Aononto Jahan, a passionate Full Stack Developer, curious Researcher, and enthusiastic Python lover from Bangladesh.  
-> I enjoy building clean, scalable web applications and exploring the intersection of code, creativity, and problem-solving.  
-> My journey in tech started with a love for logic and design. Over time, I’ve dived into modern web development, experimented with AI, and collaborated on open-source projects. Whether it's frontend magic with React or backend architecture with Node.js and MongoDB — I enjoy the whole stack.  
-> I believe in writing readable code, continuous learning, and creating solutions that actually help people.  
-> Outside of code, you’ll probably find me sketching out UI ideas, automating my daily tasks, or debugging something I probably broke myself 😅
+> I am a Computer Science student with a strong interest in Machine Learning and Software Development. I am passionate about building intelligent systems and crafting innovative software solutions that bridge the gap between ideas and technology.
+
+I enjoy exploring how algorithms and data-driven models can solve real-world challenges and improve efficiency. My approach to problem-solving is logical, creative, and grounded in continuous learning. I take pride in writing clean, efficient, and purposeful code—because I truly believe that code is a powerful way to communicate ideas and shape the future.
+
+As I continue developing my skills, I aspire to contribute to projects that push the boundaries of technology, innovation, and human potential.
 
 ---
 
