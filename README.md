@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Aononto Jahan Junnurain</h1>
-<h3 align="center"> 🧪 Researcher | 🐍 Python Lover</h3>
+<h3 align="center"> Software Developer | Problem Solver | Python  Lover | Researcher </h3>
 
 <p align="center">
   <a href="mailto:aonontojahan@gmail.com">
