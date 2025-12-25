@@ -84,11 +84,11 @@
 ---
 
 ### 🎉 More About Myself
-> I am a Computer Science student with a strong interest in Machine Learning and Software Development. I am passionate about building intelligent systems and crafting innovative software solutions that bridge the gap between ideas and technology.
+I am a Computer Science student with a strong interest in DevOps engineering and cloud-native systems. I focus on building reliable, automated, and scalable software by combining development practices with operational excellence.
 
-I enjoy exploring how algorithms and data-driven models can solve real-world challenges and improve efficiency. My approach to problem-solving is logical, creative, and grounded in continuous learning. I take pride in writing clean, efficient, and purposeful code—because I truly believe that code is a powerful way to communicate ideas and shape the future.
+I enjoy working with Linux environments, containerizing applications using Docker, and designing CI/CD pipelines to automate testing and deployment. I am actively developing skills in cloud fundamentals (AWS) and infrastructure automation, with a strong emphasis on improving system reliability and deployment efficiency.
 
-As I continue developing my skills, I aspire to contribute to projects that push the boundaries of technology, innovation, and human potential.
+As I continue my DevOps journey, I aim to contribute to projects that emphasize automation, scalability, and modern software delivery practices.
 
 ---
 
