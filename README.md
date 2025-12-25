@@ -24,7 +24,7 @@
 - 🌱 Always learning **new frameworks & dev tools**
 - 🤝 Open to **collaborating on open-source** or research projects
 - 📌 Passionate about **clean code**, scalable systems, and **creative UI**
-- 🧪 Exploring **AI, machine learning & automation**
+- 🧪 Exploring **AI, Machine Learning & Automation, DevOps Engineering**
 
 ---
 
