@@ -96,21 +96,16 @@ Learning Linux, Docker, CI/CD, Kubernetes & AWS Cloud
 
 <div align="center">
 
-### <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/docker/docker.png" width="25" height="25"> DevOps & Cloud
-
+![DevOps](https://img.shields.io/badge/DevOps-0A3B5C?style=for-the-badge&logo=terraform&logoColor=white)
+![Cloud Computing](https://img.shields.io/badge/Cloud_Computing-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 ![CI/CD](https://img.shields.io/badge/CI/CD-4285F4?style=for-the-badge&logo=gitlab&logoColor=white)
-
-<br/>
-
-### <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png" width="25" height="25"> Exploring
-
-![Machine Learning](https://img.shields.io/badge/Machine_Learning-102230?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![Automation](https://img.shields.io/badge/Automation-4B32C3?style=for-the-badge&logo=ansible&logoColor=white)
+![Machine Learning](https://img.shields.io/badge/Machine_Learning-102230?style=for-the-badge&logo=tensorflow&logoColor=white)
 
 </div>
 
