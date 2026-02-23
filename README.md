@@ -25,7 +25,7 @@ Learning Linux, Docker, CI/CD, Kubernetes & AWS Cloud
 
 ---
 
-## 👨‍💻 About Me
+<h1 align="center">## 👨‍💻 About Me</h1>
 
 <div align="center">
   <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDkyN3d4MXptZXd5aXZueXpiM3dvMmFhdXAxeHZjamluNDd4dGN2aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/H03PuVdwREB21ANkLX/giphy.gif" width="300" alt="Coding GIF" />
