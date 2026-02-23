@@ -1,5 +1,6 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Aononto%20Jahan%20Junnurain&fontSize=50&fontAlignY=35&desc=Aspiring%20Software%20Engineer%20%7C%20DevOps%20Enthusiast&descAlignY=55&animation=twinkling"/>
-<h1 align="center">Hi, I'm Aononto Jahan Junnurain</h1>
+
+<h1 align="center">Hi 👋, I'm Aononto Jahan Junnurain</h1>
 
 <h3 align="center">
 Aspiring Software Engineer | Python (FastAPI, Django) | PostgreSQL<br>
@@ -26,7 +27,7 @@ Learning Linux, Docker, CI/CD, Kubernetes & AWS Cloud
 
 ---
 
-<h1 align="center"> About Me </h1>
+<h1 align="center">👨‍💻 About Me 👨‍💻</h1>
 
 <div align="center">
   <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDkyN3d4MXptZXd5aXZueXpiM3dvMmFhdXAxeHZjamluNDd4dGN2aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/H03PuVdwREB21ANkLX/giphy.gif" width="300" alt="Coding GIF" />
@@ -46,7 +47,7 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 
 ---
 
-<h1 align="center">Tech Stack</h1>
+<h1 align="center">🛠️ Tech Stack 🛠️</h1>
 
 <div align="center">
 
@@ -94,7 +95,7 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 
 ---
 
-<h1 align="center"> Currently Learning </h1>
+<h1 align="center">🌱 Currently Learning 🌱</h1>
 
 <div align="center">
 
@@ -113,7 +114,7 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 
 ---
 
-<h1 align="center"> GitHub Analytics & Contribution Graph </h1>
+<h1 align="center">📊 GitHub Analytics & Contribution Graph 📊</h1>
 
 <div align="center">
   <br/>
@@ -159,11 +160,11 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 
 ---
 
-<h1 align="center"> Featured Projects </h1>
+<h1 align="center">🚀 Featured Projects 🚀</h1>
 
 <div align="center">
 
-### [ Event Management System](https://github.com/aonontojahan/Event-Management-System)
+### 📘 [Event Management System](https://github.com/aonontojahan/Event-Management-System)
 
 **Description:** A complete event planning and management platform  
 **Tech Stack:** `Django` `PostgreSQL` `Bootstrap` `Python`  
@@ -171,7 +172,7 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 
 <br/>
 
-### [ MSLAT](https://github.com/aonontojahan/Mini-System-Monitoring-Log-Analysis-Toolkit-MSLAT)
+### 📊 [MSLAT](https://github.com/aonontojahan/Mini-System-Monitoring-Log-Analysis-Toolkit-MSLAT)
 
 **Description:** Mini System Monitoring & Log Analysis Toolkit  
 **Tech Stack:** `Python` `Psutil` `Logging` `Matplotlib`  
@@ -179,7 +180,7 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 
 <br/>
 
-### [ Young Programmer Compiler](https://github.com/aonontojahan/Young-Programmer-Compiler)
+### 💻 [Young Programmer Compiler](https://github.com/aonontojahan/Young-Programmer-Compiler)
 
 **Description:** Beginner-friendly compiler for learning programming concepts  
 **Tech Stack:** `Python` `AST` `Parsing` `Tokenization`  
@@ -189,7 +190,7 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 
 ---
 
-<h1 align="center"> Fun Facts </h1>
+<h1 align="center">🎉 Fun Facts 🎉</h1>
 
 <div align="center">
 
@@ -207,6 +208,7 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
+  <br/>
   <br/>
   <em>"The best code is simple, readable, and built to last."</em>
   <br/>
