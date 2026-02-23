@@ -1,5 +1,7 @@
 <h1 align="center">Hi 👋, I'm Aononto Jahan Junnurain</h1>
-<h3 align="center">Backend Developer • FastAPI • Database & API Engineering</h3>
+<h3 align="center">
+Aspiring Backend & Software Engineer | Python (FastAPI, Django) | PostgreSQL | Linux | Learning Docker, CI/CD, Kubernetes & AWS Cloud
+</h3>
 
 <p align="center">
 <a href="https://mail.google.com/mail/?view=cm&to=aonontojahan@gmail.com">
