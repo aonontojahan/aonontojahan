@@ -196,20 +196,6 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 
 ---
 
-## 📝 More About Me
-
-<div align="center">
-
-I am a Computer Science student with a strong interest in DevOps engineering and cloud-native systems. I focus on building reliable, automated, and scalable software by combining development practices with operational excellence.
-
-I enjoy working with Linux environments, containerizing applications using Docker, and designing CI/CD pipelines to automate testing and deployment. I am actively developing skills in cloud fundamentals (AWS) and infrastructure automation, with a strong emphasis on improving system reliability and deployment efficiency.
-
-As I continue my DevOps journey, I aim to contribute to projects that emphasize automation, scalability, and modern software delivery practices.
-
-</div>
-
----
-
 <div align="center">
   <em>"The best code is simple, readable, and built to last."</em>
 </div>
