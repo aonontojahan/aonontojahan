@@ -116,14 +116,14 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 
 <div align="center">
   <br/>
-  
-  <!-- Top Languages -->
+
+  <!-- GitHub Streak -->
   <p>
     <a href="https://github.com/AonontoJahan">
-      <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AonontoJahan&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" />
+      <img height="165" src="https://github-readme-streak-stats-eight.vercel.app/?user=AonontoJahan&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak" />
     </a>
   </p>
-
+  
   <!-- Responsive Stats with Theme Support -->
   <br/>
   <picture>
