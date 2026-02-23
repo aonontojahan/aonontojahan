@@ -34,7 +34,9 @@ Learning Linux, Docker, CI/CD, Kubernetes & AWS Cloud
 
 ### 🧑‍💻 About Me
 
-<img align="right" width="300" src="https://media.giphy.com/media/L8K62iTDkzGX6/giphy.gif?cid=790b7611jf9rq9i7j9x9x9j9x9j9x9j9x9j9x9&ep=v1_gifs_search&rid=giphy.gif&ct=g" alt="Coding gif" />
+<img align="right" width="300" src="https://giphy.com/gifs/theworldsstrongestman-deadlift-eddie-hall-worlds-strongest-man-F4aMm97MvhVTYXWBhT" alt="Coding gif" />
+
+
 
 - 🔭 **Currently working on:** My **personal portfolio website** with modern stack
 - 🌱 **Currently diving deep into:** **DevOps Engineering** (Docker, CI/CD, AWS)
