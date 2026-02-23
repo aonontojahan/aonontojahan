@@ -33,16 +33,14 @@ Learning Linux, Docker, CI/CD, Kubernetes & AWS Cloud
 
 ## 🧑‍💻 About Me
 
-  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDkyN3d4MXptZXd5aXZueXpiM3dvMmFhdXAxeHZjamluNDd4dGN2aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/H03PuVdwREB21ANkLX/giphy.gif" width="300" alt="Working on computer science GIF by CC0 Studios" />
+<img align="right" width="300" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDkyN3d4MXptZXd5aXZueXpiM3dvMmFhdXAxeHZjamluNDd4dGN2aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/H03PuVdwREB21ANkLX/giphy.gif" alt="Working on computer science GIF by CC0 Studios" />
 
-  
 - 🔭 **Currently working on:** My **personal portfolio website** with modern stack
 - 🌱 **Currently diving deep into:** **DevOps Engineering** (Docker, CI/CD, AWS)
 - 💡 **Always curious about:** New frameworks, **AI/ML**, and automation tools
 - 🤝 **Looking to collaborate on:** Open-source Python projects & research work
 - ✨ **Philosophy:** Clean code, scalable systems, and **delightful user experiences**
 - ⚡ **Fun fact:** I break things just to fix them better! 🛠️
-
 </div>
 
 ---
