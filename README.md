@@ -29,13 +29,14 @@ Learning Linux, Docker, CI/CD, Kubernetes & AWS Cloud
 
 ---
 
-
----
-
 ### 🧑‍💻 About Me
 
-<img align="right" width="300" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDkyN3d4MXptZXd5aXZueXpiM3dvMmFhdXAxeHZjamluNDd4dGN2aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/H03PuVdwREB21ANkLX/giphy.gif" alt="Working on computer science GIF by CC0 Studios" />
+<div align="center">
+  <img align="right" width="300" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDkyN3d4MXptZXd5aXZueXpiM3dvMmFhdXAxeHZjamluNDd4dGN2aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/H03PuVdwREB21ANkLX/giphy.gif" alt="Working on computer science GIF by CC0 Studios" />
+</div>
 
+<div align="center">
+  
 - 🔭 **Currently working on:** My **personal portfolio website** with modern stack
 - 🌱 **Currently diving deep into:** **DevOps Engineering** (Docker, CI/CD, AWS)
 - 💡 **Always curious about:** New frameworks, **AI/ML**, and automation tools
@@ -43,11 +44,15 @@ Learning Linux, Docker, CI/CD, Kubernetes & AWS Cloud
 - ✨ **Philosophy:** Clean code, scalable systems, and **delightful user experiences**
 - ⚡ **Fun fact:** I break things just to fix them better! 🛠️
 
+</div>
+
 <br clear="right"/>
 
 ---
 
 ## 🛠️ Tech Stack
+
+<div align="center">
 
 ### <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" width="25" height="25"> Frontend Development
 
@@ -57,6 +62,7 @@ Learning Linux, Docker, CI/CD, Kubernetes & AWS Cloud
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
 <br/>
 
 ### <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png" width="25" height="25"> Backend Development
@@ -66,6 +72,7 @@ Learning Linux, Docker, CI/CD, Kubernetes & AWS Cloud
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white)
 ![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white)
+
 <br/>
 
 ### <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png" width="25" height="25"> Tools & Platforms
@@ -76,6 +83,7 @@ Learning Linux, Docker, CI/CD, Kubernetes & AWS Cloud
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+
 <br/>
 
 ### <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/cpp/cpp.png" width="25" height="25"> Programming Languages (Academic)
@@ -86,9 +94,13 @@ Learning Linux, Docker, CI/CD, Kubernetes & AWS Cloud
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
 
+</div>
+
 ---
 
 ## 🌱 Currently Learning
+
+<div align="center">
 
 ### <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/docker/docker.png" width="25" height="25"> DevOps & Cloud
 
@@ -98,17 +110,21 @@ Learning Linux, Docker, CI/CD, Kubernetes & AWS Cloud
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 ![CI/CD](https://img.shields.io/badge/CI/CD-4285F4?style=for-the-badge&logo=gitlab&logoColor=white)
+
 <br/>
 
 ### <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png" width="25" height="25"> Exploring
 
 ![Machine Learning](https://img.shields.io/badge/Machine_Learning-102230?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![Automation](https://img.shields.io/badge/Automation-4B32C3?style=for-the-badge&logo=ansible&logoColor=white)
-<br/>
+
+</div>
 
 ---
 
 ## 📊 GitHub Analytics
+
+<div align="center">
 
 <p align="center">
   <a href="https://github.com/AonontoJahan">
@@ -125,8 +141,6 @@ Learning Linux, Docker, CI/CD, Kubernetes & AWS Cloud
   </a>
 </p>
 
----
-
 <p align="center">
   <img src="https://img.shields.io/badge/Total_Contributions-440-2ea44f?style=for-the-badge&logo=github&logoColor=white" />
   <img src="https://img.shields.io/badge/Current_Streak-18_days-FFA500?style=for-the-badge&logo=github&logoColor=white" />
@@ -134,8 +148,11 @@ Learning Linux, Docker, CI/CD, Kubernetes & AWS Cloud
   <img src="https://img.shields.io/badge/Member_Since-Oct_2022-8A2BE2?style=for-the-badge&logo=github&logoColor=white" />
 </p>
 
+</div>
 
 ## 🔥 Contribution Graph
+
+<div align="center">
 
 <p align="center">
   <a href="https://github.com/AonontoJahan">
@@ -143,36 +160,40 @@ Learning Linux, Docker, CI/CD, Kubernetes & AWS Cloud
   </a>
 </p>
 
+</div>
+
 ---
 
 ### 🚀 Featured Projects
 
----
+<div align="center">
 
 #### [📘 Event Management System](https://github.com/aonontojahan/Event-Management-System)
+
 **Description:** A complete event planning and management platform  
 **Tech Stack:**  
 **Features:** User authentication, event creation, registration system, payment integration
 
-
 #### [📊 MSLAT](https://github.com/aonontojahan/Mini-System-Monitoring-Log-Analysis-Toolkit-MSLAT)
+
 **Description:** Mini System Monitoring & Log Analysis Toolkit  
 **Tech Stack:** `Python` `Psutil` `Logging` `Matplotlib`  
 **Features:** Real-time system monitoring, log parsing, alert system, data visualization
 
-
 #### [💻 Young Programmer Compiler](https://github.com/aonontojahan/Young-Programmer-Compiler)
+
 **Description:** Beginner-friendly compiler for learning programming concepts  
 **Tech Stack:** `Python` `AST` `Parsing` `Tokenization`  
 **Features:** Simple syntax, error handling, code execution, educational comments
 
+</div>
 
 ---
 
 ## 🎉 Fun Facts
 
 <div align="center">
-  
+
 | | |
 |:---:|---|
 | 🧠 | **I talk to computers more than humans** — and they actually listen! |
@@ -186,15 +207,19 @@ Learning Linux, Docker, CI/CD, Kubernetes & AWS Cloud
 ---
 
 ### 🎉 More About Myself
+
+<div align="center">
+
 I am a Computer Science student with a strong interest in DevOps engineering and cloud-native systems. I focus on building reliable, automated, and scalable software by combining development practices with operational excellence.
 
 I enjoy working with Linux environments, containerizing applications using Docker, and designing CI/CD pipelines to automate testing and deployment. I am actively developing skills in cloud fundamentals (AWS) and infrastructure automation, with a strong emphasis on improving system reliability and deployment efficiency.
 
 As I continue my DevOps journey, I aim to contribute to projects that emphasize automation, scalability, and modern software delivery practices.
 
+</div>
+
 ---
 
-
-<p align="center">
+<div align="center">
   <em>"The best code is simple, readable, and built to last."</em>
-</p>
+</div>
