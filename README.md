@@ -31,7 +31,7 @@ Learning Linux, Docker, CI/CD, Kubernetes & AWS Cloud
 
 <div align="center">
 
-## 🧑‍💻 About Me
+## 🧑‍💻🧑‍💻 About Me 🧑‍💻🧑‍💻
 
 <img align="right" width="300" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDkyN3d4MXptZXd5aXZueXpiM3dvMmFhdXAxeHZjamluNDd4dGN2aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/H03PuVdwREB21ANkLX/giphy.gif" alt="Working on computer science GIF by CC0 Studios" />
 
@@ -47,7 +47,7 @@ Learning Linux, Docker, CI/CD, Kubernetes & AWS Cloud
 
 <div align="center">
 
-## 🛠️ Tech Stack
+## 🛠️🛠️ Tech Stack 🛠️🛠️
 
 ### <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" width="25" height="25"> Frontend Development
 
@@ -95,7 +95,7 @@ Learning Linux, Docker, CI/CD, Kubernetes & AWS Cloud
 
 <div align="center">
 
-## 🌱 Currently Learning
+## 🌱🌱 Currently Learning 🌱🌱
 
 ### <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/docker/docker.png" width="25" height="25"> DevOps & Cloud
 
@@ -119,7 +119,7 @@ Learning Linux, Docker, CI/CD, Kubernetes & AWS Cloud
 
 <div align="center">
 
-## 📊 GitHub Analytics
+## 📊📊 GitHub Analytics 📊📊
 
 <p>
   <a href="https://github.com/AonontoJahan">
@@ -147,7 +147,7 @@ Learning Linux, Docker, CI/CD, Kubernetes & AWS Cloud
 
 <div align="center">
 
-## 🔥 Contribution Graph
+## 🔥🔥 Contribution Graph 🔥🔥
 
 <p>
   <a href="https://github.com/AonontoJahan">
@@ -161,7 +161,7 @@ Learning Linux, Docker, CI/CD, Kubernetes & AWS Cloud
 
 <div align="center">
 
-## 🚀 Featured Projects
+## 🚀🚀 Featured Projects 🚀🚀
 
 ### [📘 Event Management System](https://github.com/aonontojahan/Event-Management-System)
 
@@ -187,7 +187,7 @@ Learning Linux, Docker, CI/CD, Kubernetes & AWS Cloud
 
 <div align="center">
 
-## 🎉 Fun Facts
+## 🎉🎉 Fun Facts 🎉🎉
 
 <div align="center">
 
@@ -207,7 +207,7 @@ Learning Linux, Docker, CI/CD, Kubernetes & AWS Cloud
 
 <div align="center">
 
-## 🎉 More About Myself
+## 🎉🎉 More About Myself 🎉🎉
 
 I am a Computer Science student with a strong interest in DevOps engineering and cloud-native systems. I focus on building reliable, automated, and scalable software by combining development practices with operational excellence.
 
