@@ -147,17 +147,10 @@ Learning Linux, Docker, CI/CD, Kubernetes & AWS Cloud
 
 ### 🚀 Featured Projects
 
-#### 📘 Event Management System
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=aonontojahan&repo=Event-Management-System&theme=tokyonight&hide_border=true)](https://github.com/aonontojahan/Event-Management-System)
-
-#### 🎓 Student Management System
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=aonontojahan&repo=Student-Management-System&theme=tokyonight&hide_border=true)](https://github.com/aonontojahan/Student-Management-System)
-
-#### 📊 MSLAT (Mini System Monitoring & Log Analysis Toolkit)
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=aonontojahan&repo=Mini-System-Monitoring-Log-Analysis-Toolkit-MSLAT&theme=tokyonight&hide_border=true)](https://github.com/aonontojahan/Mini-System-Monitoring-Log-Analysis-Toolkit-MSLAT)
-
-#### 💻 Young Programmer Compiler
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=aonontojahan&repo=Young-Programmer-Compiler&theme=tokyonight&hide_border=true)](https://github.com/aonontojahan/Young-Programmer-Compiler)
+- **[📘 Event Management System](https://github.com/aonontojahan/Event-Management-System)** — Event planning & management platform
+- **[🎓 Student Management System](https://github.com/aonontojahan/Student-Management-System)** — Academic record management
+- **[📊 MSLAT](https://github.com/aonontojahan/Mini-System-Monitoring-Log-Analysis-Toolkit-MSLAT)** — System monitoring & log analysis toolkit
+- **[💻 Young Programmer Compiler](https://github.com/aonontojahan/Young-Programmer-Compiler)** — Beginner-friendly compiler
 
 ---
 
