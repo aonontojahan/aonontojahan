@@ -57,7 +57,6 @@ Learning Linux, Docker, CI/CD, Kubernetes & AWS Cloud
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-
 <br/>
 
 ### <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png" width="25" height="25"> Backend Development
@@ -67,7 +66,6 @@ Learning Linux, Docker, CI/CD, Kubernetes & AWS Cloud
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white)
 ![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white)
-
 <br/>
 
 ---
@@ -82,12 +80,10 @@ Learning Linux, Docker, CI/CD, Kubernetes & AWS Cloud
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 ![CI/CD](https://img.shields.io/badge/CI/CD-4285F4?style=for-the-badge&logo=gitlab&logoColor=white)
-
 <br/>
 
 ### <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png" width="25" height="25"> Exploring
 
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Machine Learning](https://img.shields.io/badge/Machine_Learning-102230?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![Automation](https://img.shields.io/badge/Automation-4B32C3?style=for-the-badge&logo=ansible&logoColor=white)
 
