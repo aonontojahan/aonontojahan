@@ -131,11 +131,6 @@ I speak the language of Python fluently, but more importantly, I speak the langu
   </a>
 </p>
 
-</div>
-
-
-<div align="center">
-
 <p>
   <a href="https://github.com/AonontoJahan">
     <img src="https://github-readme-activity-graph.vercel.app/graph?username=AonontoJahan&theme=tokyo-night&hide_border=true&area=true&custom_title=My%20Contribution%20Graph" alt="GitHub Activity Graph" />
