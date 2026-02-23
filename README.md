@@ -154,33 +154,24 @@ Learning Linux, Docker, CI/CD, Kubernetes & AWS Cloud
 **Tech Stack:**  
 **Features:** User authentication, event creation, registration system, payment integration
 
----
 
 #### [🎓 Student Management System](https://github.com/aonontojahan/Student-Management-System)
 **Description:** Academic admission management system  with waiver calculation
 **Tech Stack:** C++
 **Features:** CRUD operations, course enrollment, grade tracking, student profiles
 
----
 
 #### [📊 MSLAT](https://github.com/aonontojahan/Mini-System-Monitoring-Log-Analysis-Toolkit-MSLAT)
 **Description:** Mini System Monitoring & Log Analysis Toolkit  
 **Tech Stack:** `Python` `Psutil` `Logging` `Matplotlib`  
 **Features:** Real-time system monitoring, log parsing, alert system, data visualization
 
----
 
 #### [💻 Young Programmer Compiler](https://github.com/aonontojahan/Young-Programmer-Compiler)
 **Description:** Beginner-friendly compiler for learning programming concepts  
 **Tech Stack:** `Python` `AST` `Parsing` `Tokenization`  
 **Features:** Simple syntax, error handling, code execution, educational comments
 
----
-
-<br>
-<p align="right">
-  <sub>⭐ = Active development • More projects coming soon</sub>
-</p>
 
 ---
 
