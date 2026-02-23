@@ -57,7 +57,7 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 
 <br/>
 
-### <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png" width="25" height="25"> Backend Development
+### Backend Development
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
@@ -67,7 +67,7 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 
 <br/>
 
-### <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png" width="25" height="25"> Tools & Platforms
+### Tools & Platforms
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
@@ -78,7 +78,7 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 
 <br/>
 
-### <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/cpp/cpp.png" width="25" height="25"> Programming Languages (Academic)
+### Programming Languages (Academic)
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-239120?style=flat&logo=csharp&logoColor=white)
@@ -90,7 +90,7 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 
 ---
 
-<h1 align="center">🌱 Currently Learning 🌱</h1>
+<h1 align="center"> Currently Learning </h1>
 
 <div align="center">
 
@@ -109,7 +109,7 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 
 ---
 
-<h1 align="center">📊 GitHub Analytics & Contribution Graph 📊</h1>
+<h1 align="center"> GitHub Analytics & Contribution Graph </h1>
 
 <div align="center">
   <br/>
@@ -155,11 +155,11 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 
 ---
 
-<h1 align="center">🚀 Featured Projects 🚀</h1>
+<h1 align="center"> Featured Projects </h1>
 
 <div align="center">
 
-### 📘 [Event Management System](https://github.com/aonontojahan/Event-Management-System)
+###  [Event Management System](https://github.com/aonontojahan/Event-Management-System)
 
 **Description:** A complete event planning and management platform  
 **Tech Stack:** `Django` `PostgreSQL` `Bootstrap` `Python`  
@@ -167,7 +167,7 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 
 <br/>
 
-### 📊 [MSLAT](https://github.com/aonontojahan/Mini-System-Monitoring-Log-Analysis-Toolkit-MSLAT)
+###  [MSLAT](https://github.com/aonontojahan/Mini-System-Monitoring-Log-Analysis-Toolkit-MSLAT)
 
 **Description:** Mini System Monitoring & Log Analysis Toolkit  
 **Tech Stack:** `Python` `Psutil` `Logging` `Matplotlib`  
@@ -175,7 +175,7 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 
 <br/>
 
-### 💻 [Young Programmer Compiler](https://github.com/aonontojahan/Young-Programmer-Compiler)
+###  [Young Programmer Compiler](https://github.com/aonontojahan/Young-Programmer-Compiler)
 
 **Description:** Beginner-friendly compiler for learning programming concepts  
 **Tech Stack:** `Python` `AST` `Parsing` `Tokenization`  
@@ -185,7 +185,7 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 
 ---
 
-<h1 align="center">🎉 Fun Facts 🎉</h1>
+<h1 align="center"> Fun Facts </h1>
 
 <div align="center">
 
