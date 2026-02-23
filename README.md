@@ -117,16 +117,6 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 <div align="center">
   <br/>
   
-  <!-- GitHub Stats and Streak -->
-  <p>
-    <a href="https://github.com/AonontoJahan">
-      <img height="165" src="https://github-readme-stats.vercel.app/api?username=AonontoJahan&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" />
-    </a>
-    <a href="https://github.com/AonontoJahan">
-      <img height="165" src="https://github-readme-streak-stats-eight.vercel.app/?user=AonontoJahan&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak" />
-    </a>
-  </p>
-
   <!-- Top Languages -->
   <p>
     <a href="https://github.com/AonontoJahan">
@@ -164,11 +154,6 @@ I speak the language of Python fluently, but more importantly, I speak the langu
     </a>
   </p>
 
-  <p>
-    <a href="https://github.com/AonontoJahan">
-      <img src="https://github-readme-activity-graph.vercel.app/graph?username=AonontoJahan&theme=tokyo-night&hide_border=true&area=true&custom_title=My%20Contribution%20Graph" width="95%" alt="GitHub Activity Graph" />
-    </a>
-  </p>
 
 </div>
 
