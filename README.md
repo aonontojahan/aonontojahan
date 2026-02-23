@@ -169,13 +169,19 @@ Learning Linux, Docker, CI/CD, Kubernetes & AWS Cloud
 
 ---
 
-### 🎉 Fun Facts
+## 🎉 Fun Facts
 
-- 🧠 I talk to computers more than humans—and they actually listen!
-- ⏱️ Automated a 5-minute task in 3 hours and it was worth it.
-- 🐞 Debugging is like being the detective in a crime movie where you’re also the murderer.
-- 🎨 I design with love — clean UIs make me happy.
-- 💬 My favorite language? Python. Not the snake.
+<div align="center">
+  
+| | |
+|:---:|---|
+| 🧠 | **I talk to computers more than humans** — and they actually listen! |
+| ⏱️ | **Automated a 5-minute task in 3 hours** and it was worth it. |
+| 🐞 | **Debugging is like being the detective** in a crime movie where you're also the murderer. |
+| 🎨 | **I design with love** — clean UIs make me happy. |
+| 💬 | **My favorite language?** Python. Not the snake. |
+
+</div>
 
 ---
 
