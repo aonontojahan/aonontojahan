@@ -189,13 +189,13 @@ Learning Linux, Docker, CI/CD, Kubernetes & AWS Cloud
 
 ## 🎉 Fun Facts
 
-| | |
-|:---:|---|
-| 🧠 | **I talk to computers more than humans** — and they actually listen! |
-| ⏱️ | **Automated a 5-minute task in 3 hours** and it was worth it. |
-| 🐞 | **Debugging is like being the detective** in a crime movie where you're also the murderer. |
-| 🎨 | **I design with love** — clean UIs make me happy. |
-| 💬 | **My favorite language?** Python. Not the snake. |
+<p align="center">
+  <img src="https://img.shields.io/badge/🧠-I_talk_to_computers_more_than_humans-2ea44f?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/⏱️-5_minute_task_in_3_hours-FFA500?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/🐞-Debugging_is_like_being_a_detective-FF4500?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/🎨-I_design_with_love-8A2BE2?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/💬-Python_not_the_snake-3776AB?style=for-the-badge" />
+</p>
 
 </div>
 
