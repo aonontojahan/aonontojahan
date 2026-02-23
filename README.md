@@ -134,10 +134,6 @@ Learning Linux, Docker, CI/CD, Kubernetes & AWS Cloud
   <img src="https://img.shields.io/badge/Member_Since-Oct_2022-8A2BE2?style=for-the-badge&logo=github&logoColor=white" />
 </p>
 
-<p align="center">
-  <sub>✨✨</sub>
-</p>
-
 
 ## 🔥 Contribution Graph
 
@@ -150,9 +146,21 @@ Learning Linux, Docker, CI/CD, Kubernetes & AWS Cloud
 ---
 
 ### 🚀 Featured Projects
-- [📘 Event_Management_System](https://github.com/aonontojahan/Event-Management-System)
-- [🎓 Student Management System](https://github.com/aonontojahan/Student-Management-System)
-- [🤖 Machine Learning Experiments](https://github.com/aonontojahan/Machine-Learning)
+
+<p align="center">
+  <a href="https://github.com/aonontojahan/Event-Management-System">
+    <img src="https://img.shields.io/badge/📘-Event_Management_System-FF6B6B?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a href="https://github.com/aonontojahan/Student-Management-System">
+    <img src="https://img.shields.io/badge/🎓-Student_Management_System-4ECDC4?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a href="https://github.com/aonontojahan/Mini-System-Monitoring-Log-Analysis-Toolkit-MSLAT">
+    <img src="https://img.shields.io/badge/📊-MSLAT-45B7D1?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a href="https://github.com/aonontojahan/Young-Programmer-Compiler">
+    <img src="https://img.shields.io/badge/💻-Young_Programmer_Compiler-96CEB4?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</p>
 
 ---
 
