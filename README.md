@@ -1,8 +1,7 @@
 <h1 align="center">Hi 👋, I'm Aononto Jahan Junnurain</h1>
+
 <h3 align="center">
-Aspiring Backend & Software Engineer | Python (FastAPI, Django) | PostgreSQL 
-</h3>
-<h3 align="center">
+Aspiring Backend & Software Engineer | Python (FastAPI, Django) | PostgreSQL<br>
 Learning Linux, Docker, CI/CD, Kubernetes & AWS Cloud
 </h3>
 
