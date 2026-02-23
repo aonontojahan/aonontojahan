@@ -22,7 +22,7 @@
 
 ---
 
-<h1 align="center">👨‍💻 About Me 👨‍💻</h1>
+<h1 align="center"> About Me </h1>
 
 <div align="center">
   <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDkyN3d4MXptZXd5aXZueXpiM3dvMmFhdXAxeHZjamluNDd4dGN2aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/H03PuVdwREB21ANkLX/giphy.gif" width="300" alt="Coding GIF" />
@@ -42,11 +42,11 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 
 ---
 
-<h1 align="center">🛠️ Tech Stack 🛠️</h1>
+<h1 align="center"> Tech Stack </h1>
 
 <div align="center">
 
-### <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" width="25" height="25"> Frontend Development
+### Frontend Development
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
