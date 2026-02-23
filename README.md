@@ -29,10 +29,10 @@ Learning Linux, Docker, CI/CD, Kubernetes & AWS Cloud
 
 ---
 
-### 🧑‍💻 About Me
+## 🧑‍💻 About Me
 
 <div align="center">
-  <img align="right" width="300" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDkyN3d4MXptZXd5aXZueXpiM3dvMmFhdXAxeHZjamluNDd4dGN2aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/H03PuVdwREB21ANkLX/giphy.gif" alt="Working on computer science GIF by CC0 Studios" />
+  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDkyN3d4MXptZXd5aXZueXpiM3dvMmFhdXAxeHZjamluNDd4dGN2aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/H03PuVdwREB21ANkLX/giphy.gif" width="300" alt="Working on computer science GIF by CC0 Studios" />
 </div>
 
 <div align="center">
@@ -45,8 +45,6 @@ Learning Linux, Docker, CI/CD, Kubernetes & AWS Cloud
 - ⚡ **Fun fact:** I break things just to fix them better! 🛠️
 
 </div>
-
-<br clear="right"/>
 
 ---
 
@@ -126,7 +124,7 @@ Learning Linux, Docker, CI/CD, Kubernetes & AWS Cloud
 
 <div align="center">
 
-<p align="center">
+<p>
   <a href="https://github.com/AonontoJahan">
     <img height="165" src="https://github-readme-stats.vercel.app/api?username=AonontoJahan&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&cache_seconds=1800" alt="GitHub Stats" />
   </a>
@@ -135,13 +133,13 @@ Learning Linux, Docker, CI/CD, Kubernetes & AWS Cloud
   </a>
 </p>
 
-<p align="center">
+<p>
   <a href="https://github.com/AonontoJahan">
     <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AonontoJahan&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&cache_seconds=1800" alt="Top Languages" />
   </a>
 </p>
 
-<p align="center">
+<p>
   <img src="https://img.shields.io/badge/Total_Contributions-440-2ea44f?style=for-the-badge&logo=github&logoColor=white" />
   <img src="https://img.shields.io/badge/Current_Streak-18_days-FFA500?style=for-the-badge&logo=github&logoColor=white" />
   <img src="https://img.shields.io/badge/Longest_Streak-25_days-FF4500?style=for-the-badge&logo=github&logoColor=white" />
@@ -154,7 +152,7 @@ Learning Linux, Docker, CI/CD, Kubernetes & AWS Cloud
 
 <div align="center">
 
-<p align="center">
+<p>
   <a href="https://github.com/AonontoJahan">
     <img src="https://github-readme-activity-graph.vercel.app/graph?username=AonontoJahan&theme=tokyo-night&hide_border=true&area=true&custom_title=My%20Contribution%20Graph" alt="GitHub Activity Graph" />
   </a>
@@ -164,23 +162,23 @@ Learning Linux, Docker, CI/CD, Kubernetes & AWS Cloud
 
 ---
 
-### 🚀 Featured Projects
+## 🚀 Featured Projects
 
 <div align="center">
 
-#### [📘 Event Management System](https://github.com/aonontojahan/Event-Management-System)
+### [📘 Event Management System](https://github.com/aonontojahan/Event-Management-System)
 
 **Description:** A complete event planning and management platform  
 **Tech Stack:**  
 **Features:** User authentication, event creation, registration system, payment integration
 
-#### [📊 MSLAT](https://github.com/aonontojahan/Mini-System-Monitoring-Log-Analysis-Toolkit-MSLAT)
+### [📊 MSLAT](https://github.com/aonontojahan/Mini-System-Monitoring-Log-Analysis-Toolkit-MSLAT)
 
 **Description:** Mini System Monitoring & Log Analysis Toolkit  
 **Tech Stack:** `Python` `Psutil` `Logging` `Matplotlib`  
 **Features:** Real-time system monitoring, log parsing, alert system, data visualization
 
-#### [💻 Young Programmer Compiler](https://github.com/aonontojahan/Young-Programmer-Compiler)
+### [💻 Young Programmer Compiler](https://github.com/aonontojahan/Young-Programmer-Compiler)
 
 **Description:** Beginner-friendly compiler for learning programming concepts  
 **Tech Stack:** `Python` `AST` `Parsing` `Tokenization`  
@@ -206,7 +204,7 @@ Learning Linux, Docker, CI/CD, Kubernetes & AWS Cloud
 
 ---
 
-### 🎉 More About Myself
+## 🎉 More About Myself
 
 <div align="center">
 
