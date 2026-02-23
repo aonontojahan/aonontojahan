@@ -204,9 +204,8 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 <div align="center">
   <em>"The best code is simple, readable, and built to last."</em>
   <br/>
+  <br/>
   <img src="https://komarev.com/ghpvc/?username=AonontoJahan&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile views" />
   <br/>
-  <br/>
   <img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=0:F85D7F,100:4C71F2&section=footer&reversal=false&animation=fadeIn"/>
-  <br/>
 </div>
