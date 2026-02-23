@@ -112,16 +112,16 @@ Learning Linux, Docker, CI/CD, Kubernetes & AWS Cloud
 
 <p align="center">
   <a href="https://github.com/AonontoJahan">
-    <img height="165" src="https://github-readme-stats.vercel.app/api?username=AonontoJahan&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" />
+    <img height="165" src="https://github-readme-stats.vercel.app/api?username=AonontoJahan&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&cache_seconds=1800" alt="GitHub Stats" />
   </a>
   <a href="https://github.com/AonontoJahan">
-    <img height="165" src="https://streak-stats.demolab.com?user=AonontoJahan&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+    <img height="165" src="https://github-readme-streak-stats-eight.vercel.app/?user=AonontoJahan&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://github.com/AonontoJahan">
-    <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AonontoJahan&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" />
+    <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AonontoJahan&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&cache_seconds=1800" alt="Top Languages" />
   </a>
 </p>
 
@@ -135,8 +135,9 @@ Learning Linux, Docker, CI/CD, Kubernetes & AWS Cloud
 </p>
 
 <p align="center">
-  <sub>📊 Stats update automatically • 🗓️ Active since October 13, 2022</sub>
+  <sub>✨ Stats update automatically • 🗓️ Active since October 13, 2022 ✨</sub>
 </p>
+
 
 ## 🔥 Contribution Graph
 
