@@ -189,13 +189,17 @@ Learning Linux, Docker, CI/CD, Kubernetes & AWS Cloud
 
 ## 🎉 Fun Facts
 
-<p align="center">
-  <img src="https://img.shields.io/badge/🧠-I_talk_to_computers_more_than_humans-2ea44f?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/⏱️-5_minute_task_in_3_hours-FFA500?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/🐞-Debugging_is_like_being_a_detective-FF4500?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/🎨-I_design_with_love-8A2BE2?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/💬-Python_not_the_snake-3776AB?style=for-the-badge" />
-</p>
+<div align="center">
+
+| Fact | Meter |
+|------|-------|
+| 🧠 Talking to computers | ▰▰▰▰▰▰▰▰▰▰ 100% |
+| ⏱️ Automation obsession | ▰▰▰▰▰▰▰▰▰░ 90% |
+| 🐞 Debugging detective | ▰▰▰▰▰▰▰▰▰▰ 100% |
+| 🎨 Love for clean UI | ▰▰▰▰▰▰▰▰▰▰ 100% |
+| 💬 Python enthusiasm | ▰▰▰▰▰▰▰▰▰▰ 100% |
+
+</div>
 
 </div>
 
