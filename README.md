@@ -111,27 +111,18 @@ Learning Linux, Docker, CI/CD, Kubernetes & AWS Cloud
 ## 📊 GitHub Analytics
 
 <p align="center">
-  <a href="https://github.com/AonontoJahan">
-    <img height="165" src="https://github-readme-stats.vercel.app/api?username=AonontoJahan&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" />
-  </a>
-  <a href="https://github.com/AonontoJahan">
-    <img height="165" src="https://github-readme-streak-stats-eight.vercel.app/?user=AonontoJahan&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-  </a>
+  <img src="https://img.shields.io/badge/Total_Contributions-440-2ea44f?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/Current_Streak-18_days-FFA500?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/Longest_Streak-25_days-FF4500?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/Member_Since-Oct_2022-8A2BE2?style=for-the-badge&logo=github&logoColor=white" />
 </p>
 
-<p align="center">
-  <a href="https://github.com/AonontoJahan">
-    <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AonontoJahan&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" />
-  </a>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Total_Contributions-423-2ea44f?style=flat-square&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/Current_Streak-17_days-FFA500?style=flat-square&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/Longest_Streak-25_days-FF4500?style=flat-square&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/Member_Since-Oct_2022-8A2BE2?style=flat-square&logo=github&logoColor=white" />
-</p>
-
+<!-- Updated with your latest stats:
+     • Total Contributions: 440 
+     • Current Streak: 18 days (Feb 6 - Feb 23)
+     • Longest Streak: 25 days (Jan 11 - Feb 4)
+     • Member Since: Oct 13, 2022
+-->
 
 ## 🔥 Contribution Graph
 
