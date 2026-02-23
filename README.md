@@ -1,7 +1,6 @@
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Hi%20👋,%20I'm%20Aononto%20Jahan%20Junnurain&fontSize=40&fontAlignY=35&desc=Aspiring%20Software%20Engineer%20|%20Python%20(FastAPI,%20Django)%20|%20PostgreSQL%20|%20Learning%20DevOps&descAlignY=55&descAlign=50"/>
 </div>
-
 <p align="center">
   <a href="https://mail.google.com/mail/?view=cm&to=aonontojahan@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white"/>
