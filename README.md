@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3498db,50:8e44ad,100:2c3e50&height=200&section=header&text=Hi%20👋,%20I'm%20Aononto%20Jahan%20Junnurain&fontSize=40&fontAlignY=35&desc=Aspiring%20Software%20Engineer%20|%20Python%20(FastAPI,%20Django)%20|%20PostgreSQL%20|%20Learning%20DevOps&descAlignY=55&descAlign=50&animation=twinkling"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:4C71F2,100:F85D7F&text=Hi%20👋,%20I'm%20Aononto%20Jahan%20Junnurain&section=header&reversal=false&fontSize=40&textBg=false&fontColor=FFFFFF&animation=fadeIn&fontAlignY=35&desc=Aspiring%20Software%20Engineer%20|%20Python%20(FastAPI,%20Django)%20|%20PostgreSQL%20|%20Learning%20DevOps&descAlignY=55&descAlign=50&descSize=16"/>
 </div>
 
 <p align="center">
@@ -202,7 +202,7 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c3e50,50:8e44ad,100:3498db&height=100&section=footer&animation=twinkling"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=0:F85D7F,100:4C71F2&section=footer&reversal=false&animation=fadeIn"/>
   <br/>
   <br/>
   <em>"The best code is simple, readable, and built to last."</em>
