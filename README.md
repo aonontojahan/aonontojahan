@@ -33,12 +33,21 @@ Learning Linux, Docker, CI/CD, Kubernetes & AWS Cloud
 
 <div align="center">
   
-- 🔭 **Currently working on:** My **personal portfolio website** with modern stack
-- 🌱 **Currently diving deep into:** **DevOps Engineering** (Docker, CI/CD, AWS)
-- 💡 **Always curious about:** New frameworks, **AI/ML**, and automation tools
-- 🤝 **Looking to collaborate on:** Open-source Python projects & research work
-- ✨ **Philosophy:** Clean code, scalable systems, and **delightful user experiences**
-- ⚡ **Fun fact:** I break things just to fix them better! 🛠️
+## 👨‍💻 About Me
+
+<div align="center">
+
+In the final chapter of my Computer Science journey at IUBAT, I'm not just a student — I'm an intern, a builder, and a dreamer crafting the future one line of code at a time. I believe great software isn't just written; it's carefully architected at the beautiful crossroads of development and operations, where scalability meets reliability, and automation dances with innovation.
+
+**Currently**, I'm painting my story through a **personal portfolio website** — a canvas where modern stack meets creative expression. Simultaneously, I'm sailing through the vast seas of **DevOps Engineering**: navigating Docker containers, charting Kubernetes constellations, riding the currents of CI/CD, and discovering new horizons in AWS cloud.
+
+My curiosity knows no bounds — I find myself constantly mesmerized by the **whispers of AI/ML** and the symphony of automation tools. Every framework, every tool, every new technology is an invitation to imagine what's possible.
+
+I speak the language of Python fluently, but more importantly, I speak the language of collaboration. I'm always seeking kindred spirits in the **open-source community** — fellow builders who believe that code should be clean, systems should be scalable, and user experiences should feel like magic.
+
+> ⚡ **In my world:** Breaking things isn't a mistake; it's the first step toward building something more beautiful. 🛠️
+
+</div>
 
 </div>
 
