@@ -115,53 +115,61 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 ## 📊 GitHub Analytics & Contribution Graph
 
 <div align="center">
-
-<p>
-  <a href="https://github.com/AonontoJahan">
-    <img height="165" src="https://github-readme-stats.vercel.app/api?username=AonontoJahan&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&cache_seconds=1800" alt="GitHub Stats" />
-  </a>
-  <a href="https://github.com/AonontoJahan">
-    <img height="165" src="https://github-readme-streak-stats-eight.vercel.app/?user=AonontoJahan&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak" />
-  </a>
-</p>
-
-<p>
-  <a href="https://github.com/AonontoJahan">
-    <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AonontoJahan&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&cache_seconds=1800" alt="Top Languages" />
-  </a>
-</p>
-
-<p>
-  <a href="https://github.com/AonontoJahan">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=AonontoJahan&theme=tokyo-night&hide_border=true&area=true&custom_title=My%20Contribution%20Graph" alt="GitHub Activity Graph" />
-  </a>
-</p>
-
-</div>
-
----
-
-<div>
   <br/>
-<picture>
-  <source 
-    srcset="https://github-readme-stats-gamma-lilac.vercel.app//api?username=aonontojahan&show_icons=true&theme=react&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866" 
-    media="(prefers-color-scheme: dark)" />
-  <img 
-    src="https://github-readme-stats-gamma-lilac.vercel.app/api?username=aonontojahan&show_icons=true&theme=default&bg_color=F6F8FA&hide_border=true" 
-    height="190" 
-    alt="GitHub Stats" />
-</picture>
+  
+  <!-- GitHub Stats and Streak -->
+  <p>
+    <a href="https://github.com/AonontoJahan">
+      <img height="165" src="https://github-readme-stats.vercel.app/api?username=AonontoJahan&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" />
+    </a>
+    <a href="https://github.com/AonontoJahan">
+      <img height="165" src="https://github-readme-streak-stats-eight.vercel.app/?user=AonontoJahan&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak" />
+    </a>
+  </p>
 
-<picture>
-  <source 
-    srcset="https://github-readme-stats-gamma-lilac.vercel.app/api/top-langs/?username=aonontojahan&layout=compact&theme=react&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866&langs_count=8&hide=kvlang%2Cmakefile&size_weight=0.5&count_weight=0.5" 
-    media="(prefers-color-scheme: dark)" />
-  <img 
-    src="https://github-readme-stats-gamma-lilac.vercel.app/api/top-langs/?username=aonontojahan&layout=compact&theme=default&hide_border=true&bg_color=F6F8FA&langs_count=8&hide=kvlang%2Cmakefile&size_weight=0.5&count_weight=0.5"
-    height="190"
-    alt="Top Languages" />
-</picture>
+  <!-- Top Languages -->
+  <p>
+    <a href="https://github.com/AonontoJahan">
+      <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AonontoJahan&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" />
+    </a>
+  </p>
+
+  <!-- Responsive Stats with Theme Support -->
+  <br/>
+  <picture>
+    <source 
+      srcset="https://github-readme-stats-gamma-lilac.vercel.app/api?username=AonontoJahan&show_icons=true&theme=react&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866" 
+      media="(prefers-color-scheme: dark)" />
+    <img 
+      src="https://github-readme-stats-gamma-lilac.vercel.app/api?username=AonontoJahan&show_icons=true&theme=default&bg_color=F6F8FA&hide_border=true" 
+      height="190" 
+      alt="GitHub Stats" />
+  </picture>
+
+  <picture>
+    <source 
+      srcset="https://github-readme-stats-gamma-lilac.vercel.app/api/top-langs/?username=AonontoJahan&layout=compact&theme=react&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866&langs_count=8&hide=kvlang%2Cmakefile&size_weight=0.5&count_weight=0.5" 
+      media="(prefers-color-scheme: dark)" />
+    <img 
+      src="https://github-readme-stats-gamma-lilac.vercel.app/api/top-langs/?username=AonontoJahan&layout=compact&theme=default&hide_border=true&bg_color=F6F8FA&langs_count=8&hide=kvlang%2Cmakefile&size_weight=0.5&count_weight=0.5"
+      height="190"
+      alt="Top Languages" />
+  </picture>
+
+  <!-- GitHub Contribution Graphs -->
+  <br/><br/>
+  <p>
+    <a href="https://github.com/AonontoJahan">
+      <img src="https://github-readme-activity-graph.vercel.app/graph?username=AonontoJahan&theme=react-dark&bg_color=1F222E&hide_border=true&area=true" width="95%" alt="GitHub Contribution Graph" />
+    </a>
+  </p>
+
+  <p>
+    <a href="https://github.com/AonontoJahan">
+      <img src="https://github-readme-activity-graph.vercel.app/graph?username=AonontoJahan&theme=tokyo-night&hide_border=true&area=true&custom_title=My%20Contribution%20Graph" width="95%" alt="GitHub Activity Graph" />
+    </a>
+  </p>
+
 </div>
 
 ---
