@@ -9,19 +9,15 @@ Learning Linux, Docker, CI/CD, Kubernetes & AWS Cloud
   <a href="https://mail.google.com/mail/?view=cm&to=aonontojahan@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white"/>
   </a>
-  
   <a href="https://www.linkedin.com/in/aonontojahan">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/>
   </a>
-
   <a href="https://www.instagram.com/aonontojahan">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white"/>
   </a>
-  
   <a href="https://www.facebook.com/aonontojahan">
     <img src="https://img.shields.io/badge/Facebook-1877F2?style=flat-square&logo=facebook&logoColor=white"/>
   </a>
-  
   <a href="https://www.youtube.com/@aonontojahan">
     <img src="https://img.shields.io/badge/YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white"/>
   </a>
@@ -29,25 +25,28 @@ Learning Linux, Docker, CI/CD, Kubernetes & AWS Cloud
 
 ---
 
+## 👨‍💻 About Me
+
 <div align="center">
+  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDkyN3d4MXptZXd5aXZueXpiM3dvMmFhdXAxeHZjamluNDd4dGN2aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/H03PuVdwREB21ANkLX/giphy.gif" width="300" alt="Coding GIF" />
+</div>
 
-## 🧑‍💻🧑‍💻 About Me 🧑‍💻🧑‍💻
-
-<img align="right" width="300" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDkyN3d4MXptZXd5aXZueXpiM3dvMmFhdXAxeHZjamluNDd4dGN2aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/H03PuVdwREB21ANkLX/giphy.gif" alt="Working on computer science GIF by CC0 Studios" />
-
+<div align="center">
+  
 - 🔭 **Currently working on:** My **personal portfolio website** with modern stack
 - 🌱 **Currently diving deep into:** **DevOps Engineering** (Docker, CI/CD, AWS)
 - 💡 **Always curious about:** New frameworks, **AI/ML**, and automation tools
 - 🤝 **Looking to collaborate on:** Open-source Python projects & research work
 - ✨ **Philosophy:** Clean code, scalable systems, and **delightful user experiences**
 - ⚡ **Fun fact:** I break things just to fix them better! 🛠️
+
 </div>
 
 ---
 
-<div align="center">
+## 🛠️ Tech Stack
 
-## 🛠️🛠️ Tech Stack 🛠️🛠️
+<div align="center">
 
 ### <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" width="25" height="25"> Frontend Development
 
@@ -93,9 +92,9 @@ Learning Linux, Docker, CI/CD, Kubernetes & AWS Cloud
 
 ---
 
-<div align="center">
+## 🌱 Currently Learning
 
-## 🌱🌱 Currently Learning 🌱🌱
+<div align="center">
 
 ### <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/docker/docker.png" width="25" height="25"> DevOps & Cloud
 
@@ -117,9 +116,9 @@ Learning Linux, Docker, CI/CD, Kubernetes & AWS Cloud
 
 ---
 
-<div align="center">
+## 📊 GitHub Analytics
 
-## 📊📊 GitHub Analytics 📊📊
+<div align="center">
 
 <p>
   <a href="https://github.com/AonontoJahan">
@@ -145,9 +144,9 @@ Learning Linux, Docker, CI/CD, Kubernetes & AWS Cloud
 
 </div>
 
-<div align="center">
+## 🔥 Contribution Graph
 
-## 🔥🔥 Contribution Graph 🔥🔥
+<div align="center">
 
 <p>
   <a href="https://github.com/AonontoJahan">
@@ -159,14 +158,14 @@ Learning Linux, Docker, CI/CD, Kubernetes & AWS Cloud
 
 ---
 
-<div align="center">
+## 🚀 Featured Projects
 
-## 🚀🚀 Featured Projects 🚀🚀
+<div align="center">
 
 ### [📘 Event Management System](https://github.com/aonontojahan/Event-Management-System)
 
 **Description:** A complete event planning and management platform  
-**Tech Stack:**  
+**Tech Stack:** `Django` `PostgreSQL` `Bootstrap` `Python`  
 **Features:** User authentication, event creation, registration system, payment integration
 
 ### [📊 MSLAT](https://github.com/aonontojahan/Mini-System-Monitoring-Log-Analysis-Toolkit-MSLAT)
@@ -185,29 +184,25 @@ Learning Linux, Docker, CI/CD, Kubernetes & AWS Cloud
 
 ---
 
-<div align="center">
-
-## 🎉🎉 Fun Facts 🎉🎉
+## 🎉 Fun Facts
 
 <div align="center">
 
-| Fact | Meter |
-|------|-------|
-| 🧠 Talking to computers | ▰▰▰▰▰▰▰▰▰▰ 100% |
-| ⏱️ Automation obsession | ▰▰▰▰▰▰▰▰▰░ 90% |
-| 🐞 Debugging detective | ▰▰▰▰▰▰▰▰▰▰ 100% |
-| 🎨 Love for clean UI | ▰▰▰▰▰▰▰▰▰▰ 100% |
-| 💬 Python enthusiasm | ▰▰▰▰▰▰▰▰▰▰ 100% |
-
-</div>
+| | |
+|:---:|---|
+| 🧠 | **I talk to computers more than humans** — and they actually listen! |
+| ⏱️ | **Automated a 5-minute task in 3 hours** and it was worth it. |
+| 🐞 | **Debugging is like being the detective** in a crime movie where you're also the murderer. |
+| 🎨 | **I design with love** — clean UIs make me happy. |
+| 💬 | **My favorite language?** Python. Not the snake. |
 
 </div>
 
 ---
 
-<div align="center">
+## 📝 More About Me
 
-## 🎉🎉 More About Myself 🎉🎉
+<div align="center">
 
 I am a Computer Science student with a strong interest in DevOps engineering and cloud-native systems. I focus on building reliable, automated, and scalable software by combining development practices with operational excellence.
 
