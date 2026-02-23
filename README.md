@@ -2,8 +2,9 @@
 <h3 align="center">Backend Developer • FastAPI • Database & API Engineering</h3>
 
 <p align="center">
-  <a href="mailto:aonontojahan@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white"/>
+<a href="https://mail.google.com/mail/?view=cm&to=aonontojahan@gmail.com">
+  <img src="https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white"/>
+</a>
   </a>
   <a href="https://www.linkedin.com/in/aonontojahan">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/>
@@ -11,10 +12,6 @@
   <a href="https://www.facebook.com/aonontojahan">
     <img src="https://img.shields.io/badge/Facebook-1877F2?style=flat-square&logo=facebook&logoColor=white"/>
   </a>
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=AonontoJahan&label=Profile%20views&color=0e75b6&style=flat"/>
 </p>
 
 ---
