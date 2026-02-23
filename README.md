@@ -115,7 +115,7 @@ Learning Linux, Docker, CI/CD, Kubernetes & AWS Cloud
     <img height="165" src="https://github-readme-stats.vercel.app/api?username=AonontoJahan&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" />
   </a>
   <a href="https://github.com/AonontoJahan">
-    <img height="165" src="https://streak-stats.demolab.com?user=AonontoJahan&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+    <img height="165" src="https://github-readme-streak-stats-eight.vercel.app/?user=AonontoJahan&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
   </a>
 </p>
 
@@ -125,6 +125,13 @@ Learning Linux, Docker, CI/CD, Kubernetes & AWS Cloud
   </a>
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Total_Contributions-423-2ea44f?style=flat-square&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/Current_Streak-17_days-FFA500?style=flat-square&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/Longest_Streak-25_days-FF4500?style=flat-square&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/Member_Since-Oct_2022-8A2BE2?style=flat-square&logo=github&logoColor=white" />
+</p>
+
 
 ## 🔥 Contribution Graph
 
@@ -132,13 +139,6 @@ Learning Linux, Docker, CI/CD, Kubernetes & AWS Cloud
   <a href="https://github.com/AonontoJahan">
     <img src="https://github-readme-activity-graph.vercel.app/graph?username=AonontoJahan&theme=tokyo-night&hide_border=true&area=true&custom_title=My%20Contribution%20Graph" alt="GitHub Activity Graph" />
   </a>
-</p>
-
-
-## 🏆 GitHub Achievements
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AonontoJahan&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="achievements" />
 </p>
 
 ---
