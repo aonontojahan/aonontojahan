@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Aononto Jahan Junnurain</h1>
+<h1 align="center">Hi, I'm Aononto Jahan Junnurain</h1>
 
 <h3 align="center">
 Aspiring Software Engineer | Python (FastAPI, Django) | PostgreSQL<br>
@@ -25,7 +25,7 @@ Learning Linux, Docker, CI/CD, Kubernetes & AWS Cloud
 
 ---
 
-<h1 align="center">👨‍💻 About Me 👨‍💻</h1>
+<h1 align="center"> About Me </h1>
 
 <div align="center">
   <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDkyN3d4MXptZXd5aXZueXpiM3dvMmFhdXAxeHZjamluNDd4dGN2aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/H03PuVdwREB21ANkLX/giphy.gif" width="300" alt="Coding GIF" />
@@ -33,19 +33,19 @@ Learning Linux, Docker, CI/CD, Kubernetes & AWS Cloud
 
 <div align="center">
   
-In the final chapter of my Computer Science journey at IUBAT, I'm not just a student  I'm an intern, a builder, and a dreamer crafting the future one line of code at a time. I believe great software isn't just written; it's carefully architected at the beautiful crossroads of development and operations, where scalability meets reliability, and automation dances with innovation.
+In the final chapter of my Computer Science journey at IUBAT, I'm not just a student — I'm an intern, a builder, and a dreamer crafting the future one line of code at a time. I believe great software isn't just written; it's carefully architected at the beautiful crossroads of development and operations, where scalability meets reliability, and automation dances with innovation.
 
-**Currently**, I'm painting my story through a **personal portfolio website**  a canvas where modern stack meets creative expression. Simultaneously, I'm sailing through the vast seas of **DevOps Engineering**: navigating Docker containers, charting Kubernetes constellations, riding the currents of CI/CD, and discovering new horizons in AWS cloud.
+**Currently**, I'm painting my story through a **personal portfolio website** — a canvas where modern stack meets creative expression. Simultaneously, I'm sailing through the vast seas of **DevOps Engineering**: navigating Docker containers, charting Kubernetes constellations, riding the currents of CI/CD, and discovering new horizons in AWS cloud.
 
-My curiosity knows no bounds  I find myself constantly mesmerized by the **whispers of AI/ML** and the symphony of automation tools. Every framework, every tool, every new technology is an invitation to imagine what's possible.
+My curiosity knows no bounds — I find myself constantly mesmerized by the **whispers of AI/ML** and the symphony of automation tools. Every framework, every tool, every new technology is an invitation to imagine what's possible.
 
-I speak the language of Python fluently, but more importantly, I speak the language of collaboration. I'm always seeking kindred spirits in the **open-source community**  fellow builders who believe that code should be clean, systems should be scalable, and user experiences should feel like magic.
+I speak the language of Python fluently, but more importantly, I speak the language of collaboration. I'm always seeking kindred spirits in the **open-source community** — fellow builders who believe that code should be clean, systems should be scalable, and user experiences should feel like magic.
 
 </div>
 
 ---
 
-<h1 align="center">🛠️ Tech Stack 🛠️</h1>
+<h1 align="center">Tech Stack</h1>
 
 <div align="center">
 
@@ -93,7 +93,8 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 
 ---
 
-<h1 align="center">🌱 Currently Learning 🌱 </h1>
+<h1 align="center"> Currently Learning </h1>
+
 <div align="center">
 
 ![DevOps](https://img.shields.io/badge/DevOps-0A3B5C?style=for-the-badge&logo=terraform&logoColor=white)
@@ -111,8 +112,7 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 
 ---
 
-
-<h1 align="center">📊 GitHub Analytics & Contribution Graph 📊 </h1>
+<h1 align="center"> GitHub Analytics & Contribution Graph </h1>
 
 <div align="center">
   <br/>
@@ -120,11 +120,11 @@ I speak the language of Python fluently, but more importantly, I speak the langu
   <!-- GitHub Streak -->
   <p>
     <a href="https://github.com/AonontoJahan">
-      <img height="165" src="https://github-readme-streak-stats-eight.vercel.app/?user=AonontoJahan&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak" />
+      <img src="https://github-readme-streak-stats-eight.vercel.app/?user=AonontoJahan&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak" />
     </a>
   </p>
   
-  <!-- Responsive Stats with Theme Support -->
+  <!-- GitHub Stats and Top Languages with Theme Support -->
   <br/>
   <picture>
     <source 
@@ -146,7 +146,7 @@ I speak the language of Python fluently, but more importantly, I speak the langu
       alt="Top Languages" />
   </picture>
 
-  <!-- GitHub Contribution Graphs -->
+  <!-- GitHub Contribution Graph -->
   <br/><br/>
   <p>
     <a href="https://github.com/AonontoJahan">
@@ -154,28 +154,31 @@ I speak the language of Python fluently, but more importantly, I speak the langu
     </a>
   </p>
 
-
 </div>
 
 ---
 
-<h1 align="center">🚀 Featured Projects 🚀  </h1
+<h1 align="center"> Featured Projects </h1>
 
 <div align="center">
 
-### [📘 Event Management System](https://github.com/aonontojahan/Event-Management-System)
+### [ Event Management System](https://github.com/aonontojahan/Event-Management-System)
 
 **Description:** A complete event planning and management platform  
 **Tech Stack:** `Django` `PostgreSQL` `Bootstrap` `Python`  
 **Features:** User authentication, event creation, registration system, payment integration
 
-### [📊 MSLAT](https://github.com/aonontojahan/Mini-System-Monitoring-Log-Analysis-Toolkit-MSLAT)
+<br/>
+
+### [ MSLAT](https://github.com/aonontojahan/Mini-System-Monitoring-Log-Analysis-Toolkit-MSLAT)
 
 **Description:** Mini System Monitoring & Log Analysis Toolkit  
 **Tech Stack:** `Python` `Psutil` `Logging` `Matplotlib`  
 **Features:** Real-time system monitoring, log parsing, alert system, data visualization
 
-### [💻 Young Programmer Compiler](https://github.com/aonontojahan/Young-Programmer-Compiler)
+<br/>
+
+### [ Young Programmer Compiler](https://github.com/aonontojahan/Young-Programmer-Compiler)
 
 **Description:** Beginner-friendly compiler for learning programming concepts  
 **Tech Stack:** `Python` `AST` `Parsing` `Tokenization`  
@@ -185,7 +188,7 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 
 ---
 
-<h1 align="center">🎉 Fun Facts 🎉</h1
+<h1 align="center"> Fun Facts </h1>
 
 <div align="center">
 
@@ -202,5 +205,10 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 ---
 
 <div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer"/>
+  <br/>
   <em>"The best code is simple, readable, and built to last."</em>
+  <br/>
+  <br/>
+  <img src="https://komarev.com/ghpvc/?username=AonontoJahan&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile views" />
 </div>
