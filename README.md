@@ -25,7 +25,7 @@ Learning Linux, Docker, CI/CD, Kubernetes & AWS Cloud
 
 ---
 
-<h1 align="center">## 👨‍💻 About Me</h1>
+<h1 align="center">👨‍💻 About Me 👨‍💻</h1>
 
 <div align="center">
   <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDkyN3d4MXptZXd5aXZueXpiM3dvMmFhdXAxeHZjamluNDd4dGN2aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/H03PuVdwREB21ANkLX/giphy.gif" width="300" alt="Coding GIF" />
@@ -45,7 +45,7 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 
 ---
 
-## 🛠️ Tech Stack
+<h1 align="center">🛠️ Tech Stack 🛠️</h1>
 
 <div align="center">
 
@@ -93,8 +93,7 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 
 ---
 
-## 🌱 Currently Learning
-
+<h1 align="center">🌱 Currently Learning 🌱 </h1>
 <div align="center">
 
 ![DevOps](https://img.shields.io/badge/DevOps-0A3B5C?style=for-the-badge&logo=terraform&logoColor=white)
@@ -112,7 +111,8 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 
 ---
 
-## 📊 GitHub Analytics & Contribution Graph
+
+<h1 align="center">📊 GitHub Analytics & Contribution Graph 📊 </h1>
 
 <div align="center">
   <br/>
@@ -159,7 +159,7 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 
 ---
 
-## 🚀 Featured Projects
+<h1 align="center">🚀 Featured Projects 🚀  </h1
 
 <div align="center">
 
@@ -185,7 +185,7 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 
 ---
 
-## 🎉 Fun Facts
+<h1 align="center">🎉 Fun Facts 🎉</h1
 
 <div align="center">
 
