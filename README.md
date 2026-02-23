@@ -147,20 +147,17 @@ Learning Linux, Docker, CI/CD, Kubernetes & AWS Cloud
 
 ### 🚀 Featured Projects
 
-<p align="center">
-  <a href="https://github.com/aonontojahan/Event-Management-System">
-    <img src="https://img.shields.io/badge/📘-Event_Management_System-FF6B6B?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-  <a href="https://github.com/aonontojahan/Student-Management-System">
-    <img src="https://img.shields.io/badge/🎓-Student_Management_System-4ECDC4?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-  <a href="https://github.com/aonontojahan/Mini-System-Monitoring-Log-Analysis-Toolkit-MSLAT">
-    <img src="https://img.shields.io/badge/📊-MSLAT-45B7D1?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-  <a href="https://github.com/aonontojahan/Young-Programmer-Compiler">
-    <img src="https://img.shields.io/badge/💻-Young_Programmer_Compiler-96CEB4?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-</p>
+#### 📘 Event Management System
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=aonontojahan&repo=Event-Management-System&theme=tokyonight&hide_border=true)](https://github.com/aonontojahan/Event-Management-System)
+
+#### 🎓 Student Management System
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=aonontojahan&repo=Student-Management-System&theme=tokyonight&hide_border=true)](https://github.com/aonontojahan/Student-Management-System)
+
+#### 📊 MSLAT (Mini System Monitoring & Log Analysis Toolkit)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=aonontojahan&repo=Mini-System-Monitoring-Log-Analysis-Toolkit-MSLAT&theme=tokyonight&hide_border=true)](https://github.com/aonontojahan/Mini-System-Monitoring-Log-Analysis-Toolkit-MSLAT)
+
+#### 💻 Young Programmer Compiler
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=aonontojahan&repo=Young-Programmer-Compiler&theme=tokyonight&hide_border=true)](https://github.com/aonontojahan/Young-Programmer-Compiler)
 
 ---
 
