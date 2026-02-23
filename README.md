@@ -135,7 +135,7 @@ Learning Linux, Docker, CI/CD, Kubernetes & AWS Cloud
 </p>
 
 <p align="center">
-  <sub>✨ Stats update automatically • 🗓️ Active since October 13, 2022 ✨</sub>
+  <sub>✨✨</sub>
 </p>
 
 
