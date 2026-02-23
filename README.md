@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm Aononto Jahan Junnurain</h1>
 <h3 align="center">
-Aspiring Backend & Software Engineer | Python (FastAPI, Django) | PostgreSQL | Linux | Learning Docker, CI/CD, Kubernetes & AWS Cloud
+Aspiring Software Engineer | Python (FastAPI, Django) | PostgreSQL | Learning Docker, CI/CD, Kubernetes & AWS Cloud
 </h3>
 
 <p align="center">
