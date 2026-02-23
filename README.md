@@ -132,9 +132,6 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 </p>
 
 <p>
-  <img src="https://img.shields.io/badge/Total_Contributions-440-2ea44f?style=for-the-badge&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/Current_Streak-18_days-FFA500?style=for-the-badge&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/Longest_Streak-25_days-FF4500?style=for-the-badge&logo=github&logoColor=white" />
   <img src="https://img.shields.io/badge/Member_Since-Oct_2022-8A2BE2?style=for-the-badge&logo=github&logoColor=white" />
 </p>
 
