@@ -112,7 +112,7 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 
 ---
 
-## 📊 GitHub Analytics
+## 📊 GitHub Analytics & Contribution Graph
 
 <div align="center">
 
@@ -131,13 +131,8 @@ I speak the language of Python fluently, but more importantly, I speak the langu
   </a>
 </p>
 
-<p>
-  <img src="https://img.shields.io/badge/Member_Since-Oct_2022-8A2BE2?style=for-the-badge&logo=github&logoColor=white" />
-</p>
-
 </div>
 
-## 🔥 Contribution Graph
 
 <div align="center">
 
