@@ -78,7 +78,7 @@ Learning Linux, Docker, CI/CD, Kubernetes & AWS Cloud
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 <br/>
 
-### <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/cpp/cpp.png" width="25" height="25"> Programming Languages (Academic/Exploring)
+### <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/cpp/cpp.png" width="25" height="25"> Programming Languages (Academic)
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-239120?style=flat&logo=csharp&logoColor=white)
@@ -106,30 +106,39 @@ Learning Linux, Docker, CI/CD, Kubernetes & AWS Cloud
 ![Automation](https://img.shields.io/badge/Automation-4B32C3?style=for-the-badge&logo=ansible&logoColor=white)
 <br/>
 
-
-### 📊 GitHub Analytics
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=AonontoJahan&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" />
-  <img height="165" src="https://streak-stats.demolab.com?user=AonontoJahan&theme=tokyonight&hide_border=true" />
-</p>
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AonontoJahan&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
-</p>
-
 ---
 
-### 🔥 Contribution Activity
+## 📊 GitHub Analytics
+
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AonontoJahan&theme=tokyo-night&hide_border=true" />
+  <a href="https://github.com/AonontoJahan">
+    <img height="165" src="https://github-readme-stats.vercel.app/api?username=AonontoJahan&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" />
+  </a>
+  <a href="https://github.com/AonontoJahan">
+    <img height="165" src="https://streak-stats.demolab.com?user=AonontoJahan&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  </a>
 </p>
 
----
-
-### 🏆 GitHub Achievements
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=AonontoJahan&theme=tokyonight&no-frame=true&row=1&column=6" />
+  <a href="https://github.com/AonontoJahan">
+    <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AonontoJahan&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" />
+  </a>
+</p>
+
+
+## 🔥 Contribution Graph
+
+<p align="center">
+  <a href="https://github.com/AonontoJahan">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=AonontoJahan&theme=tokyo-night&hide_border=true&area=true&custom_title=My%20Contribution%20Graph" alt="GitHub Activity Graph" />
+  </a>
+</p>
+
+
+## 🏆 GitHub Achievements
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=AonontoJahan&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="achievements" />
 </p>
 
 ---
