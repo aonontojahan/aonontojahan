@@ -147,25 +147,35 @@ Learning Linux, Docker, CI/CD, Kubernetes & AWS Cloud
 
 ### 🚀 Featured Projects
 
-<details>
-<summary><b>🏗️ Full Stack Applications (2 projects)</b></summary>
-<br>
+---
 
-| Project | Description | Tech Stack | Stars |
-|---------|-------------|------------|-------|
-| [📘 Event Management System](https://github.com/aonontojahan/Event-Management-System) | Complete event planning platform with user auth | Django, PostgreSQL | ⭐ |
-| [🎓 Student Management System](https://github.com/aonontojahan/Student-Management-System) | Academic record management with CRUD | FastAPI, SQLite | ⭐ |
-</details>
+#### [📘 Event Management System](https://github.com/aonontojahan/Event-Management-System)
+**Description:** A complete event planning and management platform  
+**Tech Stack:**  
+**Features:** User authentication, event creation, registration system, payment integration
 
-<details>
-<summary><b>🛠️ Developer Tools (2 projects)</b></summary>
-<br>
+---
 
-| Project | Description | Tech Stack | Stars |
-|---------|-------------|------------|-------|
-| [📊 MSLAT](https://github.com/aonontojahan/Mini-System-Monitoring-Log-Analysis-Toolkit-MSLAT) | System monitoring & log analysis toolkit | Python, Psutil | ⭐ |
-| [💻 Young Programmer Compiler](https://github.com/aonontojahan/Young-Programmer-Compiler) | Simple compiler for beginners | Python, AST | ⭐ |
-</details>
+#### [🎓 Student Management System](https://github.com/aonontojahan/Student-Management-System)
+**Description:** Academic admission management system  with waiver calculation
+**Tech Stack:** C++
+**Features:** CRUD operations, course enrollment, grade tracking, student profiles
+
+---
+
+#### [📊 MSLAT](https://github.com/aonontojahan/Mini-System-Monitoring-Log-Analysis-Toolkit-MSLAT)
+**Description:** Mini System Monitoring & Log Analysis Toolkit  
+**Tech Stack:** `Python` `Psutil` `Logging` `Matplotlib`  
+**Features:** Real-time system monitoring, log parsing, alert system, data visualization
+
+---
+
+#### [💻 Young Programmer Compiler](https://github.com/aonontojahan/Young-Programmer-Compiler)
+**Description:** Beginner-friendly compiler for learning programming concepts  
+**Tech Stack:** `Python` `AST` `Parsing` `Tokenization`  
+**Features:** Simple syntax, error handling, code execution, educational comments
+
+---
 
 <br>
 <p align="right">
