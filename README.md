@@ -207,5 +207,3 @@ I speak the language of Python fluently, but more importantly, I speak the langu
   <br/>
   <img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=0:F85D7F,100:4C71F2&section=footer&reversal=false&animation=fadeIn"/>
 </div>
-
-My Name is Aononto Jahan
