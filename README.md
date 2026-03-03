@@ -201,7 +201,7 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 | ⏱️ | **Automated a 5-minute task in 3 hours** and it was worth it. |
 | 🐞 | **Debugging is like being the detective** in a crime movie where you're also the murderer. |
 | 🎨 | **I design with love** — clean UIs make me happy. |
-| 💬 | **My favorite language?** Python. Not the snake. |
+| 💬 | **My favorite language?** Python. Not the snake. LOL |
 
 </div>
 
