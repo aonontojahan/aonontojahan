@@ -30,7 +30,7 @@
 
 <div align="center">
 
-In the final chapter of my Computer Science journey at IUBAT, I'm not just a student — I'm an intern, a builder, and a dreamer crafting the future one line of code at a time. I believe great software isn't just written; it's carefully architected at the beautiful crossroads of development and operations, where scalability meets reliability, and automation dances with innovation.
+In the final chapter of my Computer Science journey at IUBAT, I'm not just a student — I'm an intern, a builder, and a dreamer crafting the future one line of code at a time. I believe great software isn't just written; it's carefully architected at the beautiful crossroads of development and operations, where scalability meets reliability, and automation dances with innovation....
 **Currently**, I'm painting my story through a **personal portfolio website** — a canvas where modern stack meets creative expression. Simultaneously, I'm sailing through the vast seas of **DevOps Engineering**: navigating Docker containers, charting Kubernetes constellations, riding the currents of CI/CD, and discovering new horizons in AWS cloud.....
 
 My curiosity knows no bounds — I find myself constantly mesmerized by the **whispers of AI/ML** and the symphony of automation tools. Every framework, every tool, every new technology is an invitation to imagine what's possible.
