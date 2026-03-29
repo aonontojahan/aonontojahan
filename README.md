@@ -35,7 +35,7 @@ In the final chapter of my Computer Science journey at IUBAT, I'm not just a stu
 
 My curiosity knows no bounds — I find myself constantly mesmerized by the **whispers of AI/ML** and the symphony of automation tools. Every framework, every tool, every new technology is an invitation to imagine what's possible.
 
-I speak the language of Python fluently, but more importantly, I speak the language of collaboration. I'm always seeking kindred spirits in the **open-source community** — fellow builders who believe that code should be clean, systems should be scalable, and user experiences should feel like magic........
+I speak the language of Python fluently, but more importantly, I speak the language of collaboration. I'm always seeking kindred spirits in the **open-source community** — fellow builders who believe that code should be clean, systems should be scalable, and user experiences should feel like magic.
 
 </div>
 
