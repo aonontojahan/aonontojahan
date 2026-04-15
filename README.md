@@ -98,7 +98,6 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
@@ -120,11 +119,142 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 
 <h1 align="center"> Code Stack Universe </h1>
 
-<img src="https://skillicons.dev/icons?i=cpp,cs,python,java,js&theme=dark&perline=5" />
-<img src="https://skillicons.dev/icons?i=html,css,js,react,nextjs,tailwind&theme=dark&perline=6" />
-<img src="https://skillicons.dev/icons?i=python,fastapi,postgresql,sqlalchemy,pydantic&theme=dark&perline=6" />
-<img src="https://skillicons.dev/icons?i=git,github,githubactions,docker,linux,postman,vscode,vercel&theme=dark&perline=8" />
-<img src="https://skillicons.dev/icons?i=git,github,githubactions,vscode,postman,docker,vercel,figma,windows,ubuntulinux&theme=dark&perline=9" />
+<img src="https://skillicons.dev/icons?i=python,js,cpp,java&theme=dark&perline=4" />
+<img src="https://skillicons.dev/icons?i=html,css,react,nextjs,tailwind&theme=dark&perline=5" />
+<img src="https://skillicons.dev/icons?i=fastapi,postgresql&theme=dark&perline=6" />
+<img src="https://skillicons.dev/icons?i=docker,githubactions,linux,ubuntu&theme=dark&perline=4" />
+<img src="https://skillicons.dev/icons?i=git,github,postman,vscode,vercel,figma&theme=dark&perline=6" />
+
+</div>
+
+---
+
+<h1 align="center"> 🚀 Featured Projects </h1>
+
+<div align="center">
+
+<table>
+<tr>
+
+<td width="50%" valign="top">
+
+<h3 align="center">🔢 Smart Calculator</h3>
+
+<p align="center">
+  <a href="https://github.com/aonontojahan/Smart-Calculator">
+    <img src="https://img.shields.io/badge/View%20Project-000000?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+</p>
+
+<p align="center">
+Full-stack scientific calculator with modern and clean UI.
+</p>
+
+<p align="center">
+<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square"/>
+<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square"/>
+<img src="https://img.shields.io/badge/PostgreSQL-336791?style=flat-square"/>
+<img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=flat-square"/>
+</p>
+
+<p align="center">
+✔ Authentication & JWT <br/>
+✔ User-specific history <br/>
+✔ Dark / Light mode
+</p>
+
+</td>
+
+<td width="50%" valign="top">
+
+<h3 align="center">🎉 Event Management System</h3>
+
+<p align="center">
+  <a href="https://github.com/aonontojahan/Event-Management-System">
+    <img src="https://img.shields.io/badge/View%20Project-000000?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+</p>
+
+<p align="center">
+Complete event platform with registration and payment features.
+</p>
+
+<p align="center">
+<img src="https://img.shields.io/badge/Django-092E20?style=flat-square"/>
+<img src="https://img.shields.io/badge/PostgreSQL-336791?style=flat-square"/>
+<img src="https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square"/>
+</p>
+
+<p align="center">
+✔ Event creation & management <br/>
+✔ User registration <br/>
+✔ Payment integration
+</p>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td width="50%" valign="top">
+
+<h3 align="center">📊 MSLAT</h3>
+
+<p align="center">
+  <a href="https://github.com/aonontojahan/Mini-System-Monitoring-Log-Analysis-Toolkit-MSLAT">
+    <img src="https://img.shields.io/badge/View%20Project-000000?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+</p>
+
+<p align="center">
+System monitoring and log analysis toolkit.
+</p>
+
+<p align="center">
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square"/>
+<img src="https://img.shields.io/badge/Psutil-4B8BBE?style=flat-square"/>
+<img src="https://img.shields.io/badge/Matplotlib-11557C?style=flat-square"/>
+</p>
+
+<p align="center">
+✔ Real-time monitoring <br/>
+✔ Log parsing <br/>
+✔ Data visualization
+</p>
+
+</td>
+
+<td width="50%" valign="top">
+
+<h3 align="center">🧠 Young Programmer Compiler</h3>
+
+<p align="center">
+  <a href="https://github.com/aonontojahan/Young-Programmer-Compiler">
+    <img src="https://img.shields.io/badge/View%20Project-000000?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+</p>
+
+<p align="center">
+Beginner-friendly compiler for learning programming concepts.
+</p>
+
+<p align="center">
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square"/>
+<img src="https://img.shields.io/badge/AST-FF9900?style=flat-square"/>
+<img src="https://img.shields.io/badge/Parsing-8A2BE2?style=flat-square"/>
+</p>
+
+<p align="center">
+✔ Custom syntax execution <br/>
+✔ Error handling <br/>
+✔ Educational feedback
+</p>
+
+</td>
+
+</tr>
+</table>
 
 </div>
 
@@ -174,40 +304,6 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 
 </div>
 
----
-
-<h1 align="center"> Featured Projects </h1>
-
-<div align="center">
-
-###  [Smart Calculator](https://github.com/aonontojahan/Smart-Calculator)
-
-**Description:** A Production-Ready Scientific Calculator Web App. I built a complete full-stack scientific calculator from scratch using modern technologies and real backend engineering principles.
-**Tech Stack:** `PostgreSQL` `Python`  `FastAPI` `React (Vite)` `TailwindCSS` 
-**Features:** User authentication, User Registration & Login, Copy result feature, Dark / Light mode, JWT-based protected routes, User-isolated history
-<br/>
-
-###  [Event Management System](https://github.com/aonontojahan/Event-Management-System)
-
-**Description:** A complete event planning and management platform  
-**Tech Stack:** `Django` `PostgreSQL` `Bootstrap` `Python`  
-**Features:** User authentication, event creation, registration system, payment integration
-<br/>
-
-###  [MSLAT](https://github.com/aonontojahan/Mini-System-Monitoring-Log-Analysis-Toolkit-MSLAT)
-
-**Description:** Mini System Monitoring & Log Analysis Toolkit  
-**Tech Stack:** `Python` `Psutil` `Logging` `Matplotlib`  
-**Features:** Real-time system monitoring, log parsing, alert system, data visualization
-<br/>
-
-###  [Young Programmer Compiler](https://github.com/aonontojahan/Young-Programmer-Compiler)
-
-**Description:** Beginner-friendly compiler for learning programming concepts  
-**Tech Stack:** `Python` `AST` `Parsing` `Tokenization`  
-**Features:** Simple syntax, error handling, code execution, educational comments
-
-</div>
 
 ---
 
@@ -222,6 +318,20 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 | 🐞 | **Debugging is like being the detective** in a crime movie where you're also the murderer. |
 | 🎨 | **I design with love** — clean UIs make me happy. |
 | 💬 | **My favorite language?** Python. Not the snake. LOL |
+
+</div>
+
+---
+
+<h1 align="center"> ⚡ My Approach </h1>
+
+<div align="center">
+
+<img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="300"/>
+<br/>
+📌 <b>Plan</b> → 🧩 <b>Design</b> → 💻 <b>Develop</b> → 🧪 <b>Test</b> → 🚀 <b>Deploy</b> → 🔁 <b>Iterate</b>
+<br/>
+I follow an Agile development methodology that emphasizes iterative delivery, continuous feedback, and ongoing improvement. My approach combines clean architecture and scalable system design with a strong focus on reliability, maintainability, and delivering production-ready solutions that can adapt to evolving requirements.
 
 </div>
 
@@ -262,10 +372,6 @@ My contact links are provided below — feel free to reach out and connect.
   <br/>
   <em>"The best code is simple, readable, and built to last."</em>
   <br/>
-  <br/>
-  <em>⭐ A star or a follow keeps me motivated to keep building and sharing open-source.</em>
-  <br/>
-  
-  <br/>
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=0:F85D7F,100:4C71F2&section=footer&reversal=false&animation=fadeIn"/>
+  <em>⭐ A star or a follow keeps me motivated to keep building and sharing open-source.⭐</em>
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=0:F85D7F,100:4C71F2&section=footer&text=©%202026%20aonontojahan.vercel.app%20%7C%20All%20Rights%20Reserved&fontSize=14&fontColor=FFFFFF&animation=fadeIn&fontAlignY=85"/>
 </div>
