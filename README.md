@@ -220,9 +220,8 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 I am open to freelance opportunities, full-time roles, and open-source collaborations.
 If you’re looking for a developer who delivers clean, reliable, and well-structured solutions — feel free to get in touch.
 
-
-
-
+<!--                          CONNECT WITH ME                              -->
+<!-- ══════════════════════════════════════════════════════════════════════ -->
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aonontojahan@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aonontojahan)
 [![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/aonontojahan)
