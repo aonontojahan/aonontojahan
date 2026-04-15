@@ -15,12 +15,6 @@
   <a href="https://www.instagram.com/aonontojahan">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white"/>
   </a>
-  <a href="https://www.facebook.com/aonontojahan">
-    <img src="https://img.shields.io/badge/Facebook-1877F2?style=flat-square&logo=facebook&logoColor=white"/>
-  </a>
-  <a href="https://www.pinterest.com/aonontojahan/">
-  <img src="https://img.shields.io/badge/Pinterest-BD081C?style=flat-square&logo=pinterest&logoColor=white"/>
-  </a>
   <a href="https://t.me/aonontojahan">
     <img src="https://img.shields.io/badge/Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white"/>
   </a>
