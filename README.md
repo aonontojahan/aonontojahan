@@ -209,6 +209,22 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 
 ---
 
+<h1 align="center"> Fun Facts </h1>
+
+<div align="center">
+
+| | |
+|:---:|---|
+| 🧠 | **I talk to computers more than humans** — and they actually listen!! |
+| ⏱️ | **Automated a 5-minute task in 3 hours** and it was worth it. |
+| 🐞 | **Debugging is like being the detective** in a crime movie where you're also the murderer. |
+| 🎨 | **I design with love** — clean UIs make me happy. |
+| 💬 | **My favorite language?** Python. Not the snake. LOL |
+
+</div>
+
+---
+
 <!-- ══════════════════════════════════════════════════════════════════════ -->
 <!--              HIRE ME / LET'S BUILD SOMETHING                          -->
 <!-- ══════════════════════════════════════════════════════════════════════ -->
@@ -231,23 +247,6 @@ If you are seeking a Full-Stack Developer or Software Engineer with a strong fou
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/8801723740704)
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://aonontojahan.vercel.app/)
 [![Linktree](https://img.shields.io/badge/Linktree-39E09B?style=for-the-badge&logo=linktree&logoColor=white)](https://linktr.ee/aonontojahan)
-
-</div>
-
----
-
-
-<h1 align="center"> Fun Facts </h1>
-
-<div align="center">
-
-| | |
-|:---:|---|
-| 🧠 | **I talk to computers more than humans** — and they actually listen!! |
-| ⏱️ | **Automated a 5-minute task in 3 hours** and it was worth it. |
-| 🐞 | **Debugging is like being the detective** in a crime movie where you're also the murderer. |
-| 🎨 | **I design with love** — clean UIs make me happy. |
-| 💬 | **My favorite language?** Python. Not the snake. LOL |
 
 </div>
 
