@@ -225,9 +225,9 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 ---
 
 <!-- ══════════════════════════════════════════════════════════════════════ -->
-<!--              HIRE ME / LET'S BUILD SOMETHING                          -->
+<!--              HIRE ME                          -->
 <!-- ══════════════════════════════════════════════════════════════════════ -->
-<h1 align="center"> HIRE ME / LET'S BUILD SOMETHING </h1>
+<h1 align="center"> HIRE ME </h1>
 
 <div align="center">
 
