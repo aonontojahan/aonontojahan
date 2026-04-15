@@ -121,7 +121,7 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 
 <img src="https://skillicons.dev/icons?i=python,js,cpp,java&theme=dark&perline=4" />
 <img src="https://skillicons.dev/icons?i=html,css,react,nextjs,tailwind&theme=dark&perline=5" />
-<img src="https://skillicons.dev/icons?i=fastapi,postgresql,sqlalchemy&theme=dark&perline=6" />
+<img src="https://skillicons.dev/icons?i=fastapi,postgresql&theme=dark&perline=6" />
 <img src="https://skillicons.dev/icons?i=docker,githubactions,linux,ubuntu&theme=dark&perline=4" />
 <img src="https://skillicons.dev/icons?i=git,github,postman,vscode,vercel,figma&theme=dark&perline=6" />
 
