@@ -138,35 +138,58 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 
 <td width="50%" valign="top">
 
-### 🔢 Smart Calculator  
-🔗 <a href="https://github.com/aonontojahan/Smart-Calculator">View Repository</a>  
+<h3 align="center">🔢 Smart Calculator</h3>
 
-Full-stack scientific calculator built with modern backend architecture and clean UI.
+<p align="center">
+  <a href="https://github.com/aonontojahan/Smart-Calculator">
+    <img src="https://img.shields.io/badge/View%20Project-000000?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+</p>
 
-**Tech Stack:**  
-`FastAPI` · `React` · `PostgreSQL` · `TailwindCSS`  
+<p align="center">
+Full-stack scientific calculator with modern backend architecture and clean UI.
+</p>
 
-**Highlights:**  
-✔ Authentication & JWT  
-✔ User-specific history  
-✔ Dark / Light mode  
+<p align="center">
+<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square"/>
+<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square"/>
+<img src="https://img.shields.io/badge/PostgreSQL-336791?style=flat-square"/>
+<img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=flat-square"/>
+</p>
+
+<p align="center">
+✔ Authentication & JWT <br/>
+✔ User-specific history <br/>
+✔ Dark / Light mode
+</p>
 
 </td>
 
 <td width="50%" valign="top">
 
-### 🎉 Event Management System  
-🔗 <a href="https://github.com/aonontojahan/Event-Management-System">View Repository</a>  
+<h3 align="center">🎉 Event Management System</h3>
 
-A complete event planning platform with user interaction and payment integration.
+<p align="center">
+  <a href="https://github.com/aonontojahan/Event-Management-System">
+    <img src="https://img.shields.io/badge/View%20Project-000000?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+</p>
 
-**Tech Stack:**  
-`Django` · `PostgreSQL` · `Bootstrap`  
+<p align="center">
+Complete event platform with registration and payment features.
+</p>
 
-**Highlights:**  
-✔ Event creation & management  
-✔ User registration system  
-✔ Payment integration  
+<p align="center">
+<img src="https://img.shields.io/badge/Django-092E20?style=flat-square"/>
+<img src="https://img.shields.io/badge/PostgreSQL-336791?style=flat-square"/>
+<img src="https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square"/>
+</p>
+
+<p align="center">
+✔ Event creation & management <br/>
+✔ User registration <br/>
+✔ Payment integration
+</p>
 
 </td>
 
@@ -176,35 +199,57 @@ A complete event planning platform with user interaction and payment integration
 
 <td width="50%" valign="top">
 
-### 📊 MSLAT  
-🔗 <a href="https://github.com/aonontojahan/Mini-System-Monitoring-Log-Analysis-Toolkit-MSLAT">View Repository</a>  
+<h3 align="center">📊 MSLAT</h3>
 
-System monitoring and log analysis toolkit for real-time insights.
+<p align="center">
+  <a href="https://github.com/aonontojahan/Mini-System-Monitoring-Log-Analysis-Toolkit-MSLAT">
+    <img src="https://img.shields.io/badge/View%20Project-000000?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+</p>
 
-**Tech Stack:**  
-`Python` · `Psutil` · `Matplotlib`  
+<p align="center">
+System monitoring and log analysis toolkit.
+</p>
 
-**Highlights:**  
-✔ Real-time monitoring  
-✔ Log parsing system  
-✔ Data visualization  
+<p align="center">
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square"/>
+<img src="https://img.shields.io/badge/Psutil-4B8BBE?style=flat-square"/>
+<img src="https://img.shields.io/badge/Matplotlib-11557C?style=flat-square"/>
+</p>
+
+<p align="center">
+✔ Real-time monitoring <br/>
+✔ Log parsing <br/>
+✔ Data visualization
+</p>
 
 </td>
 
 <td width="50%" valign="top">
 
-### 🧠 Young Programmer Compiler  
-🔗 <a href="https://github.com/aonontojahan/Young-Programmer-Compiler">View Repository</a>  
+<h3 align="center">🧠 Young Programmer Compiler</h3>
 
-A beginner-friendly compiler designed to teach core programming concepts.
+<p align="center">
+  <a href="https://github.com/aonontojahan/Young-Programmer-Compiler">
+    <img src="https://img.shields.io/badge/View%20Project-000000?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+</p>
 
-**Tech Stack:**  
-`Python` · `AST` · `Parsing`  
+<p align="center">
+Beginner-friendly compiler for learning programming concepts.
+</p>
 
-**Highlights:**  
-✔ Custom syntax execution  
-✔ Error handling  
-✔ Educational feedback  
+<p align="center">
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square"/>
+<img src="https://img.shields.io/badge/AST-FF9900?style=flat-square"/>
+<img src="https://img.shields.io/badge/Parsing-8A2BE2?style=flat-square"/>
+</p>
+
+<p align="center">
+✔ Custom syntax execution <br/>
+✔ Error handling <br/>
+✔ Educational feedback
+</p>
 
 </td>
 
