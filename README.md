@@ -212,21 +212,17 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 <h1 align="center"> HIRE ME / LET'S BUILD SOMETHING </h1>
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0d1117&height=60&text=%F0%9F%92%BC+Hire+Me+%2F+Let%27s+Build+Something&fontSize=30&fontColor=29ABE2&animation=fadeIn&fontAlign=50&fontAlignY=55" width="100%"/>
+<img src="https://user-images.githubusercontent.com/74038190/212748842-9fcbad5b-6173-4175-8a61-521f3dbb7514.gif" width="300"/>
 
-<img src="https://user-images.githubusercontent.com/74038190/216644497-1951db19-8f3d-4e44-ac08-8e9d7e0d94a7.gif" width="300"/>
-
-I'm open to **freelance work**, **full-time roles**, and **open-source collabs**.<br/>
-If you have a project that needs a developer who ships clean code and cares about the result — reach out.
+I am open to freelance opportunities, full-time roles, and open-source collaborations.
+If you’re looking for a developer who delivers clean, reliable, and well-structured solutions — feel free to get in touch.
 
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aonontojahan@gmail.com)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/8801723740704)
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://aonontojahan.vercel.app/)
-
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aonontojahan)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/aonontojahan)
 [![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/aonontojahan)
-
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/aonontojahan/)
 [![Pinterest](https://img.shields.io/badge/Pinterest-BD081C?style=for-the-badge&logo=pinterest&logoColor=white)](https://www.pinterest.com/aonontojahan/)
 [![Linktree](https://img.shields.io/badge/Linktree-39E09B?style=for-the-badge&logo=linktree&logoColor=white)](https://linktr.ee/aonontojahan)
