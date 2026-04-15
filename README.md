@@ -358,10 +358,7 @@ My contact links are provided below — feel free to reach out and connect.
   <br/>
   <em>"The best code is simple, readable, and built to last."</em>
   <br/>
+  <em>⭐ A star or a follow keeps me motivated to keep building and sharing open-source.⭐</em>
   <br/>
-  <em>⭐ A star or a follow keeps me motivated to keep building and sharing open-source.</em>
-  <br/>
-  
-  <br/>
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=0:F85D7F,100:4C71F2&section=footer&reversal=false&animation=fadeIn"/>
+  <img src="https://capsule-render.vercel.app/api? type=waving&height=120&color=0:F85D7F,100:4C71F2&section=footer&text=©%202026%20AonontoJahan%20%7C%20All%20Rights%20Reserved&fontSize=20&fontColor=FFFFFF&animation=fadeIn&fontAlignY=70"/>
 </div>
