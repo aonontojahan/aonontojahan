@@ -179,7 +179,6 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 **Description:** A Production-Ready Scientific Calculator Web App. I built a complete full-stack scientific calculator from scratch using modern technologies and real backend engineering principles.
 **Tech Stack:** `PostgreSQL` `Python`  `FastAPI` `React (Vite)` `TailwindCSS` 
 **Features:** User authentication, User Registration & Login, Copy result feature, Dark / Light mode, JWT-based protected routes, User-isolated history
-
 <br/>
 
 ###  [Event Management System](https://github.com/aonontojahan/Event-Management-System)
@@ -187,7 +186,6 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 **Description:** A complete event planning and management platform  
 **Tech Stack:** `Django` `PostgreSQL` `Bootstrap` `Python`  
 **Features:** User authentication, event creation, registration system, payment integration
-
 <br/>
 
 ###  [MSLAT](https://github.com/aonontojahan/Mini-System-Monitoring-Log-Analysis-Toolkit-MSLAT)
@@ -195,7 +193,6 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 **Description:** Mini System Monitoring & Log Analysis Toolkit  
 **Tech Stack:** `Python` `Psutil` `Logging` `Matplotlib`  
 **Features:** Real-time system monitoring, log parsing, alert system, data visualization
-
 <br/>
 
 ###  [Young Programmer Compiler](https://github.com/aonontojahan/Young-Programmer-Compiler)
