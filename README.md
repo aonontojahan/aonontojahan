@@ -98,7 +98,6 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
@@ -123,10 +122,6 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 <img src="https://skillicons.dev/icons?i=python,js,cpp,java&theme=dark&perline=4" />
 <img src="https://skillicons.dev/icons?i=html,css,react,nextjs,tailwind&theme=dark&perline=5" />
 <img src="https://skillicons.dev/icons?i=fastapi,postgresql,sqlalchemy&theme=dark&perline=6" />
-<p>
-  <img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Alembic-4B8BBE?style=for-the-badge&logo=python&logoColor=white"/>
-</p>
 <img src="https://skillicons.dev/icons?i=docker,githubactions,linux,ubuntu&theme=dark&perline=4" />
 <img src="https://skillicons.dev/icons?i=git,github,postman,vscode,vercel,figma&theme=dark&perline=6" />
 
