@@ -254,11 +254,13 @@ If you are seeking a Full-Stack Developer or Software Engineer with a strong fou
 ---
 
 <div align="center">
+  <img src="https://komarev.com/ghpvc/?username=AonontoJahan&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile views" />
+  <br/>
   <em>"The best code is simple, readable, and built to last."</em>
   <br/>
-  ⭐ A star or a follow keeps me motivated to keep building and sharing open-source.
+  <em>⭐ A star or a follow keeps me motivated to keep building and sharing open-source.</em>
   <br/>
-  <img src="https://komarev.com/ghpvc/?username=AonontoJahan&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile views" />
+  
   <br/>
   <img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=0:F85D7F,100:4C71F2&section=footer&reversal=false&animation=fadeIn"/>
 </div>
