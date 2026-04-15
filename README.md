@@ -9,26 +9,20 @@
   <a href="https://www.linkedin.com/in/aonontojahan">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/>
   </a>
-    <a href="https://www.x.com/in/aonontojahan">
-    <img src="https://img.shields.io/badge/X-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/>
+    <a href="https://aonontojahan.vercel.app/">
+    <img src="https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=vercel&logoColor=white"/>
   </a>
   <a href="https://www.instagram.com/aonontojahan">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white"/>
   </a>
-  <a href="https://www.facebook.com/aonontojahan">
-    <img src="https://img.shields.io/badge/Facebook-1877F2?style=flat-square&logo=facebook&logoColor=white"/>
-  </a>
-  <a href="https://www.pinterest.com/aonontojahan/">
-  <img src="https://img.shields.io/badge/Pinterest-BD081C?style=flat-square&logo=pinterest&logoColor=white"/>
+  <a href="https://www.x.com/in/aonontojahan">
+    <img src="https://img.shields.io/badge/X-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/>
   </a>
   <a href="https://t.me/aonontojahan">
     <img src="https://img.shields.io/badge/Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white"/>
   </a>
   <a href="https://wa.me/8801723740704">
     <img src="https://img.shields.io/badge/WhatsApp-25D366?style=flat-square&logo=whatsapp&logoColor=white"/>
-  </a>
-  <a href="https://aonontojahan.vercel.app/">
-    <img src="https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=vercel&logoColor=white"/>
   </a>
   <a href="https://linktr.ee/aonontojahan">
     <img src="https://img.shields.io/badge/Linktree-39E09B?style=flat-square&logo=linktree&logoColor=white"/>
@@ -41,10 +35,6 @@
 ---
 
 <h1 align="center"> About Me </h1>
-
-<div align="center">
-  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDkyN3d4MXptZXd5aXZueXpiM3dvMmFhdXAxeHZjamluNDd4dGN2aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/H03PuVdwREB21ANkLX/giphy.gif" width="300" alt="Coding GIF" />
-</div>
 
 <div align="center">
 
@@ -63,26 +53,19 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 
 <div align="center">
 
-### Programming Languages
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-239120?style=flat&logo=csharp&logoColor=white)
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat&logo=cplusplus&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
-<br/>
-
-### Frontend Development
-
+<br/><br/>
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-<br/>
-
-### Backend Development
-
+<br/><br/>
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white)
@@ -90,10 +73,7 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 ![Alembic](https://img.shields.io/badge/Alembic-4B8BBE?style=for-the-badge&logo=python&logoColor=white)
 ![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
 ![Uvicorn](https://img.shields.io/badge/Uvicorn-499848?style=for-the-badge&logo=fastapi&logoColor=white)
-<br/>
-
-### Tools & Platforms
-
+<br/><br/>
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
@@ -104,7 +84,7 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
 <br/>
 
-### Currently Learning
+### Learning
 
 ![DevOps](https://img.shields.io/badge/DevOps-0A3B5C?style=for-the-badge&logo=terraform&logoColor=white)
 ![Cloud Computing](https://img.shields.io/badge/Cloud_Computing-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
@@ -129,7 +109,7 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 
 ---
 
-<h1 align="center"> 🚀 Featured Projects </h1>
+<h1 align="center"> Featured Projects </h1>
 
 <div align="center">
 
@@ -138,7 +118,7 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 
 <td width="50%" valign="top">
 
-<h3 align="center">🔢 Smart Calculator</h3>
+<h3 align="center"> Smart Calculator</h3>
 
 <p align="center">
   <a href="https://github.com/aonontojahan/Smart-Calculator">
@@ -167,7 +147,7 @@ Full-stack scientific calculator with modern and clean UI.
 
 <td width="50%" valign="top">
 
-<h3 align="center">🎉 Event Management System</h3>
+<h3 align="center"> Event Management System</h3>
 
 <p align="center">
   <a href="https://github.com/aonontojahan/Event-Management-System">
@@ -199,7 +179,7 @@ Complete event platform with registration and payment features.
 
 <td width="50%" valign="top">
 
-<h3 align="center">📊 MSLAT</h3>
+<h3 align="center"> MSLAT</h3>
 
 <p align="center">
   <a href="https://github.com/aonontojahan/Mini-System-Monitoring-Log-Analysis-Toolkit-MSLAT">
@@ -227,7 +207,7 @@ System monitoring and log analysis toolkit.
 
 <td width="50%" valign="top">
 
-<h3 align="center">🧠 Young Programmer Compiler</h3>
+<h3 align="center"> Young Programmer Compiler</h3>
 
 <p align="center">
   <a href="https://github.com/aonontojahan/Young-Programmer-Compiler">
@@ -255,6 +235,45 @@ Beginner-friendly compiler for learning programming concepts.
 
 </tr>
 </table>
+
+</div>
+
+---
+
+<h1 align="center"> ⚡ My Development Approach </h1>
+
+<div align="center">
+
+<img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="300"/>
+<br/>
+
+📌 <b>Plan</b> → 🧩 <b>Design</b> → 💻 <b>Develop</b> → 🧪 <b>Test</b> → 🚀 <b>Deploy</b> → 🔁 <b>Iterate</b>
+<br/>
+I follow an Agile development methodology that emphasizes iterative delivery, continuous feedback, and ongoing improvement. My approach combines clean architecture and scalable system design with a strong focus on reliability, maintainability, and delivering production-ready solutions that can adapt to evolving requirements.
+
+</div>
+
+---
+
+<!-- ══════════════════════════════════════════════════════════════════════ -->
+<!--              HIRE ME                          -->
+<!-- ══════════════════════════════════════════════════════════════════════ -->
+<h1 align="center"> HIRE ME </h1>
+
+<div align="center">
+
+If you are seeking a Full-Stack Developer or Software Engineer with a strong foundation in designing and building scalable, high-performance applications, writing clean and maintainable code, and developing well-structured systems with a focus on reliability and long-term sustainability, I would welcome the opportunity to connect.
+My contact links are provided below — feel free to reach out and connect.
+<br/>
+
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aonontojahan@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aonontojahan)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://aonontojahan.vercel.app/)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/aonontojahan/)
+[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/aonontojahan)
+[![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/aonontojahan)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/8801723740704)
+[![Linktree](https://img.shields.io/badge/Linktree-39E09B?style=for-the-badge&logo=linktree&logoColor=white)](https://linktr.ee/aonontojahan)
 
 </div>
 
@@ -318,50 +337,6 @@ Beginner-friendly compiler for learning programming concepts.
 | 🐞 | **Debugging is like being the detective** in a crime movie where you're also the murderer. |
 | 🎨 | **I design with love** — clean UIs make me happy. |
 | 💬 | **My favorite language?** Python. Not the snake. LOL |
-
-</div>
-
----
-
-<h1 align="center"> ⚡ My Approach </h1>
-
-<div align="center">
-
-<img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="300"/>
-<br/>
-📌 <b>Plan</b> → 🧩 <b>Design</b> → 💻 <b>Develop</b> → 🧪 <b>Test</b> → 🚀 <b>Deploy</b> → 🔁 <b>Iterate</b>
-<br/>
-I follow an Agile development methodology that emphasizes iterative delivery, continuous feedback, and ongoing improvement. My approach combines clean architecture and scalable system design with a strong focus on reliability, maintainability, and delivering production-ready solutions that can adapt to evolving requirements.
-
-</div>
-
----
-
-<!-- ══════════════════════════════════════════════════════════════════════ -->
-<!--              HIRE ME                          -->
-<!-- ══════════════════════════════════════════════════════════════════════ -->
-<h1 align="center"> HIRE ME </h1>
-
-<div align="center">
-
-<img src="https://user-images.githubusercontent.com/74038190/212748842-9fcbad5b-6173-4175-8a61-521f3dbb7514.gif" width="300"/>
-<br/>
-
-If you are seeking a Full-Stack Developer or Software Engineer with a strong foundation in designing and building scalable, high-performance applications, writing clean and maintainable code, and developing well-structured systems with a focus on reliability and long-term sustainability, I would welcome the opportunity to connect.
-My contact links are provided below — feel free to reach out and connect.
-<br/>
-
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aonontojahan@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aonontojahan)
-[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/aonontojahan)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/aonontojahan/)
-[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/aonontojahan)
-[![Pinterest](https://img.shields.io/badge/Pinterest-BD081C?style=for-the-badge&logo=pinterest&logoColor=white)](https://www.pinterest.com/aonontojahan/)
-
-[![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/aonontojahan)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/8801723740704)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://aonontojahan.vercel.app/)
-[![Linktree](https://img.shields.io/badge/Linktree-39E09B?style=for-the-badge&logo=linktree&logoColor=white)](https://linktr.ee/aonontojahan)
 
 </div>
 
