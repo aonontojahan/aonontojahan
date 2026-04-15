@@ -323,6 +323,20 @@ Beginner-friendly compiler for learning programming concepts.
 
 ---
 
+<h1 align="center"> ⚡ My Approach </h1>
+
+<div align="center">
+
+<img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="300"/>
+<br/>
+📌 <b>Plan</b> → 🧩 <b>Design</b> → 💻 <b>Develop</b> → 🧪 <b>Test</b> → 🚀 <b>Deploy</b> → 🔁 <b>Iterate</b>
+<br/>
+I follow an Agile development methodology, focusing on iterative delivery, clean architecture, and continuous improvement to build scalable and reliable systems.
+
+</div>
+
+---
+
 <!-- ══════════════════════════════════════════════════════════════════════ -->
 <!--              HIRE ME                          -->
 <!-- ══════════════════════════════════════════════════════════════════════ -->
@@ -330,7 +344,7 @@ Beginner-friendly compiler for learning programming concepts.
 
 <div align="center">
 
-<img src="https://user-images.githubusercontent.com/74038190/212748842-9fcbad5b-6173-4175-8a61-521f3dbb7514.gif" width="300"/>
+<img src="https://user-images.githubusercontent.com/74038190/212748842-9fcbad5b-6173-4175-8a61-521f3dbb7514.gif" width="600"/>
 <br/>
 
 If you are seeking a Full-Stack Developer or Software Engineer with a strong foundation in designing and building scalable, high-performance applications, writing clean and maintainable code, and developing well-structured systems with a focus on reliability and long-term sustainability, I would welcome the opportunity to connect.
@@ -359,6 +373,5 @@ My contact links are provided below — feel free to reach out and connect.
   <em>"The best code is simple, readable, and built to last."</em>
   <br/>
   <em>⭐ A star or a follow keeps me motivated to keep building and sharing open-source.⭐</em>
-  <br/>
   <img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=0:F85D7F,100:4C71F2&section=footer&text=©%202026%20aonontojahan.vercel.app%20%7C%20All%20Rights%20Reserved&fontSize=14&fontColor=FFFFFF&animation=fadeIn&fontAlignY=85"/>
 </div>
