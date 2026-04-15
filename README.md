@@ -21,7 +21,6 @@
   <a href="https://www.pinterest.com/aonontojahan/">
   <img src="https://img.shields.io/badge/Pinterest-BD081C?style=flat-square&logo=pinterest&logoColor=white"/>
   </a>
-  <br/>
   <a href="https://t.me/aonontojahan">
     <img src="https://img.shields.io/badge/Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white"/>
   </a>
