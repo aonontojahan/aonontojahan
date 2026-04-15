@@ -37,10 +37,6 @@
 <h1 align="center"> About Me </h1>
 
 <div align="center">
-  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDkyN3d4MXptZXd5aXZueXpiM3dvMmFhdXAxeHZjamluNDd4dGN2aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/H03PuVdwREB21ANkLX/giphy.gif" width="300" alt="Coding GIF" />
-</div>
-
-<div align="center">
 
 In the final chapter of my Computer Science journey at IUBAT, I'm not just a student — I'm an intern, a builder, and a dreamer crafting the future one line of code at a time. I believe great software isn't just written; it's carefully architected at the beautiful crossroads of development and operations, where scalability meets reliability, and automation dances with innovation.
 **Currently**, I'm painting my story through a **personal portfolio website** — a canvas where modern stack meets creative expression. Simultaneously, I'm sailing through the vast seas of **DevOps Engineering**: navigating Docker containers, charting Kubernetes constellations, riding the currents of CI/CD, and discovering new horizons in AWS cloud.
