@@ -257,6 +257,7 @@ If you are seeking a Full-Stack Developer or Software Engineer with a strong fou
   <br/>
   <em>"The best code is simple, readable, and built to last."</em>
   <br/>
+  <br/>
   <em>⭐ A star or a follow keeps me motivated to keep building and sharing open-source.</em>
   <br/>
   
