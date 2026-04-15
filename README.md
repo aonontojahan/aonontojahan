@@ -232,9 +232,8 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 <div align="center">
 
 <img src="https://user-images.githubusercontent.com/74038190/212748842-9fcbad5b-6173-4175-8a61-521f3dbb7514.gif" width="300"/>
-
+<br/>
 If you are seeking a Full-Stack Developer or Software Engineer with a strong foundation in designing and building scalable, high-performance applications, writing clean and maintainable code, and developing well-structured systems with a focus on reliability and long-term sustainability, I would welcome the opportunity to connect. My contact links are provided below — feel free to reach out and connect.
-
 
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aonontojahan@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aonontojahan)
