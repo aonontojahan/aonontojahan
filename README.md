@@ -109,7 +109,7 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 
 ---
 
-<h1 align="center"> Featured Projects </h1>
+<h1 align="center"> Systems I Have Built </h1>
 
 <div align="center">
 
@@ -240,7 +240,7 @@ Beginner-friendly compiler for learning programming concepts.
 
 ---
 
-<h1 align="center"> ⚡ My Development Approach </h1>
+<h1 align="center"> My Development Approach </h1>
 
 <div align="center">
 
@@ -326,20 +326,21 @@ My contact links are provided below — feel free to reach out and connect.
 
 ---
 
-<h1 align="center"> Fun Facts </h1>
+<h1 align="center"> 🎯 Beyond the Code </h1>
 
 <div align="center">
 
-| | |
-|:---:|---|
-| 🧠 | **I talk to computers more than humans** — and they actually listen!! |
-| ⏱️ | **Automated a 5-minute task in 3 hours** and it was worth it. |
-| 🐞 | **Debugging is like being the detective** in a crime movie where you're also the murderer. |
-| 🎨 | **I design with love** — clean UIs make me happy. |
-| 💬 | **My favorite language?** Python. Not the snake. LOL |
+💻 I often find myself talking to computers more than people — and surprisingly, they respond better.
+
+⏱️ I once spent 3 hours automating a 5-minute task… and honestly, it was absolutely worth it.
+
+🕵️ Debugging feels like solving a mystery — except I’m both the detective and the one who caused it.
+
+🎨 I genuinely enjoy designing clean and intuitive interfaces — good UI just feels right.
+
+🐍 My favorite language is Python — and definitely not the snake.
 
 </div>
-
 ---
 
 <div align="center">
