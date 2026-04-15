@@ -209,7 +209,7 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 <!-- ══════════════════════════════════════════════════════════════════════ -->
 <!--              HIRE ME / LET'S BUILD SOMETHING                          -->
 <!-- ══════════════════════════════════════════════════════════════════════ -->
-
+<h1 align="center"> HIRE ME / LET'S BUILD SOMETHING </h1>
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=soft&color=0d1117&height=60&text=%F0%9F%92%BC+Hire+Me+%2F+Let%27s+Build+Something&fontSize=30&fontColor=29ABE2&animation=fadeIn&fontAlign=50&fontAlignY=55" width="100%"/>
