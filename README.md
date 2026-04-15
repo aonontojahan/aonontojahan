@@ -71,7 +71,6 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-
 <br/>
 
 ### Backend Development
@@ -81,7 +80,6 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white)
 ![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white)
-
 <br/>
 
 ### Tools & Platforms
@@ -92,7 +90,6 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
-
 <br/>
 
 ### Programming Languages (Academic)
@@ -116,6 +113,7 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+
 ![CI/CD](https://img.shields.io/badge/CI/CD-4285F4?style=for-the-badge&logo=gitlab&logoColor=white)
 ![Automation](https://img.shields.io/badge/Automation-4B32C3?style=for-the-badge&logo=ansible&logoColor=white)
 ![Machine Learning](https://img.shields.io/badge/Machine_Learning-102230?style=for-the-badge&logo=tensorflow&logoColor=white)
@@ -179,7 +177,6 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 **Description:** A Production-Ready Scientific Calculator Web App. I built a complete full-stack scientific calculator from scratch using modern technologies and real backend engineering principles.
 **Tech Stack:** `PostgreSQL` `Python`  `FastAPI` `React (Vite)` `TailwindCSS` 
 **Features:** User authentication, User Registration & Login, Copy result feature, Dark / Light mode, JWT-based protected routes, User-isolated history
-
 <br/>
 
 ###  [Event Management System](https://github.com/aonontojahan/Event-Management-System)
@@ -187,7 +184,6 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 **Description:** A complete event planning and management platform  
 **Tech Stack:** `Django` `PostgreSQL` `Bootstrap` `Python`  
 **Features:** User authentication, event creation, registration system, payment integration
-
 <br/>
 
 ###  [MSLAT](https://github.com/aonontojahan/Mini-System-Monitoring-Log-Analysis-Toolkit-MSLAT)
@@ -195,7 +191,6 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 **Description:** Mini System Monitoring & Log Analysis Toolkit  
 **Tech Stack:** `Python` `Psutil` `Logging` `Matplotlib`  
 **Features:** Real-time system monitoring, log parsing, alert system, data visualization
-
 <br/>
 
 ###  [Young Programmer Compiler](https://github.com/aonontojahan/Young-Programmer-Compiler)
