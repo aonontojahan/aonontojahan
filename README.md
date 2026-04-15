@@ -244,7 +244,8 @@ Beginner-friendly compiler for learning programming concepts.
 
 <div align="center">
 
-<img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="200"/>
+<img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="300"/>
+<img src="https://user-images.githubusercontent.com/74038190/212748842-9fcbad5b-6173-4175-8a61-521f3dbb7514.gif" width="300"/>
 <br/>
 📌 <b>Plan</b> → 🧩 <b>Design</b> → 💻 <b>Develop</b> → 🧪 <b>Test</b> → 🚀 <b>Deploy</b> → 🔁 <b>Iterate</b>
 <br/>
@@ -260,9 +261,6 @@ I follow an Agile development methodology that emphasizes iterative delivery, co
 <h1 align="center"> HIRE ME </h1>
 
 <div align="center">
-
-<img src="https://user-images.githubusercontent.com/74038190/212748842-9fcbad5b-6173-4175-8a61-521f3dbb7514.gif" width="200"/>
-<br/>
 
 If you are seeking a Full-Stack Developer or Software Engineer with a strong foundation in designing and building scalable, high-performance applications, writing clean and maintainable code, and developing well-structured systems with a focus on reliability and long-term sustainability, I would welcome the opportunity to connect.
 My contact links are provided below — feel free to reach out and connect.
