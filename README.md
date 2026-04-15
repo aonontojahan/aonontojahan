@@ -147,7 +147,7 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 </p>
 
 <p align="center">
-Full-stack scientific calculator with modern backend architecture and clean UI.
+Full-stack scientific calculator with modern and clean UI.
 </p>
 
 <p align="center">
