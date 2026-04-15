@@ -123,7 +123,7 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 
 ---
 
-<h1 align="center"> 🚀 Featured Projects </h1>
+<h1 align="center"> Featured Projects </h1>
 
 <div align="center">
 
@@ -132,7 +132,7 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 
 <td width="50%" valign="top">
 
-<h3 align="center">🔢 Smart Calculator</h3>
+<h3 align="center"> Smart Calculator</h3>
 
 <p align="center">
   <a href="https://github.com/aonontojahan/Smart-Calculator">
@@ -161,7 +161,7 @@ Full-stack scientific calculator with modern and clean UI.
 
 <td width="50%" valign="top">
 
-<h3 align="center">🎉 Event Management System</h3>
+<h3 align="center"> Event Management System</h3>
 
 <p align="center">
   <a href="https://github.com/aonontojahan/Event-Management-System">
@@ -193,7 +193,7 @@ Complete event platform with registration and payment features.
 
 <td width="50%" valign="top">
 
-<h3 align="center">📊 MSLAT</h3>
+<h3 align="center"> MSLAT</h3>
 
 <p align="center">
   <a href="https://github.com/aonontojahan/Mini-System-Monitoring-Log-Analysis-Toolkit-MSLAT">
@@ -221,7 +221,7 @@ System monitoring and log analysis toolkit.
 
 <td width="50%" valign="top">
 
-<h3 align="center">🧠 Young Programmer Compiler</h3>
+<h3 align="center"> Young Programmer Compiler</h3>
 
 <p align="center">
   <a href="https://github.com/aonontojahan/Young-Programmer-Compiler">
