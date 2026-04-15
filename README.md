@@ -206,8 +206,6 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 
 ---
 
----
-
 <!-- ══════════════════════════════════════════════════════════════════════ -->
 <!--              HIRE ME / LET'S BUILD SOMETHING                          -->
 <!-- ══════════════════════════════════════════════════════════════════════ -->
@@ -216,37 +214,22 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 
 <img src="https://capsule-render.vercel.app/api?type=soft&color=0d1117&height=60&text=%F0%9F%92%BC+Hire+Me+%2F+Let%27s+Build+Something&fontSize=30&fontColor=29ABE2&animation=fadeIn&fontAlign=50&fontAlignY=55" width="100%"/>
 
-<br/>
-
 <img src="https://user-images.githubusercontent.com/74038190/216644497-1951db19-8f3d-4e44-ac08-8e9d7e0d94a7.gif" width="300"/>
-
-<br/><br/>
 
 I'm open to **freelance work**, **full-time roles**, and **open-source collabs**.<br/>
 If you have a project that needs a developer who ships clean code and cares about the result — reach out.
 
-<br/>
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aonontojahan@gmail.com)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/8801723740704)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://aonontojahan.vercel.app/)
 
-<!-- Primary Contact -->
-[![Email](https://img.shields.io/badge/Email-aonontojahan%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:aonontojahan@gmail.com)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-01723740704-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/8801723740704)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit%20Website-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://aonontojahan.vercel.app/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aonontojahan)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/aonontojahan)
+[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/aonontojahan)
 
-<br/><br/>
-
-<!-- Professional -->
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-aonontojahan-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aonontojahan)
-[![GitHub](https://img.shields.io/badge/GitHub-@aonontojahan-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/aonontojahan)
-[![X](https://img.shields.io/badge/X-@aonontojahan-000000?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/aonontojahan)
-
-<br/><br/>
-
-<!-- Social / Creative -->
-[![Instagram](https://img.shields.io/badge/Instagram-@aonontojahan-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/aonontojahan/)
-[![Pinterest](https://img.shields.io/badge/Pinterest-@aonontojahan-BD081C?style=for-the-badge&logo=pinterest&logoColor=white)](https://www.pinterest.com/aonontojahan/)
-[![Linktree](https://img.shields.io/badge/All%20Links-Linktree-39E09B?style=for-the-badge&logo=linktree&logoColor=white)](https://linktr.ee/aonontojahan)
-
-<br/>
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/aonontojahan/)
+[![Pinterest](https://img.shields.io/badge/Pinterest-BD081C?style=for-the-badge&logo=pinterest&logoColor=white)](https://www.pinterest.com/aonontojahan/)
+[![Linktree](https://img.shields.io/badge/Linktree-39E09B?style=for-the-badge&logo=linktree&logoColor=white)](https://linktr.ee/aonontojahan)
 
 > ⭐ A star or a follow keeps me motivated to keep building and sharing open-source.
 
