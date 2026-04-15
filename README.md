@@ -120,11 +120,15 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 
 <h1 align="center"> Code Stack Universe </h1>
 
-<img src="https://skillicons.dev/icons?i=cpp,cs,python,java,js&theme=dark&perline=5" />
-<img src="https://skillicons.dev/icons?i=html,css,js,react,nextjs,tailwind&theme=dark&perline=6" />
-<img src="https://skillicons.dev/icons?i=python,fastapi,postgresql,sqlalchemy,pydantic&theme=dark&perline=6" />
-<img src="https://skillicons.dev/icons?i=git,github,githubactions,docker,linux,postman,vscode,vercel&theme=dark&perline=8" />
-<img src="https://skillicons.dev/icons?i=git,github,githubactions,vscode,postman,docker,vercel,figma,windows,ubuntulinux&theme=dark&perline=9" />
+<img src="https://skillicons.dev/icons?i=python,js,cpp,java&theme=dark&perline=4" />
+<img src="https://skillicons.dev/icons?i=html,css,react,nextjs,tailwind&theme=dark&perline=5" />
+<img src="https://skillicons.dev/icons?i=fastapi,postgresql,sqlalchemy&theme=dark&perline=6" />
+<p>
+  <img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Alembic-4B8BBE?style=for-the-badge&logo=python&logoColor=white"/>
+</p>
+<img src="https://skillicons.dev/icons?i=docker,githubactions,linux,ubuntu&theme=dark&perline=4" />
+<img src="https://skillicons.dev/icons?i=git,github,postman,vscode,vercel,figma&theme=dark&perline=6" />
 
 </div>
 
