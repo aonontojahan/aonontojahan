@@ -209,22 +209,6 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 
 ---
 
-<h1 align="center"> Fun Facts </h1>
-
-<div align="center">
-
-| | |
-|:---:|---|
-| 🧠 | **I talk to computers more than humans** — and they actually listen!! |
-| ⏱️ | **Automated a 5-minute task in 3 hours** and it was worth it. |
-| 🐞 | **Debugging is like being the detective** in a crime movie where you're also the murderer. |
-| 🎨 | **I design with love** — clean UIs make me happy. |
-| 💬 | **My favorite language?** Python. Not the snake. LOL |
-
-</div>
-
----
-
 <!-- ══════════════════════════════════════════════════════════════════════ -->
 <!--              HIRE ME / LET'S BUILD SOMETHING                          -->
 <!-- ══════════════════════════════════════════════════════════════════════ -->
@@ -248,8 +232,22 @@ If you are seeking a Full-Stack Developer or Software Engineer with a strong fou
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://aonontojahan.vercel.app/)
 [![Linktree](https://img.shields.io/badge/Linktree-39E09B?style=for-the-badge&logo=linktree&logoColor=white)](https://linktr.ee/aonontojahan)
 
+</div>
 
-⭐ A star or a follow keeps me motivated to keep building and sharing open-source.
+---
+
+
+<h1 align="center"> Fun Facts </h1>
+
+<div align="center">
+
+| | |
+|:---:|---|
+| 🧠 | **I talk to computers more than humans** — and they actually listen!! |
+| ⏱️ | **Automated a 5-minute task in 3 hours** and it was worth it. |
+| 🐞 | **Debugging is like being the detective** in a crime movie where you're also the murderer. |
+| 🎨 | **I design with love** — clean UIs make me happy. |
+| 💬 | **My favorite language?** Python. Not the snake. LOL |
 
 </div>
 
@@ -258,6 +256,7 @@ If you are seeking a Full-Stack Developer or Software Engineer with a strong fou
 <div align="center">
   <em>"The best code is simple, readable, and built to last."</em>
   <br/>
+  ⭐ A star or a follow keeps me motivated to keep building and sharing open-source.
   <br/>
   <img src="https://komarev.com/ghpvc/?username=AonontoJahan&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile views" />
   <br/>
