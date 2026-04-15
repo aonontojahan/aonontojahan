@@ -129,36 +129,87 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 
 ---
 
-<h1 align="center"> Featured Projects </h1>
+<h1 align="center"> 🚀 Featured Projects </h1>
 
 <div align="center">
 
-###  [Smart Calculator](https://github.com/aonontojahan/Smart-Calculator)
+<table>
+<tr>
 
-**Description:** A Production-Ready Scientific Calculator Web App. I built a complete full-stack scientific calculator from scratch using modern technologies and real backend engineering principles.
-**Tech Stack:** `PostgreSQL` `Python`  `FastAPI` `React (Vite)` `TailwindCSS` 
-**Features:** User authentication, User Registration & Login, Copy result feature, Dark / Light mode, JWT-based protected routes, User-isolated history
-<br/>
+<td width="50%" valign="top">
 
-###  [Event Management System](https://github.com/aonontojahan/Event-Management-System)
+### 🔢 Smart Calculator  
+🔗 <a href="https://github.com/aonontojahan/Smart-Calculator">View Repository</a>  
 
-**Description:** A complete event planning and management platform  
-**Tech Stack:** `Django` `PostgreSQL` `Bootstrap` `Python`  
-**Features:** User authentication, event creation, registration system, payment integration
-<br/>
+Full-stack scientific calculator built with modern backend architecture and clean UI.
 
-###  [MSLAT](https://github.com/aonontojahan/Mini-System-Monitoring-Log-Analysis-Toolkit-MSLAT)
+**Tech Stack:**  
+`FastAPI` · `React` · `PostgreSQL` · `TailwindCSS`  
 
-**Description:** Mini System Monitoring & Log Analysis Toolkit  
-**Tech Stack:** `Python` `Psutil` `Logging` `Matplotlib`  
-**Features:** Real-time system monitoring, log parsing, alert system, data visualization
-<br/>
+**Highlights:**  
+✔ Authentication & JWT  
+✔ User-specific history  
+✔ Dark / Light mode  
 
-###  [Young Programmer Compiler](https://github.com/aonontojahan/Young-Programmer-Compiler)
+</td>
 
-**Description:** Beginner-friendly compiler for learning programming concepts  
-**Tech Stack:** `Python` `AST` `Parsing` `Tokenization`  
-**Features:** Simple syntax, error handling, code execution, educational comments
+<td width="50%" valign="top">
+
+### 🎉 Event Management System  
+🔗 <a href="https://github.com/aonontojahan/Event-Management-System">View Repository</a>  
+
+A complete event planning platform with user interaction and payment integration.
+
+**Tech Stack:**  
+`Django` · `PostgreSQL` · `Bootstrap`  
+
+**Highlights:**  
+✔ Event creation & management  
+✔ User registration system  
+✔ Payment integration  
+
+</td>
+
+</tr>
+
+<tr>
+
+<td width="50%" valign="top">
+
+### 📊 MSLAT  
+🔗 <a href="https://github.com/aonontojahan/Mini-System-Monitoring-Log-Analysis-Toolkit-MSLAT">View Repository</a>  
+
+System monitoring and log analysis toolkit for real-time insights.
+
+**Tech Stack:**  
+`Python` · `Psutil` · `Matplotlib`  
+
+**Highlights:**  
+✔ Real-time monitoring  
+✔ Log parsing system  
+✔ Data visualization  
+
+</td>
+
+<td width="50%" valign="top">
+
+### 🧠 Young Programmer Compiler  
+🔗 <a href="https://github.com/aonontojahan/Young-Programmer-Compiler">View Repository</a>  
+
+A beginner-friendly compiler designed to teach core programming concepts.
+
+**Tech Stack:**  
+`Python` · `AST` · `Parsing`  
+
+**Highlights:**  
+✔ Custom syntax execution  
+✔ Error handling  
+✔ Educational feedback  
+
+</td>
+
+</tr>
+</table>
 
 </div>
 
