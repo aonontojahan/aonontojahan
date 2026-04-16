@@ -248,7 +248,7 @@ Beginner-friendly compiler for learning programming concepts.
 <br/>
 
 📌 <b>Plan</b> → 🧩 <b>Design</b> → 💻 <b>Develop</b> → 🧪 <b>Test</b> → 🚀 <b>Deploy</b> → 🔁 <b>Iterate</b>
-<br/>
+<br/><br/>
 I follow an Agile development methodology that emphasizes iterative delivery, continuous feedback, and ongoing improvement. My approach combines clean architecture and scalable system design with a strong focus on reliability, maintainability, and delivering production-ready solutions that can adapt to evolving requirements.
 
 </div>
@@ -263,6 +263,7 @@ I follow an Agile development methodology that emphasizes iterative delivery, co
 <div align="center">
 
 If you are seeking a Full-Stack Developer or Software Engineer with a strong foundation in designing and building scalable, high-performance applications, writing clean and maintainable code, and developing well-structured systems with a focus on reliability and long-term sustainability, I would welcome the opportunity to connect.
+<br/>
 My contact links are provided below — feel free to reach out and connect.
 <br/>
 
