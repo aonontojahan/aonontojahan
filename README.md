@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:4C71F2,100:F85D7F&text=Hi,%20I'm%20Aononto%20Jahan%20Junnurain&section=header&reversal=false&fontSize=40&textBg=false&fontColor=FFFFFF&animation=fadeIn&fontAlignY=30&desc=Aspiring%20Software%20Engineer%20|%20Python%20(FastAPI,%20Django)%20|%20PostgreSQL%20|%20Learning%20DevOps&descAlignY=50&descAlign=50&descSize=16"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:4C71F2,100:F85D7F&text=Hi,%20I'm%20Aononto%20Jahan%20Junnurain&section=header&reversal=false&fontSize=40&textBg=false&fontColor=FFFFFF&animation=fadeIn&fontAlignY=30&desc=Aspiring%20Software%20Engineer%20|%20Python%20(FastAPI,%20Django)%20|%20PostgreSQL%20|%20Learning%20DevOps&descAlignY=50&descAlign=50&descSize=14"/>
 </div>
 
 <p align="center">
@@ -346,6 +346,7 @@ I often find myself talking to computers more than people — and surprisingly, 
 <div align="center">
   <em>"The best code is simple, readable, and built to last."</em>
   <br/>
+  
   <img src="https://komarev.com/ghpvc/?username=AonontoJahan&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile views" />
   <img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=0:F85D7F,100:4C71F2&section=footer&text=©%202026%20aonontojahan.vercel.app%20%7C%20All%20Rights%20Reserved&fontSize=14&fontColor=FFFFFF&animation=fadeIn&fontAlignY=85"/>
 </div>
