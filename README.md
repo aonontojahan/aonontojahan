@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:4C71F2,100:F85D7F&text=Hi,%20I'm%20Aononto%20Jahan%20Junnurain&section=header&reversal=false&fontSize=40&textBg=false&fontColor=FFFFFF&animation=fadeIn&fontAlignY=35&desc=Aspiring%20Software%20Engineer%20|%20Python%20(FastAPI,%20Django)%20|%20PostgreSQL%20|%20Learning%20DevOps&descAlignY=55&descAlign=50&descSize=16"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:4C71F2,100:F85D7F&text=Hi,%20I'm%20Aononto%20Jahan%20Junnurain&section=header&reversal=false&fontSize=40&textBg=false&fontColor=FFFFFF&animation=fadeIn&fontAlignY=20&desc=Aspiring%20Software%20Engineer%20|%20Python%20(FastAPI,%20Django)%20|%20PostgreSQL%20|%20Learning%20DevOps&descAlignY=55&descAlign=50&descSize=16"/>
 </div>
 
 <p align="center">
@@ -273,7 +273,6 @@ My contact links are provided below — feel free to reach out and connect.
 [![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/aonontojahan)
 [![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/aonontojahan)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/8801723740704)
-[![Linktree](https://img.shields.io/badge/Linktree-39E09B?style=for-the-badge&logo=linktree&logoColor=white)](https://linktr.ee/aonontojahan)
 
 </div>
 
@@ -341,6 +340,7 @@ I once spent 3 hours automating a 5-minute of task… and honestly, it was absol
 I often find myself talking to computers more than people — and surprisingly, they respond much better.
 
 </div>
+
 ---
 
 <div align="center">
