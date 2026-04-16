@@ -314,7 +314,7 @@ My contact links are provided below — feel free to reach out and connect.
 
 ---
 
-<h1 align="center"> 🎯 Beyond the Code </h1>
+<h1 align="center"> Beyond the Code </h1>
 
 <div align="center">
 
