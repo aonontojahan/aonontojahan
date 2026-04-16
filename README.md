@@ -193,22 +193,6 @@ Beginner-friendly compiler for learning programming concepts.
 
 </td>
 
-<td width="33%" valign="top">
-
-<!-- Empty or new project -->
-<h3 align="center"> Project 5</h3>
-<p align="center">Coming soon...</p>
-
-</td>
-
-<td width="33%" valign="top">
-
-<!-- Empty or new project -->
-<h3 align="center"> Project 6</h3>
-<p align="center">Coming soon...</p>
-
-</td>
-
 </tr>
 
 </table>
