@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:4C71F2,100:F85D7F&text=Hi,%20I'm%20Aononto%20Jahan%20Junnurain&section=header&reversal=false&fontSize=40&textBg=false&fontColor=FFFFFF&animation=fadeIn&fontAlignY=35&desc=Aspiring%20Software%20Engineer%20|%20Python%20(FastAPI,%20Django)%20|%20PostgreSQL%20|%20Learning%20DevOps&descAlignY=55&descAlign=50&descSize=16"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:4C71F2,100:F85D7F&text=Hi,%20I'm%20Aononto%20Jahan%20Junnurain&section=header&reversal=false&fontSize=40&textBg=false&fontColor=FFFFFF&animation=fadeIn&fontAlignY=30&desc=Aspiring%20Software%20Engineer%20|%20Python%20(FastAPI,%20Django)%20|%20PostgreSQL%20|%20Learning%20DevOps&descAlignY=50&descAlign=50&descSize=16"/>
 </div>
 
 <p align="center">
@@ -12,11 +12,11 @@
     <a href="https://aonontojahan.vercel.app/">
     <img src="https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=vercel&logoColor=white"/>
   </a>
+    <a href="https://www.x.com/in/aonontojahan">
+    <img src="https://img.shields.io/badge/X-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/>
+  </a>
   <a href="https://www.instagram.com/aonontojahan">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white"/>
-  </a>
-  <a href="https://www.x.com/in/aonontojahan">
-    <img src="https://img.shields.io/badge/X-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/>
   </a>
   <a href="https://t.me/aonontojahan">
     <img src="https://img.shields.io/badge/Telegram-26A5E4?style=flat-square&logo=telegram&logoColor=white"/>
@@ -273,7 +273,6 @@ My contact links are provided below — feel free to reach out and connect.
 [![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/aonontojahan)
 [![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/aonontojahan)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/8801723740704)
-[![Linktree](https://img.shields.io/badge/Linktree-39E09B?style=for-the-badge&logo=linktree&logoColor=white)](https://linktr.ee/aonontojahan)
 
 </div>
 
@@ -341,13 +340,12 @@ I once spent 3 hours automating a 5-minute of task… and honestly, it was absol
 I often find myself talking to computers more than people — and surprisingly, they respond much better.
 
 </div>
+
 ---
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=AonontoJahan&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile views" />
-  <br/>
   <em>"The best code is simple, readable, and built to last."</em>
   <br/>
-  <em>⭐ A star or a follow keeps me motivated to keep building and sharing open-source.⭐</em>
+  <img src="https://komarev.com/ghpvc/?username=AonontoJahan&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile views" />
   <img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=0:F85D7F,100:4C71F2&section=footer&text=©%202026%20aonontojahan.vercel.app%20%7C%20All%20Rights%20Reserved&fontSize=14&fontColor=FFFFFF&animation=fadeIn&fontAlignY=85"/>
 </div>
