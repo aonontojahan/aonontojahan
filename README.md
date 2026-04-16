@@ -24,11 +24,11 @@
   <a href="https://wa.me/8801723740704">
     <img src="https://img.shields.io/badge/WhatsApp-25D366?style=flat-square&logo=whatsapp&logoColor=white"/>
   </a>
-  <a href="https://linktr.ee/aonontojahan">
-    <img src="https://img.shields.io/badge/Linktree-39E09B?style=flat-square&logo=linktree&logoColor=white"/>
-  </a>
   <a href="https://www.youtube.com/@aonontojahan">
     <img src="https://img.shields.io/badge/YouTube-FF0000?style=flat-square&logo=youtube&logoColor=white"/>
+  </a>
+  <a href="https://linktr.ee/aonontojahan">
+    <img src="https://img.shields.io/badge/Linktree-39E09B?style=flat-square&logo=linktree&logoColor=white"/>
   </a>
 </p>
 
@@ -94,18 +94,6 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 ![CI/CD](https://img.shields.io/badge/CI/CD-4285F4?style=for-the-badge&logo=gitlab&logoColor=white)
 ![Automation](https://img.shields.io/badge/Automation-4B32C3?style=for-the-badge&logo=ansible&logoColor=white)
 <br/>
-
----
-
-<h1 align="center"> Code Stack Universe </h1>
-
-<img src="https://skillicons.dev/icons?i=python,js,cpp,java&theme=dark&perline=4" />
-<img src="https://skillicons.dev/icons?i=html,css,react,nextjs,tailwind&theme=dark&perline=5" />
-<img src="https://skillicons.dev/icons?i=fastapi,postgresql&theme=dark&perline=6" />
-<img src="https://skillicons.dev/icons?i=docker,githubactions,linux,ubuntu&theme=dark&perline=4" />
-<img src="https://skillicons.dev/icons?i=git,github,postman,vscode,vercel,figma&theme=dark&perline=6" />
-
-</div>
 
 ---
 
