@@ -330,15 +330,15 @@ My contact links are provided below — feel free to reach out and connect.
 
 <div align="center">
 
-💻 I often find myself talking to computers more than people — and surprisingly, they respond better.
+My favorite language is Python — and definitely not the snake.
 
-⏱️ I once spent 3 hours automating a 5-minute task… and honestly, it was absolutely worth it.
+I genuinely enjoy designing clean, elegant and intuitive interfaces — good UI just feels right.
 
-🕵️ Debugging feels like solving a mystery — except I’m both the detective and the one who caused it.
+Debugging feels like solving a mystery — except I’m both the detective and the one who caused it.
 
-🎨 I genuinely enjoy designing clean and intuitive interfaces — good UI just feels right.
+I once spent 3 hours automating a 5-minute of task… and honestly, it was absolutely worth it for me.
 
-🐍 My favorite language is Python — and definitely not the snake.
+I often find myself talking to computers more than people — and surprisingly, they respond much better.
 
 </div>
 ---
