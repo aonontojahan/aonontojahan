@@ -71,93 +71,146 @@ I speak the language of Python fluently, but more importantly, I speak the langu
 <div align="center">
 
 <table>
+
+<!-- Row 1 -->
 <tr>
 
-<td width="25%" valign="top">
+<td width="33%" valign="top">
 
-<h4 align="center">Smart Calculator</h4>
+<h3 align="center"> Smart Calculator</h3>
 
 <p align="center">
 <a href="https://github.com/aonontojahan/Smart-Calculator">
-<img src="https://img.shields.io/badge/View-000000?style=flat-square&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/View%20Project-000000?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 </p>
 
 <p align="center">
-Full-stack calculator
+Full-stack scientific calculator with modern and clean UI.
 </p>
 
 <p align="center">
 <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square"/>
 <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square"/>
+<img src="https://img.shields.io/badge/PostgreSQL-336791?style=flat-square"/>
+<img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=flat-square"/>
+</p>
+
+<p align="center">
+✔ Authentication & JWT <br/>
+✔ User-specific history <br/>
+✔ Dark / Light mode
 </p>
 
 </td>
 
-<td width="25%" valign="top">
+<td width="33%" valign="top">
 
-<h4 align="center">Event System</h4>
+<h3 align="center"> Event Management System</h3>
 
 <p align="center">
 <a href="https://github.com/aonontojahan/Event-Management-System">
-<img src="https://img.shields.io/badge/View-000000?style=flat-square&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/View%20Project-000000?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 </p>
 
 <p align="center">
-Event platform
+Complete event platform with registration and payment features.
 </p>
 
 <p align="center">
 <img src="https://img.shields.io/badge/Django-092E20?style=flat-square"/>
 <img src="https://img.shields.io/badge/PostgreSQL-336791?style=flat-square"/>
+<img src="https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square"/>
+</p>
+
+<p align="center">
+✔ Event creation & management <br/>
+✔ User registration <br/>
+✔ Payment integration
 </p>
 
 </td>
 
-<td width="25%" valign="top">
+<td width="33%" valign="top">
 
-<h4 align="center">MSLAT</h4>
+<h3 align="center"> MSLAT</h3>
 
 <p align="center">
 <a href="https://github.com/aonontojahan/Mini-System-Monitoring-Log-Analysis-Toolkit-MSLAT">
-<img src="https://img.shields.io/badge/View-000000?style=flat-square&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/View%20Project-000000?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 </p>
 
 <p align="center">
-Monitoring toolkit
+System monitoring and log analysis toolkit.
 </p>
 
 <p align="center">
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square"/>
+<img src="https://img.shields.io/badge/Psutil-4B8BBE?style=flat-square"/>
 <img src="https://img.shields.io/badge/Matplotlib-11557C?style=flat-square"/>
 </p>
 
-</td>
-
-<td width="25%" valign="top">
-
-<h4 align="center">Compiler</h4>
-
 <p align="center">
-<a href="https://github.com/aonontojahan/Young-Programmer-Compiler">
-<img src="https://img.shields.io/badge/View-000000?style=flat-square&logo=github&logoColor=white"/>
-</a>
-</p>
-
-<p align="center">
-Learning compiler
-</p>
-
-<p align="center">
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square"/>
-<img src="https://img.shields.io/badge/AST-FF9900?style=flat-square"/>
+✔ Real-time monitoring <br/>
+✔ Log parsing <br/>
+✔ Data visualization
 </p>
 
 </td>
 
 </tr>
+
+<!-- Row 2 -->
+<tr>
+
+<td width="33%" valign="top">
+
+<h3 align="center"> Young Programmer Compiler</h3>
+
+<p align="center">
+<a href="https://github.com/aonontojahan/Young-Programmer-Compiler">
+<img src="https://img.shields.io/badge/View%20Project-000000?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+</p>
+
+<p align="center">
+Beginner-friendly compiler for learning programming concepts.
+</p>
+
+<p align="center">
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square"/>
+<img src="https://img.shields.io/badge/AST-FF9900?style=flat-square"/>
+<img src="https://img.shields.io/badge/Parsing-8A2BE2?style=flat-square"/>
+</p>
+
+<p align="center">
+✔ Custom syntax execution <br/>
+✔ Error handling <br/>
+✔ Educational feedback
+</p>
+
+</td>
+
+<td width="33%" valign="top">
+
+<!-- Empty or new project -->
+<h3 align="center"> Project 5</h3>
+<p align="center">Coming soon...</p>
+
+</td>
+
+<td width="33%" valign="top">
+
+<!-- Empty or new project -->
+<h3 align="center"> Project 6</h3>
+<p align="center">Coming soon...</p>
+
+</td>
+
+</tr>
+
 </table>
 
 </div>
