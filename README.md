@@ -274,12 +274,14 @@ My contact links are provided below — feel free to reach out and connect.
       alt="Top Languages" />
   </picture>
 
-<!-- BEGIN ACTIVITY-GRAPH -->
-<picture>
-  <source media="(max-width: 767px)" srcset="activity-graph-mobile.svg">
-  <img src="activity-graph.svg" alt="Activity Graph" width="100%">
-</picture>
-<!-- END ACTIVITY-GRAPH -->
+<!--Daily Activity Graph -->
+<p align="center">
+  <img
+    src="assets/contribution-graph.svg"
+    alt="Daily GitHub Commit Progress — last 30 days"
+    width="95%"
+  />
+</p>
 
 </div>
 
