@@ -278,8 +278,9 @@ My contact links are provided below — feel free to reach out and connect.
 <p align="center">
   <img
     src="assets/contribution-graph.svg"
-    alt="Daily GitHub Commit Progress — last 30 days"
+    alt="Daily GitHub Commit Progress"
     width="95%"
+    height="240"
   />
 </p>
 

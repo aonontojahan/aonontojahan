@@ -12,18 +12,28 @@ from xml.sax.saxutils import escape
 USERNAME = os.environ.get("GITHUB_USERNAME", "aonontojahan")
 TOKEN = os.environ.get("GITHUB_TOKEN")
 
-if not TOKEN:
-    raise RuntimeError("GITHUB_TOKEN is missing.")
-
-API_URL = "https://api.github.com/search/commits"
-OUTPUT = Path("assets/contribution-graph.svg")
 DAYS = 30
+OUTPUT = Path("assets/contribution-graph.svg")
+
+# SVG dimensions: compact chart, 2.5-inch target display height.
+WIDTH = 1100
+HEIGHT = 240
+
+LEFT = 65
+RIGHT = 25
+TOP = 38
+BOTTOM = 55
+
+PLOT_WIDTH = WIDTH - LEFT - RIGHT
+PLOT_HEIGHT = HEIGHT - TOP - BOTTOM
 
 
 def get_daily_commits(day):
-    """Count commits authored by the user on a specific date."""
+    """Retrieve the number of commits authored by the user on a date."""
     query = f"author:{USERNAME} author-date:{day.isoformat()}"
-    url = API_URL + "?" + urllib.parse.urlencode({"q": query, "per_page": 1})
+    url = "https://api.github.com/search/commits?" + urllib.parse.urlencode(
+        {"q": query, "per_page": 1}
+    )
 
     request = urllib.request.Request(
         url,
@@ -42,49 +52,58 @@ def get_daily_commits(day):
     except urllib.error.HTTPError as error:
         details = error.read().decode("utf-8", errors="replace")
         raise RuntimeError(
-            f"GitHub API error for {day}: HTTP {error.code}: {details}"
+            f"GitHub API returned HTTP {error.code} for {day}: {details}"
         ) from error
 
 
 def make_svg(labels, values):
-    width, height = 1100, 430
-    left, right, top, bottom = 70, 30, 45, 105
-    plot_width = width - left - right
-    plot_height = height - top - bottom
-
     maximum = max(values, default=0)
     y_max = max(5, ((maximum + 4) // 5) * 5)
 
     def x_position(index):
-        if len(values) == 1:
-            return left + plot_width / 2
-        return left + index * plot_width / (len(values) - 1)
+        if len(values) <= 1:
+            return LEFT + PLOT_WIDTH / 2
+        return LEFT + index * PLOT_WIDTH / (len(values) - 1)
 
     def y_position(value):
-        return top + plot_height - (value / y_max) * plot_height
+        return TOP + PLOT_HEIGHT - (value / y_max) * PLOT_HEIGHT
+
+    coordinates = [
+        (x_position(i), y_position(value))
+        for i, value in enumerate(values)
+    ]
+
+    path_data = " ".join(
+        ("M" if i == 0 else "L") + f" {x:.2f} {y:.2f}"
+        for i, (x, y) in enumerate(coordinates)
+    )
 
     parts = [
         f'<svg xmlns="http://www.w3.org/2000/svg" '
-        f'viewBox="0 0 {width} {height}" role="img" '
-        f'aria-labelledby="title desc">',
+        f'width="{WIDTH}" height="{HEIGHT}" '
+        f'viewBox="0 0 {WIDTH} {HEIGHT}" '
+        'role="img" aria-labelledby="title desc">',
         '<title id="title">Daily GitHub Commit Progress</title>',
-        '<desc id="desc">Daily commit counts for the last 30 days '
-        f'for {escape(USERNAME)}.</desc>',
-        '<rect width="100%" height="100%" fill="#FFFFFF"/>',
+        f'<desc id="desc">Daily commit counts for {escape(USERNAME)} '
+        f'over the last {DAYS} days.</desc>',
+
+        # Black background and compact typography.
+        '<rect width="100%" height="100%" fill="#000000"/>',
         '<style>',
-        'text{font-family:Arial,Helvetica,sans-serif;fill:#6B7280}',
-        '.grid{stroke:#D1D5DB;stroke-width:1}',
-        '.axis{stroke:#666666;stroke-width:2}',
-        '.line{fill:none;stroke:#48B7C2;stroke-width:4;'
+        'text{font-family:Arial,Helvetica,sans-serif;fill:#FFFFFF}',
+        '.grid{stroke:#303030;stroke-width:1}',
+        '.axis{stroke:#777777;stroke-width:1.5}',
+        '.commit-line{fill:none;stroke:#FFFFFF;stroke-width:3;'
         'stroke-linejoin:round;stroke-linecap:round}',
-        '.point{fill:#FFFFFF;stroke:#48B7C2;stroke-width:3}',
+        '.commit-point{fill:#000000;stroke:#FFFFFF;stroke-width:2}',
         '</style>',
-        '<text x="70" y="25" font-size="18" font-weight="600" '
-        'fill="#374151">Daily GitHub Commit Progress</text>',
+
+        '<text x="65" y="22" font-size="16" font-weight="600">'
+        'Daily GitHub Commit Progress</text>',
     ]
 
-    # Horizontal gridlines and Y-axis labels.
-    tick_step = max(1, y_max // 5)
+    # Horizontal gridlines and commit-count labels.
+    tick_step = max(1, y_max // 4)
     ticks = list(range(0, y_max + 1, tick_step))
     if ticks[-1] != y_max:
         ticks.append(y_max)
@@ -92,68 +111,96 @@ def make_svg(labels, values):
     for tick in ticks:
         y = y_position(tick)
         parts.append(
-            f'<line class="grid" x1="{left}" y1="{y:.2f}" '
-            f'x2="{width-right}" y2="{y:.2f}"/>'
+            f'<line class="grid" x1="{LEFT}" y1="{y:.2f}" '
+            f'x2="{WIDTH - RIGHT}" y2="{y:.2f}"/>'
         )
         parts.append(
-            f'<text x="{left-15}" y="{y+5:.2f}" '
-            f'text-anchor="end" font-size="13">{tick}</text>'
+            f'<text x="{LEFT - 12}" y="{y + 4:.2f}" '
+            f'text-anchor="end" font-size="11">{tick}</text>'
         )
 
-    # Vertical gridlines and date labels, shown every other day.
+    # Vertical gridlines and readable date labels.
     for index, label in enumerate(labels):
-        if index % 2 == 0 or index == len(labels) - 1:
+        if index % 3 == 0 or index == len(labels) - 1:
             x = x_position(index)
             parts.append(
-                f'<line class="grid" x1="{x:.2f}" y1="{top}" '
-                f'x2="{x:.2f}" y2="{top+plot_height}"/>'
+                f'<line class="grid" x1="{x:.2f}" y1="{TOP}" '
+                f'x2="{x:.2f}" y2="{TOP + PLOT_HEIGHT}"/>'
             )
             parts.append(
-                f'<text x="{x:.2f}" y="{top+plot_height+18}" '
-                f'text-anchor="end" font-size="11" '
-                f'transform="rotate(-45 {x:.2f} '
-                f'{top+plot_height+18})">{escape(label)}</text>'
+                f'<text x="{x:.2f}" y="{TOP + PLOT_HEIGHT + 18}" '
+                f'text-anchor="middle" font-size="10">'
+                f'{escape(label)}</text>'
             )
 
     # Axes.
     parts.extend([
-        f'<line class="axis" x1="{left}" y1="{top}" '
-        f'x2="{left}" y2="{top+plot_height}"/>',
-        f'<line class="axis" x1="{left}" y1="{top+plot_height}" '
-        f'x2="{width-right}" y2="{top+plot_height}"/>',
-        f'<text x="{left + plot_width/2}" y="{height-10}" '
-        f'text-anchor="middle" font-size="14">Day</text>',
-        f'<text x="18" y="{top + plot_height/2}" '
-        f'text-anchor="middle" font-size="14" '
-        f'transform="rotate(-90 18 {top + plot_height/2})">'
+        f'<line class="axis" x1="{LEFT}" y1="{TOP}" '
+        f'x2="{LEFT}" y2="{TOP + PLOT_HEIGHT}"/>',
+        f'<line class="axis" x1="{LEFT}" y1="{TOP + PLOT_HEIGHT}" '
+        f'x2="{WIDTH - RIGHT}" y2="{TOP + PLOT_HEIGHT}"/>',
+        f'<text x="15" y="{TOP + PLOT_HEIGHT / 2}" '
+        f'text-anchor="middle" font-size="11" '
+        f'transform="rotate(-90 15 {TOP + PLOT_HEIGHT / 2})">'
         'Commits</text>',
     ])
 
-    # Line and circular points.
-    coordinates = [
-        (x_position(i), y_position(value))
-        for i, value in enumerate(values)
-    ]
-    point_string = " ".join(
-        f"{x:.2f},{y:.2f}" for x, y in coordinates
+    # Actual daily commit line.
+    parts.append(
+        f'<polyline id="commit-path" class="commit-line" '
+        f'points="{" ".join(f"{x:.2f},{y:.2f}" for x, y in coordinates)}"/>'
     )
-    parts.append(f'<polyline class="line" points="{point_string}"/>')
 
+    # Static points for every day.
     for index, (x, y) in enumerate(coordinates):
-        value = values[index]
         parts.append(
-            f'<circle class="point" cx="{x:.2f}" cy="{y:.2f}" r="5">'
-            f'<title>{escape(labels[index])}: {value} commits</title>'
-            '</circle>'
+            f'<circle class="commit-point" cx="{x:.2f}" cy="{y:.2f}" '
+            f'r="3"><title>{escape(labels[index])}: '
+            f'{values[index]} commits</title></circle>'
         )
+
+    # Animated snake following the plotted commit line.
+    # Animation support depends on the SVG viewer; GitHub README
+    # images may not play this animation.
+    if coordinates:
+        animation_path = escape(path_data, {'"': '&quot;'})
+
+        # Body segments follow the same path with staggered start offsets.
+        for index, offset in enumerate((0, 0.18, 0.36, 0.54, 0.72)):
+            radius = 5.5 - index * 0.5
+            parts.append(
+                f'<circle r="{radius:.1f}" fill="#FFFFFF" '
+                'stroke="#000000" stroke-width="1.5">'
+                f'<animateMotion dur="8s" repeatCount="indefinite" '
+                f'begin="-{offset}s" path="{animation_path}"/>'
+                '</circle>'
+            )
+
+        # Snake head, with black eyes, follows the same line.
+        parts.extend([
+            '<g>',
+            '<circle r="7" fill="#FFFFFF" stroke="#000000" '
+            'stroke-width="1.5"/>',
+            '<circle cx="-2.5" cy="-2" r="1.2" fill="#000000"/>',
+            '<circle cx="2.5" cy="-2" r="1.2" fill="#000000"/>',
+            f'<animateMotion dur="8s" repeatCount="indefinite" '
+            f'path="{animation_path}"/>',
+            '</g>',
+        ])
 
     parts.append("</svg>")
     return "\n".join(parts)
 
 
 def main():
+    if not TOKEN:
+        raise RuntimeError("GITHUB_TOKEN is missing.")
+
     today = date.today()
-    dates = [today - timedelta(days=i) for i in range(DAYS - 1, -1, -1)]
+    dates = [
+        today - timedelta(days=i)
+        for i in range(DAYS - 1, -1, -1)
+    ]
 
     labels = [day.strftime("%b %d") for day in dates]
     values = []
@@ -165,7 +212,7 @@ def main():
 
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT.write_text(make_svg(labels, values), encoding="utf-8")
-    print(f"Graph saved to {OUTPUT}")
+    print(f"Generated graph: {OUTPUT}")
 
 
 if __name__ == "__main__":
