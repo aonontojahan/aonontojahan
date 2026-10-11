@@ -274,11 +274,16 @@ My contact links are provided below — feel free to reach out and connect.
       alt="Top Languages" />
   </picture>
 
-  <!-- GitHub Contribution Graph -->
-  <br/><br/>
-  <p>
+<!-- GitHub Contribution Graph -->
+<br/><br/>
+  <h2 align="center">📈 Contribution Graph</h2>
+  <p align="center">
     <a href="https://github.com/aonontojahan">
-      <img src="https://github-readme-activity-graph.vercel.app/graph?username=aonontojahan&theme=react-dark&bg_color=1F222E&hide_border=true&area=true" width="95%" alt="GitHub Contribution Graph" />
+      <img
+        src="https://github-readme-activity-graph.vercel.app/graph?username=aonontojahan&bg_color=1F222E&color=F8D866&line=F85D7F&point=FFFFFF&area=true&hide_border=true"
+        width="95%"
+        alt="GitHub Contribution Graph"
+      />
     </a>
   </p>
 
