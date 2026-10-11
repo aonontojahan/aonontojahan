@@ -253,7 +253,6 @@ My contact links are provided below — feel free to reach out and connect.
   </p>
   
   <!-- GitHub Stats and Top Languages with Theme Support -->
-  <br/>
   <picture>
     <source 
       srcset="https://github-readme-stats-gamma-lilac.vercel.app/api?username=AonontoJahan&show_icons=true&theme=react&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866" 
