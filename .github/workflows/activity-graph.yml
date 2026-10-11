@@ -12,6 +12,12 @@ on:
 permissions:
   contents: write
 
+# One run at a time per branch: a scheduled run never collides
+# with a push-triggered run halfway through the SVG commit.
+concurrency:
+  group: contribution-graph-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   generate-graph:
     runs-on: ubuntu-latest
@@ -27,19 +33,49 @@ jobs:
         with:
           python-version: "3.x"
 
+      - name: Check API token
+        run: |
+          if [ -z "${PROFILE_TOKEN}" ]; then
+            echo "::warning::PROFILE_TOKEN secret is not set. Falling back to GITHUB_TOKEN (public contributions only). To include private contributions, add a classic PAT with 'read:user' + 'repo' scopes as PROFILE_TOKEN under repo Settings > Secrets and variables > Actions."
+          else
+            echo "PROFILE_TOKEN is set. Account-wide contributions (including private ones, if enabled on the profile) will be used."
+          fi
+        env:
+          PROFILE_TOKEN: ${{ secrets.PROFILE_TOKEN }}
+
       - name: Generate account-wide contribution graph
         env:
           PROFILE_TOKEN: ${{ secrets.PROFILE_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/generate_graph.py
 
       - name: Commit updated SVG
         run: |
-          if ! git diff --quiet -- assets/contribution-graph.svg; then
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add assets/contribution-graph.svg
-            git commit -m "Update contribution graph"
-            git push
-          else
+          # Sync first so the push below never fails on a moved remote.
+          # --autostash shelves our regenerated SVG across the rebase.
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git pull --rebase --autostash origin main || {
+            echo "Could not sync with remote. Aborting so no broken file gets committed."
+            git rebase --abort || true
+            exit 1
+          }
+          # Never commit merge-conflict markers (that once broke the
+          # profile image). git diff --check flags leftover markers.
+          if ! git diff --check -- assets/contribution-graph.svg; then
+            echo "Conflict markers detected in the generated SVG. Aborting instead of committing a broken file."
+            exit 1
+          fi
+          if git diff --quiet -- assets/contribution-graph.svg; then
             echo "Contribution graph has not changed."
+          else
+            git add assets/contribution-graph.svg
+            git commit -m "Update contribution graph" || {
+              echo "Nothing to commit."
+              exit 0
+            }
+            git push || {
+              echo "Push failed (remote moved again or no permission). Re-run the workflow."
+              exit 1
+            }
           fi
