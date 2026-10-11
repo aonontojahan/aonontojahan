@@ -38,15 +38,13 @@ SNAKE_GREEN = "#39D353"
 SNAKE_BORDER = "#167D2D"
 TONGUE_COLOR = "#FF4D6D"
 
-# Snake animation settings
 ANIMATION_DURATION = 8.0
 SEGMENT_COUNT = 15
 SEGMENT_DELAY = 0.075
-
-# Start the snake in the right half of the graph.
-# The head will be ahead of its body.
-HEAD_START_PROGRESS = 0.72
 HEAD_RADIUS = 9
+
+# Initial animation phase. The head starts ahead of its body.
+HEAD_START_PROGRESS = 0.72
 
 
 # =========================================================
@@ -156,7 +154,7 @@ def svg_circle(
 
 
 def make_path(points):
-    """Create a smooth path ordered from left to right."""
+    """Create a smooth SVG path ordered from left to right."""
 
     if not points:
         return ""
@@ -194,34 +192,25 @@ def make_path(points):
 
 def add_snake(parts, graph_path):
     """
-    Draw an animated snake moving left to right.
+    Animate the snake along the graph.
 
-    The head starts farther along the path.
-    Each body segment starts behind the head.
-    Positive phase differences make the body trail behind.
+    The head has the greatest progress along the path.
+    Body segments have progressively smaller progress,
+    leaving the body behind the head on the left.
     """
 
-    # Keep the starting point away from the far-left edge.
     head_phase = ANIMATION_DURATION * HEAD_START_PROGRESS
 
-    # -----------------------------------------------------
-    # BODY AND TAIL
-    # -----------------------------------------------------
-
-    # Draw tail segments first and the segments nearest
-    # the head last, so the head stays visually in front.
+    # Body segments: draw tail first, then segments closer
+    # to the head. The head itself is drawn last.
     for i in reversed(range(SEGMENT_COUNT)):
         delay = (SEGMENT_COUNT - i) * SEGMENT_DELAY
-
-        # Head progresses farther along the path than the body.
         segment_phase = max(0.0, head_phase - delay)
 
-        # Negative begin initializes the animation at the
-        # intended phase immediately, rather than waiting.
+        # Negative begin offsets initialize each segment
+        # at its own position in the repeating animation.
         begin_offset = -segment_phase
 
-        # Tail segments are smaller. Segments near the head
-        # gradually increase in size.
         radius = 2.7 + (SEGMENT_COUNT - i) * 0.34
 
         parts.append(
@@ -234,40 +223,32 @@ def add_snake(parts, graph_path):
             f'repeatCount="indefinite" '
             f'begin="{begin_offset:.3f}s" '
             f'rotate="auto" '
-            f'path="{escape(graph_path, quote=True)}"/>'
+            f'path="{graph_path}"/>'
             f'</circle>'
         )
 
-    # -----------------------------------------------------
-    # HEAD — MUST LEAD ON THE RIGHT
-    # -----------------------------------------------------
-
-    # The head is ahead of every body segment.
-    head_begin = -head_phase
-
+    # Head: starts farther along the path than all body segments.
     parts.append(
         f'<g>'
         f'<animateMotion '
         f'dur="{ANIMATION_DURATION}s" '
         f'repeatCount="indefinite" '
-        f'begin="{head_begin:.3f}s" '
+        f'begin="{-head_phase:.3f}s" '
         f'rotate="auto" '
-        f'path="{escape(graph_path, quote=True)}"/>'
+        f'path="{graph_path}"/>'
 
-        # Head.
-        f'<circle cx="0" cy="0" '
-        f'r="{HEAD_RADIUS}" '
+        # Head shape.
+        f'<circle cx="0" cy="0" r="{HEAD_RADIUS}" '
         f'fill="{SNAKE_GREEN}" '
         f'stroke="{SNAKE_BORDER}" '
         f'stroke-width="2"/>'
 
-        # Left eye.
+        # Eyes.
         f'<ellipse cx="2.5" cy="-3.0" '
         f'rx="2.5" ry="3.0" fill="#FFFFFF"/>'
         f'<ellipse cx="3.0" cy="-2.8" '
         f'rx="1.1" ry="1.6" fill="#17202A"/>'
 
-        # Right eye.
         f'<ellipse cx="6.8" cy="-2.3" '
         f'rx="2.3" ry="2.8" fill="#FFFFFF"/>'
         f'<ellipse cx="7.3" cy="-2.2" '
@@ -278,12 +259,11 @@ def add_snake(parts, graph_path):
         f'fill="none" stroke="#14532D" '
         f'stroke-width="1.2" stroke-linecap="round"/>'
 
-        # Tongue points forward to the right.
+        # Tongue points toward the right.
         f'<path d="M 8,4 L 14,4 L 17,2 '
         f'M 14,4 L 17,6" '
         f'fill="none" stroke="{TONGUE_COLOR}" '
-        f'stroke-width="1.8" '
-        f'stroke-linecap="round" '
+        f'stroke-width="1.8" stroke-linecap="round" '
         f'stroke-linejoin="round"/>'
 
         f'</g>'
@@ -291,14 +271,11 @@ def add_snake(parts, graph_path):
 
 
 # =========================================================
-# GENERATE CONTRIBUTION GRAPH
+# GENERATE GRAPH
 # =========================================================
 
 def generate_graph(dates, counts):
-    OUTPUT_FILE.parent.mkdir(
-        parents=True,
-        exist_ok=True,
-    )
+    OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
 
     plot_width = WIDTH - MARGIN_LEFT - MARGIN_RIGHT
     plot_height = HEIGHT - MARGIN_TOP - MARGIN_BOTTOM
@@ -330,14 +307,13 @@ def generate_graph(dates, counts):
     graph_path = make_path(points)
     parts = []
 
-    # SVG header.
+    # SVG document and background.
     parts.append(
         f'<svg xmlns="http://www.w3.org/2000/svg" '
         f'width="{WIDTH}" height="{HEIGHT}" '
         f'viewBox="0 0 {WIDTH} {HEIGHT}">'
     )
 
-    # Background.
     parts.append(
         f'<rect width="{WIDTH}" height="{HEIGHT}" '
         f'fill="{BACKGROUND}"/>'
@@ -356,7 +332,7 @@ def generate_graph(dates, counts):
         )
     )
 
-    # Horizontal grid and Y-axis values.
+    # Horizontal grid and Y-axis labels.
     tick_step = max(1, y_max // 5)
     ticks = list(range(0, y_max + 1, tick_step))
 
@@ -367,12 +343,9 @@ def generate_graph(dates, counts):
         y = y_position(tick)
 
         parts.append(
-            f'<line x1="{MARGIN_LEFT}" '
-            f'y1="{y:.2f}" '
-            f'x2="{WIDTH - MARGIN_RIGHT}" '
-            f'y2="{y:.2f}" '
-            f'stroke="{GRID_COLOR}" '
-            f'stroke-width="1"/>'
+            f'<line x1="{MARGIN_LEFT}" y1="{y:.2f}" '
+            f'x2="{WIDTH - MARGIN_RIGHT}" y2="{y:.2f}" '
+            f'stroke="{GRID_COLOR}" stroke-width="1"/>'
         )
 
         parts.append(
@@ -388,19 +361,20 @@ def generate_graph(dates, counts):
 
     # Vertical grid and date labels.
     label_indices = sorted(
-        set([0, len(dates) - 1] + list(range(0, len(dates), 3)))
+        set(
+            [0, len(dates) - 1]
+            + list(range(0, len(dates), 3))
+        )
     )
 
     for i in label_indices:
         x = x_position(i)
 
         parts.append(
-            f'<line x1="{x:.2f}" '
-            f'y1="{MARGIN_TOP}" '
+            f'<line x1="{x:.2f}" y1="{MARGIN_TOP}" '
             f'x2="{x:.2f}" '
             f'y2="{HEIGHT - MARGIN_BOTTOM}" '
-            f'stroke="{GRID_COLOR}" '
-            f'stroke-width="1"/>'
+            f'stroke="{GRID_COLOR}" stroke-width="1"/>'
         )
 
         parts.append(
@@ -413,7 +387,7 @@ def generate_graph(dates, counts):
             )
         )
 
-    # Y-axis title.
+    # Y-axis label.
     parts.append(
         f'<text x="18" y="{HEIGHT / 2:.2f}" '
         f'transform="rotate(-90 18 {HEIGHT / 2:.2f})" '
@@ -425,11 +399,9 @@ def generate_graph(dates, counts):
     # Contribution line.
     if graph_path:
         parts.append(
-            f'<path d="{graph_path}" '
-            f'fill="none" stroke="{LINE_COLOR}" '
-            f'stroke-width="2.2" '
-            f'stroke-linejoin="round" '
-            f'stroke-linecap="round"/>'
+            f'<path d="{graph_path}" fill="none" '
+            f'stroke="{LINE_COLOR}" stroke-width="2.2" '
+            f'stroke-linejoin="round" stroke-linecap="round"/>'
         )
 
     # Yellow commit markers.
@@ -445,11 +417,10 @@ def generate_graph(dates, counts):
             )
         )
 
-    # Add the snake over the line and markers.
+    # Snake follows the same contribution path.
     if graph_path:
         add_snake(parts, graph_path)
 
-    # Close SVG.
     parts.append("</svg>")
 
     OUTPUT_FILE.write_text(
@@ -459,7 +430,10 @@ def generate_graph(dates, counts):
 
     print(f"Generated: {OUTPUT_FILE}")
     print(f"Days: {len(dates)}")
-    print(f"Commits counted from public events: {sum(counts)}")
+    print(
+        "Commits counted from public events: "
+        f"{sum(counts)}"
+    )
 
 
 # =========================================================
