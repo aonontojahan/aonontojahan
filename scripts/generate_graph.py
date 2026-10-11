@@ -21,7 +21,7 @@ LEFT, RIGHT, TOP, BOTTOM = 65, 25, 38, 55
 PLOT_WIDTH = WIDTH - LEFT - RIGHT
 PLOT_HEIGHT = HEIGHT - TOP - BOTTOM
 
-# Tokyo Night colors
+# Tokyo Night-inspired colors
 BG = "#1F222E"
 GRID = "#343849"
 WHITE = "#FFFFFF"
@@ -33,7 +33,7 @@ TONGUE = "#FF4D6D"
 
 
 def get_daily_commits(day):
-    """Get the daily commit count from GitHub's commit-search API."""
+    """Get daily commit counts from GitHub's commit-search API."""
     query = f"author:{USERNAME} author-date:{day.isoformat()}"
     url = "https://api.github.com/search/commits?" + urllib.parse.urlencode(
         {"q": query, "per_page": 1}
@@ -110,7 +110,7 @@ def make_svg(labels, values):
         'Daily GitHub Commit Progress</text>',
     ]
 
-    # Y-axis
+    # Y-axis grid and labels
     step = max(1, y_max // 4)
     ticks = list(range(0, y_max + 1, step))
     if ticks[-1] != y_max:
@@ -127,7 +127,7 @@ def make_svg(labels, values):
             f'text-anchor="end" font-size="11">{tick}</text>'
         )
 
-    # X-axis
+    # X-axis dates
     for i, label in enumerate(labels):
         if i % 3 == 0 or i == len(labels) - 1:
             x = x_pos(i)
@@ -161,7 +161,7 @@ def make_svg(labels, values):
         f'points="{point_string}"/>'
     )
 
-    # Commit points
+    # Daily data points
     for i, (x, y) in enumerate(coordinates):
         parts.append(
             f'<circle class="commit-point" cx="{x:.2f}" '
@@ -170,31 +170,31 @@ def make_svg(labels, values):
             '</circle>'
         )
 
-    # Animated snake.
-    # The body uses the same path and duration as the head.
-    # Positive begin offsets make body segments start after the head.
+    # Moving snake: head leads, body trails behind.
+    # All parts share one path and duration.
+    # Negative begin offsets put body segments behind the head.
     if len(coordinates) >= 2:
-        segment_count = 12
         duration = 8
+        segment_count = 12
+        spacing = 0.075
 
         for i in range(segment_count, 0, -1):
-            delay = i * 0.075
-            radius_x = max(3.5, 7.0 - i * 0.28)
-            radius_y = max(3.0, 5.5 - i * 0.20)
+            delay = i * spacing
+            radius = max(3.0, 6.5 - i * 0.25)
 
             parts.append(
-                f'<ellipse cx="0" cy="0" '
-                f'rx="{radius_x:.2f}" ry="{radius_y:.2f}" '
+                f'<circle cx="0" cy="0" r="{radius:.2f}" '
                 f'fill="{GREEN}" stroke="{GREEN_DARK}" '
                 'stroke-width="1.2">'
                 f'<animateMotion dur="{duration}s" '
                 'repeatCount="indefinite" '
-                f'begin="{delay:.3f}s" rotate="auto" '
+                f'begin="-{delay:.3f}s" rotate="auto" '
                 f'path="{safe_path}"/>'
-                '</ellipse>'
+                '</circle>'
             )
 
-        # Head: begins immediately and leads the body.
+        # Head follows the path at the leading position.
+        # Its eyes and tongue face the direction of travel.
         parts.extend([
             '<g>',
             f'<ellipse cx="0" cy="0" rx="10" ry="8" '
@@ -208,11 +208,8 @@ def make_svg(labels, values):
             '<circle cx="-3" cy="-2.5" r="1.3" fill="#111111"/>',
             '<circle cx="4.5" cy="-2.5" r="1.3" fill="#111111"/>',
 
-            # Nostril
-            '<circle cx="7" cy="1" r="0.8" fill="#145523"/>',
-
             # Forked tongue
-            f'<path d="M 1,6 L 1,11 L -2,14 M 1,11 L 4,14" '
+            f'<path d="M 7,3 L 13,3 L 17,0 M 13,3 L 17,6" '
             f'fill="none" stroke="{TONGUE}" stroke-width="1.8" '
             'stroke-linecap="round" stroke-linejoin="round"/>',
 
