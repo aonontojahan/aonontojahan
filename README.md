@@ -273,10 +273,11 @@ My contact links are provided below — feel free to reach out and connect.
       alt="Top Languages" />
   </picture>
 
-<!--Daily Activity Graph -->
+<!-- Daily Activity Graph -->
+
 <p align="center">
   <img
-    src="assets/contribution-graph.svg"
+    src="assets/contribution-graph.svg?v=2"
     alt="Daily GitHub Commit Progress"
     width="95%"
     height="240"
