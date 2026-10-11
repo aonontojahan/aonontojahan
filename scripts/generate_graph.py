@@ -1,31 +1,27 @@
 
 #!/usr/bin/env python3
 
-from datetime import datetime, timedelta, timezone
 from collections import Counter
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
-from urllib.request import Request, urlopen
-from urllib.error import HTTPError, URLError
-from xml.sax.saxutils import escape
-import json
-import os
+import subprocess
+import xml.sax.saxutils as saxutils
+
 
 # =========================================================
 # CONFIGURATION
 # =========================================================
 
-USERNAME = "aonontojahan"
 DAYS = 30
-
 OUTPUT_FILE = Path("assets/contribution-graph.svg")
 
 WIDTH = 1000
 HEIGHT = 300
 
-MARGIN_LEFT = 65
-MARGIN_RIGHT = 30
-MARGIN_TOP = 55
-MARGIN_BOTTOM = 45
+LEFT = 65
+RIGHT = 30
+TOP = 55
+BOTTOM = 45
 
 BACKGROUND = "#1F222E"
 TITLE_COLOR = "#F85D7F"
@@ -39,127 +35,113 @@ SNAKE_BORDER = "#167D2D"
 TONGUE_COLOR = "#FF4D6D"
 
 ANIMATION_DURATION = 8.0
-SEGMENT_COUNT = 15
-SEGMENT_DELAY = 0.075
-HEAD_RADIUS = 9
+SEGMENT_COUNT = 22
+SEGMENT_DELAY = 0.055
 
-# Initial animation phase. The head starts ahead of its body.
+# Head starts around the right side of the graph.
 HEAD_START_PROGRESS = 0.72
 
 
 # =========================================================
-# FETCH DAILY PUBLIC COMMIT COUNTS
+# READ REAL COMMITS FROM GIT
 # =========================================================
 
-def fetch_daily_commits(username, days):
-    today = datetime.now(timezone.utc).date()
+def get_daily_commits():
+    """
+    Count commits in this repository by commit date.
 
+    Run this script from the repository root.
+    Includes commits present in the checked-out Git history.
+    """
+
+    today = datetime.now(timezone.utc).date()
     dates = [
         today - timedelta(days=i)
-        for i in range(days - 1, -1, -1)
+        for i in range(DAYS - 1, -1, -1)
     ]
 
-    daily_counts = Counter()
+    counts = Counter()
 
-    url = (
-        f"https://api.github.com/users/"
-        f"{username}/events?per_page=100"
-    )
-
-    headers = {
-        "Accept": "application/vnd.github+json",
-        "User-Agent": f"{username}-contribution-graph",
-    }
-
-    token = os.getenv("GITHUB_TOKEN")
-    if token:
-        headers["Authorization"] = f"Bearer {token}"
-
-    request = Request(url, headers=headers)
+    since_date = dates[0].isoformat()
 
     try:
-        with urlopen(request, timeout=20) as response:
-            events = json.loads(
-                response.read().decode("utf-8")
-            )
+        result = subprocess.run(
+            [
+                "git",
+                "log",
+                "--all",
+                "--since",
+                f"{since_date} 00:00:00",
+                "--date=short",
+                "--format=%ad",
+            ],
+            capture_output=True,
+            text=True,
+            check=True,
+            timeout=30,
+        )
 
-        valid_dates = set(dates)
+        for line in result.stdout.splitlines():
+            line = line.strip()
 
-        for event in events:
-            created_at = event.get("created_at")
-            if not created_at:
+            if not line:
                 continue
 
-            event_date = datetime.fromisoformat(
-                created_at.replace("Z", "+00:00")
-            ).date()
-
-            if event_date not in valid_dates:
+            try:
+                commit_date = date.fromisoformat(line)
+            except ValueError:
                 continue
 
-            if event.get("type") == "PushEvent":
-                commits = event.get(
-                    "payload", {}
-                ).get("commits", [])
+            if dates[0] <= commit_date <= dates[-1]:
+                counts[commit_date] += 1
 
-                daily_counts[event_date] += len(commits)
+    except FileNotFoundError:
+        raise RuntimeError(
+            "Git was not found. Install Git and run this script "
+            "from inside your repository."
+        )
+    except subprocess.CalledProcessError as exc:
+        raise RuntimeError(
+            f"Could not read Git history: {exc.stderr}"
+        ) from exc
 
-    except (
-        HTTPError,
-        URLError,
-        TimeoutError,
-        ValueError,
-        KeyError,
-    ) as exc:
-        print(f"Warning: Could not fetch GitHub events: {exc}")
+    daily_counts = [counts[d] for d in dates]
 
-    return dates, [daily_counts[day] for day in dates]
+    print(f"Repository: {Path.cwd()}")
+    print(f"Date range: {dates[0]} to {dates[-1]}")
+    print(f"Commits counted: {sum(daily_counts)}")
+
+    if not sum(daily_counts):
+        print(
+            "Warning: No commits found in this repository "
+            "for this date range. Check git log and the dates."
+        )
+
+    return dates, daily_counts
 
 
 # =========================================================
 # SVG HELPERS
 # =========================================================
 
-def svg_text(
-    x,
-    y,
-    text,
-    size=10,
-    color=TEXT_COLOR,
-    anchor="middle",
-    weight="normal",
+def text_element(
+    x, y, value, size=10, color=TEXT_COLOR,
+    anchor="middle", weight="normal"
 ):
+    value = saxutils.escape(str(value))
     return (
         f'<text x="{x:.2f}" y="{y:.2f}" '
         f'font-family="Arial, Helvetica, sans-serif" '
         f'font-size="{size}" font-weight="{weight}" '
         f'fill="{color}" text-anchor="{anchor}">'
-        f'{escape(str(text))}</text>'
+        f'{value}</text>'
     )
 
 
-def svg_circle(
-    x,
-    y,
-    radius,
-    fill,
-    stroke="none",
-    stroke_width=1,
-):
-    return (
-        f'<circle cx="{x:.2f}" cy="{y:.2f}" '
-        f'r="{radius:.2f}" fill="{fill}" '
-        f'stroke="{stroke}" stroke-width="{stroke_width}"/>'
-    )
-
-
-def make_path(points):
-    """Create a smooth SVG path ordered from left to right."""
-
-    if not points:
-        return ""
-
-    if len(points) == 1:
+def smooth_path(points):
+    if len(points) < 2:
+        if not points:
+            return ""
         x, y = points[0]
         return f"M {x:.2f},{y:.2f} L {x + 0.01:.2f},{y:.2f}"
 
@@ -173,7 +155,6 @@ def make_path(points):
 
         c1x = x1 + (x2 - x0) / 6
         c1y = y1 + (y2 - y0) / 6
-
         c2x = x2 - (x3 - x1) / 6
         c2y = y2 - (y3 - y1) / 6
 
@@ -190,204 +171,143 @@ def make_path(points):
 # SNAKE ANIMATION
 # =========================================================
 
-def add_snake(parts, graph_path):
-    """
-    Animate the snake along the graph.
-
-    The head has the greatest progress along the path.
-    Body segments have progressively smaller progress,
-    leaving the body behind the head on the left.
-    """
-
+def add_snake(parts, path):
     head_phase = ANIMATION_DURATION * HEAD_START_PROGRESS
 
-    # Body segments: draw tail first, then segments closer
-    # to the head. The head itself is drawn last.
+    # Draw the tail first, then the body, so the head appears
+    # visually in front of the trailing segments.
     for i in reversed(range(SEGMENT_COUNT)):
-        delay = (SEGMENT_COUNT - i) * SEGMENT_DELAY
-        segment_phase = max(0.0, head_phase - delay)
+        delay = (i + 1) * SEGMENT_DELAY
+        begin_offset = -(head_phase - delay)
 
-        # Negative begin offsets initialize each segment
-        # at its own position in the repeating animation.
-        begin_offset = -segment_phase
+        # i=0 is closest to the head; larger i means tailward.
+        taper = 1.0 - (i / SEGMENT_COUNT)
 
-        radius = 2.7 + (SEGMENT_COUNT - i) * 0.34
+        # Radius shrinks toward the tail.
+        rx = 0.8 + 3.2 * (taper ** 0.75)
+        ry = rx * 0.82
 
         parts.append(
-            f'<circle r="{radius:.2f}" '
+            f'<ellipse rx="{rx:.2f}" ry="{ry:.2f}" '
             f'fill="{SNAKE_GREEN}" '
-            f'stroke="{SNAKE_BORDER}" '
-            f'stroke-width="1.1">'
-            f'<animateMotion '
-            f'dur="{ANIMATION_DURATION}s" '
+            f'stroke="{SNAKE_BORDER}" stroke-width="0.8">'
+            f'<animateMotion dur="{ANIMATION_DURATION}s" '
             f'repeatCount="indefinite" '
             f'begin="{begin_offset:.3f}s" '
-            f'rotate="auto" '
-            f'path="{graph_path}"/>'
-            f'</circle>'
+            f'rotate="auto" path="{path}"/>'
+            f'</ellipse>'
         )
 
-    # Head: starts farther along the path than all body segments.
+    # Head: larger and clearly distinguishable from the body.
     parts.append(
-        f'<g>'
-        f'<animateMotion '
-        f'dur="{ANIMATION_DURATION}s" '
+        '<g>'
+        f'<animateMotion dur="{ANIMATION_DURATION}s" '
         f'repeatCount="indefinite" '
         f'begin="{-head_phase:.3f}s" '
-        f'rotate="auto" '
-        f'path="{graph_path}"/>'
+        f'rotate="auto" path="{path}"/>'
 
-        # Head shape.
-        f'<circle cx="0" cy="0" r="{HEAD_RADIUS}" '
-        f'fill="{SNAKE_GREEN}" '
-        f'stroke="{SNAKE_BORDER}" '
-        f'stroke-width="2"/>'
+        '<ellipse cx="0" cy="0" rx="7.5" ry="5.7" '
+        f'fill="{SNAKE_GREEN}" stroke="{SNAKE_BORDER}" '
+        'stroke-width="1.5"/>'
 
-        # Eyes.
-        f'<ellipse cx="2.5" cy="-3.0" '
-        f'rx="2.5" ry="3.0" fill="#FFFFFF"/>'
-        f'<ellipse cx="3.0" cy="-2.8" '
-        f'rx="1.1" ry="1.6" fill="#17202A"/>'
+        # Eyes
+        '<ellipse cx="2" cy="-2.3" rx="1.8" ry="1.9" '
+        'fill="#FFFFFF"/>'
+        '<circle cx="2.6" cy="-2.3" r="0.9" fill="#17202A"/>'
 
-        f'<ellipse cx="6.8" cy="-2.3" '
-        f'rx="2.3" ry="2.8" fill="#FFFFFF"/>'
-        f'<ellipse cx="7.3" cy="-2.2" '
-        f'rx="1.0" ry="1.5" fill="#17202A"/>'
+        '<ellipse cx="2" cy="2.3" rx="1.8" ry="1.9" '
+        'fill="#FFFFFF"/>'
+        '<circle cx="2.6" cy="2.3" r="0.9" fill="#17202A"/>'
 
-        # Smile.
-        f'<path d="M 1,3 Q 4,6 7,3" '
-        f'fill="none" stroke="#14532D" '
-        f'stroke-width="1.2" stroke-linecap="round"/>'
-
-        # Tongue points toward the right.
-        f'<path d="M 8,4 L 14,4 L 17,2 '
-        f'M 14,4 L 17,6" '
-        f'fill="none" stroke="{TONGUE_COLOR}" '
-        f'stroke-width="1.8" stroke-linecap="round" '
-        f'stroke-linejoin="round"/>'
-
-        f'</g>'
+        # Mouth and forked tongue
+        f'<path d="M 4,0 L 6.5,0" stroke="{SNAKE_BORDER}" '
+        'stroke-width="0.9" fill="none"/>'
+        f'<path d="M 6,0 L 10,-1.8 M 6,0 L 10,1.8" '
+        f'stroke="{TONGUE_COLOR}" stroke-width="1.4" '
+        'stroke-linecap="round" fill="none"/>'
+        '</g>'
     )
 
 
 # =========================================================
-# GENERATE GRAPH
+# GRAPH GENERATION
 # =========================================================
 
 def generate_graph(dates, counts):
     OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
 
-    plot_width = WIDTH - MARGIN_LEFT - MARGIN_RIGHT
-    plot_height = HEIGHT - MARGIN_TOP - MARGIN_BOTTOM
+    plot_width = WIDTH - LEFT - RIGHT
+    plot_height = HEIGHT - TOP - BOTTOM
 
     max_count = max(counts, default=0)
     y_max = max(5, ((max_count + 4) // 5) * 5)
 
-    def x_position(index):
-        if len(dates) <= 1:
-            return MARGIN_LEFT + plot_width / 2
+    def x_pos(i):
+        return LEFT + i * plot_width / max(1, len(dates) - 1)
 
-        return (
-            MARGIN_LEFT
-            + index * plot_width / (len(dates) - 1)
-        )
-
-    def y_position(value):
-        return (
-            MARGIN_TOP
-            + plot_height
-            - (value / y_max) * plot_height
-        )
+    def y_pos(value):
+        return TOP + plot_height - (value / y_max) * plot_height
 
     points = [
-        (x_position(i), y_position(count))
-        for i, count in enumerate(counts)
+        (x_pos(i), y_pos(value))
+        for i, value in enumerate(counts)
     ]
 
-    graph_path = make_path(points)
-    parts = []
-
-    # SVG document and background.
-    parts.append(
+    path = smooth_path(points)
+    parts = [
         f'<svg xmlns="http://www.w3.org/2000/svg" '
         f'width="{WIDTH}" height="{HEIGHT}" '
-        f'viewBox="0 0 {WIDTH} {HEIGHT}">'
-    )
-
-    parts.append(
+        f'viewBox="0 0 {WIDTH} {HEIGHT}">',
         f'<rect width="{WIDTH}" height="{HEIGHT}" '
-        f'fill="{BACKGROUND}"/>'
-    )
+        f'fill="{BACKGROUND}"/>',
+        text_element(
+            LEFT, 28, "Daily GitHub Commit Progress",
+            size=16, color=TITLE_COLOR,
+            anchor="start", weight="bold"
+        ),
+    ]
 
-    # Title.
-    parts.append(
-        svg_text(
-            MARGIN_LEFT,
-            28,
-            "Daily GitHub Commit Progress",
-            size=16,
-            color=TITLE_COLOR,
-            anchor="start",
-            weight="bold",
-        )
-    )
-
-    # Horizontal grid and Y-axis labels.
+    # Horizontal grid and scale labels.
     tick_step = max(1, y_max // 5)
     ticks = list(range(0, y_max + 1, tick_step))
-
     if ticks[-1] != y_max:
         ticks.append(y_max)
 
     for tick in sorted(set(ticks)):
-        y = y_position(tick)
+        y = y_pos(tick)
 
         parts.append(
-            f'<line x1="{MARGIN_LEFT}" y1="{y:.2f}" '
-            f'x2="{WIDTH - MARGIN_RIGHT}" y2="{y:.2f}" '
+            f'<line x1="{LEFT}" y1="{y:.2f}" '
+            f'x2="{WIDTH - RIGHT}" y2="{y:.2f}" '
             f'stroke="{GRID_COLOR}" stroke-width="1"/>'
         )
-
         parts.append(
-            svg_text(
-                MARGIN_LEFT - 12,
-                y + 4,
-                tick,
-                size=10,
-                color=TEXT_COLOR,
-                anchor="end",
+            text_element(
+                LEFT - 12, y + 4, tick,
+                size=10, anchor="end"
             )
         )
 
     # Vertical grid and date labels.
     label_indices = sorted(
-        set(
-            [0, len(dates) - 1]
-            + list(range(0, len(dates), 3))
-        )
+        set([0, len(dates) - 1] + list(range(0, len(dates), 3)))
     )
 
     for i in label_indices:
-        x = x_position(i)
+        x = x_pos(i)
 
         parts.append(
-            f'<line x1="{x:.2f}" y1="{MARGIN_TOP}" '
-            f'x2="{x:.2f}" '
-            f'y2="{HEIGHT - MARGIN_BOTTOM}" '
+            f'<line x1="{x:.2f}" y1="{TOP}" '
+            f'x2="{x:.2f}" y2="{HEIGHT - BOTTOM}" '
             f'stroke="{GRID_COLOR}" stroke-width="1"/>'
         )
-
         parts.append(
-            svg_text(
-                x,
-                HEIGHT - MARGIN_BOTTOM + 18,
-                dates[i].strftime("%b %d"),
-                size=9,
-                color=TEXT_COLOR,
+            text_element(
+                x, HEIGHT - BOTTOM + 18,
+                dates[i].strftime("%b %d"), size=9
             )
         )
 
-    # Y-axis label.
     parts.append(
         f'<text x="18" y="{HEIGHT / 2:.2f}" '
         f'transform="rotate(-90 18 {HEIGHT / 2:.2f})" '
@@ -396,52 +316,34 @@ def generate_graph(dates, counts):
         f'text-anchor="middle">Commits</text>'
     )
 
-    # Contribution line.
-    if graph_path:
-        parts.append(
-            f'<path d="{graph_path}" fill="none" '
-            f'stroke="{LINE_COLOR}" stroke-width="2.2" '
-            f'stroke-linejoin="round" stroke-linecap="round"/>'
-        )
+    # Actual daily commit line.
+    parts.append(
+        f'<path d="{path}" fill="none" '
+        f'stroke="{LINE_COLOR}" stroke-width="2.2" '
+        f'stroke-linejoin="round" stroke-linecap="round"/>'
+    )
 
-    # Yellow commit markers.
+    # Daily markers.
     for x, y in points:
         parts.append(
-            svg_circle(
-                x,
-                y,
-                3.0,
-                BACKGROUND,
-                stroke=ACCENT_COLOR,
-                stroke_width=1.5,
-            )
+            f'<circle cx="{x:.2f}" cy="{y:.2f}" r="2.8" '
+            f'fill="{BACKGROUND}" stroke="{ACCENT_COLOR}" '
+            f'stroke-width="1.4"/>'
         )
 
-    # Snake follows the same contribution path.
-    if graph_path:
-        add_snake(parts, graph_path)
+    # Animated snake follows the graph path.
+    add_snake(parts, path)
 
     parts.append("</svg>")
 
-    OUTPUT_FILE.write_text(
-        "\n".join(parts),
-        encoding="utf-8",
-    )
+    OUTPUT_FILE.write_text("\n".join(parts), encoding="utf-8")
 
     print(f"Generated: {OUTPUT_FILE}")
     print(f"Days: {len(dates)}")
-    print(
-        "Commits counted from public events: "
-        f"{sum(counts)}"
-    )
 
-
-# =========================================================
-# MAIN
-# =========================================================
 
 def main():
-    dates, counts = fetch_daily_commits(USERNAME, DAYS)
+    dates, counts = get_daily_commits()
     generate_graph(dates, counts)
 
 
