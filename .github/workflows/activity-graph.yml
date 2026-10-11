@@ -1,5 +1,4 @@
-
-name: Activity Graph
+name: Daily Commit Graph
 
 on:
   schedule:
@@ -9,12 +8,38 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: daily-commit-graph
+  cancel-in-progress: false
+
 jobs:
-  activity-graph:
+  generate-graph:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Generate contribution graph
-        uses: alexcerezo/activity-graph@v1
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate daily commit graph
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: aonontojahan
+        run: python scripts/generate_graph.py
+
+      - name: Commit updated graph
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/contribution-graph.svg
+
+          if ! git diff --cached --quiet; then
+            git commit -m "Update daily commit graph"
+            git push
+          else
+            echo "No graph changes to commit."
+          fi
