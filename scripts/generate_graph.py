@@ -21,7 +21,7 @@ LEFT, RIGHT, TOP, BOTTOM = 65, 25, 38, 55
 PLOT_WIDTH = WIDTH - LEFT - RIGHT
 PLOT_HEIGHT = HEIGHT - TOP - BOTTOM
 
-# Tokyo Night-inspired colors
+# Tokyo Night colors
 BG = "#1F222E"
 GRID = "#343849"
 WHITE = "#FFFFFF"
@@ -110,7 +110,7 @@ def make_svg(labels, values):
         'Daily GitHub Commit Progress</text>',
     ]
 
-    # Y-axis grid and labels
+    # Y-axis
     step = max(1, y_max // 4)
     ticks = list(range(0, y_max + 1, step))
     if ticks[-1] != y_max:
@@ -127,7 +127,7 @@ def make_svg(labels, values):
             f'text-anchor="end" font-size="11">{tick}</text>'
         )
 
-    # X-axis dates
+    # X-axis
     for i, label in enumerate(labels):
         if i % 3 == 0 or i == len(labels) - 1:
             x = x_pos(i)
@@ -141,7 +141,6 @@ def make_svg(labels, values):
                 f'{escape(label)}</text>'
             )
 
-    # Axis lines
     parts.extend([
         f'<line class="axis" x1="{LEFT}" y1="{TOP}" '
         f'x2="{LEFT}" y2="{TOP+PLOT_HEIGHT}"/>',
@@ -153,7 +152,7 @@ def make_svg(labels, values):
         'Commits</text>',
     ])
 
-    # Commit line
+    # Draw the commit line
     point_string = " ".join(
         f"{x:.2f},{y:.2f}" for x, y in coordinates
     )
@@ -162,7 +161,7 @@ def make_svg(labels, values):
         f'points="{point_string}"/>'
     )
 
-    # Daily data points and tooltips
+    # Commit points
     for i, (x, y) in enumerate(coordinates):
         parts.append(
             f'<circle class="commit-point" cx="{x:.2f}" '
@@ -171,13 +170,13 @@ def make_svg(labels, values):
             '</circle>'
         )
 
-    # Animated snake: body trails behind the head.
-    # SVG motion uses negative begin offsets to stagger body positions.
+    # Animated snake.
+    # The body uses the same path and duration as the head.
+    # Positive begin offsets make body segments start after the head.
     if len(coordinates) >= 2:
         segment_count = 12
         duration = 8
 
-        # Draw body segments first.
         for i in range(segment_count, 0, -1):
             delay = i * 0.075
             radius_x = max(3.5, 7.0 - i * 0.28)
@@ -190,12 +189,12 @@ def make_svg(labels, values):
                 'stroke-width="1.2">'
                 f'<animateMotion dur="{duration}s" '
                 'repeatCount="indefinite" '
-                f'begin="-{delay:.3f}s" rotate="auto" '
+                f'begin="{delay:.3f}s" rotate="auto" '
                 f'path="{safe_path}"/>'
                 '</ellipse>'
             )
 
-        # Snake head: no delay, so it leads the body.
+        # Head: begins immediately and leads the body.
         parts.extend([
             '<g>',
             f'<ellipse cx="0" cy="0" rx="10" ry="8" '
