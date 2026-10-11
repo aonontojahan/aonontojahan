@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository history
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
@@ -27,7 +27,9 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Generate contribution graph
+      - name: Generate account-wide contribution graph
+        env:
+          PROFILE_TOKEN: ${{ secrets.PROFILE_TOKEN }}
         run: python scripts/generate_graph.py
 
       - name: Commit updated SVG
