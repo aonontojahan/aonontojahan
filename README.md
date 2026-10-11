@@ -275,8 +275,7 @@ My contact links are provided below — feel free to reach out and connect.
   </picture>
 
 <!--Daily Activity Graph -->
-<br/>
-
+<br/> <br/> 
 <p align="center">
   <img
     src="assets/contribution-graph.svg"
