@@ -14,7 +14,6 @@ TOKEN = os.environ.get("GITHUB_TOKEN")
 DAYS = 30
 OUTPUT = Path("assets/contribution-graph.svg")
 
-# Compact chart: 240 SVG pixels ~= 2.5 inches at 96 DPI.
 WIDTH = 1100
 HEIGHT = 240
 
@@ -22,7 +21,7 @@ LEFT, RIGHT, TOP, BOTTOM = 65, 25, 38, 55
 PLOT_WIDTH = WIDTH - LEFT - RIGHT
 PLOT_HEIGHT = HEIGHT - TOP - BOTTOM
 
-# Tokyo Night-inspired profile colors
+# Tokyo Night-inspired colors
 BG = "#1F222E"
 GRID = "#343849"
 WHITE = "#FFFFFF"
@@ -78,7 +77,6 @@ def make_svg(labels, values):
         for i, value in enumerate(values)
     ]
 
-    # Build the actual daily commit path used by the snake.
     path_data = " ".join(
         ("M" if i == 0 else "L") + f" {x:.2f} {y:.2f}"
         for i, (x, y) in enumerate(coordinates)
@@ -95,7 +93,6 @@ def make_svg(labels, values):
         f'<desc id="desc">Daily commit counts for {escape(USERNAME)} '
         f'over the last {DAYS} days.</desc>',
 
-        # Matching dark theme background.
         f'<rect width="100%" height="100%" fill="{BG}"/>',
 
         '<style>',
@@ -113,7 +110,7 @@ def make_svg(labels, values):
         'Daily GitHub Commit Progress</text>',
     ]
 
-    # Y-axis ticks and gridlines.
+    # Y-axis grid and labels
     step = max(1, y_max // 4)
     ticks = list(range(0, y_max + 1, step))
     if ticks[-1] != y_max:
@@ -130,7 +127,7 @@ def make_svg(labels, values):
             f'text-anchor="end" font-size="11">{tick}</text>'
         )
 
-    # X-axis dates.
+    # X-axis dates
     for i, label in enumerate(labels):
         if i % 3 == 0 or i == len(labels) - 1:
             x = x_pos(i)
@@ -144,7 +141,7 @@ def make_svg(labels, values):
                 f'{escape(label)}</text>'
             )
 
-    # Axis lines.
+    # Axis lines
     parts.extend([
         f'<line class="axis" x1="{LEFT}" y1="{TOP}" '
         f'x2="{LEFT}" y2="{TOP+PLOT_HEIGHT}"/>',
@@ -156,7 +153,7 @@ def make_svg(labels, values):
         'Commits</text>',
     ])
 
-    # White line representing daily commit counts.
+    # Commit line
     point_string = " ".join(
         f"{x:.2f},{y:.2f}" for x, y in coordinates
     )
@@ -165,7 +162,7 @@ def make_svg(labels, values):
         f'points="{point_string}"/>'
     )
 
-    # Daily data points.
+    # Daily data points and tooltips
     for i, (x, y) in enumerate(coordinates):
         parts.append(
             f'<circle class="commit-point" cx="{x:.2f}" '
@@ -174,12 +171,14 @@ def make_svg(labels, values):
             '</circle>'
         )
 
-    # Animated green snake: tapered segments follow the real commit line.
-    # Staggering each segment creates a trailing-body effect.
+    # Animated snake: body trails behind the head.
+    # SVG motion uses negative begin offsets to stagger body positions.
     if len(coordinates) >= 2:
         segment_count = 12
+        duration = 8
 
-        for i in range(segment_count):
+        # Draw body segments first.
+        for i in range(segment_count, 0, -1):
             delay = i * 0.075
             radius_x = max(3.5, 7.0 - i * 0.28)
             radius_y = max(3.0, 5.5 - i * 0.20)
@@ -189,13 +188,14 @@ def make_svg(labels, values):
                 f'rx="{radius_x:.2f}" ry="{radius_y:.2f}" '
                 f'fill="{GREEN}" stroke="{GREEN_DARK}" '
                 'stroke-width="1.2">'
-                f'<animateMotion dur="8s" repeatCount="indefinite" '
+                f'<animateMotion dur="{duration}s" '
+                'repeatCount="indefinite" '
                 f'begin="-{delay:.3f}s" rotate="auto" '
                 f'path="{safe_path}"/>'
                 '</ellipse>'
             )
 
-        # Head, eyes, nostrils, and forked tongue.
+        # Snake head: no delay, so it leads the body.
         parts.extend([
             '<g>',
             f'<ellipse cx="0" cy="0" rx="10" ry="8" '
@@ -209,7 +209,7 @@ def make_svg(labels, values):
             '<circle cx="-3" cy="-2.5" r="1.3" fill="#111111"/>',
             '<circle cx="4.5" cy="-2.5" r="1.3" fill="#111111"/>',
 
-            # Nostril details
+            # Nostril
             '<circle cx="7" cy="1" r="0.8" fill="#145523"/>',
 
             # Forked tongue
@@ -217,8 +217,9 @@ def make_svg(labels, values):
             f'fill="none" stroke="{TONGUE}" stroke-width="1.8" '
             'stroke-linecap="round" stroke-linejoin="round"/>',
 
-            f'<animateMotion dur="8s" repeatCount="indefinite" '
-            f'rotate="auto" path="{safe_path}"/>',
+            f'<animateMotion dur="{duration}s" '
+            'repeatCount="indefinite" rotate="auto" '
+            f'path="{safe_path}"/>',
             '</g>',
         ])
 
