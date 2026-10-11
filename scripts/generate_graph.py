@@ -1,4 +1,3 @@
-# scripts/generate_graph.py
 
 import json
 import os
@@ -15,21 +14,27 @@ TOKEN = os.environ.get("GITHUB_TOKEN")
 DAYS = 30
 OUTPUT = Path("assets/contribution-graph.svg")
 
-# SVG dimensions: compact chart, 2.5-inch target display height.
+# Compact chart: 240 SVG pixels ~= 2.5 inches at 96 DPI.
 WIDTH = 1100
 HEIGHT = 240
 
-LEFT = 65
-RIGHT = 25
-TOP = 38
-BOTTOM = 55
-
+LEFT, RIGHT, TOP, BOTTOM = 65, 25, 38, 55
 PLOT_WIDTH = WIDTH - LEFT - RIGHT
 PLOT_HEIGHT = HEIGHT - TOP - BOTTOM
 
+# Tokyo Night-inspired profile colors
+BG = "#1F222E"
+GRID = "#343849"
+WHITE = "#FFFFFF"
+PINK = "#F85D7F"
+YELLOW = "#F8D866"
+GREEN = "#39D353"
+GREEN_DARK = "#167D2D"
+TONGUE = "#FF4D6D"
+
 
 def get_daily_commits(day):
-    """Retrieve the number of commits authored by the user on a date."""
+    """Get the daily commit count from GitHub's commit-search API."""
     query = f"author:{USERNAME} author-date:{day.isoformat()}"
     url = "https://api.github.com/search/commits?" + urllib.parse.urlencode(
         {"q": query, "per_page": 1}
@@ -47,12 +52,12 @@ def get_daily_commits(day):
 
     try:
         with urllib.request.urlopen(request, timeout=30) as response:
-            data = json.load(response)
-            return int(data.get("total_count", 0))
+            result = json.load(response)
+            return int(result.get("total_count", 0))
     except urllib.error.HTTPError as error:
         details = error.read().decode("utf-8", errors="replace")
         raise RuntimeError(
-            f"GitHub API returned HTTP {error.code} for {day}: {details}"
+            f"GitHub API error on {day}: HTTP {error.code}: {details}"
         ) from error
 
 
@@ -60,131 +65,160 @@ def make_svg(labels, values):
     maximum = max(values, default=0)
     y_max = max(5, ((maximum + 4) // 5) * 5)
 
-    def x_position(index):
+    def x_pos(index):
         if len(values) <= 1:
             return LEFT + PLOT_WIDTH / 2
         return LEFT + index * PLOT_WIDTH / (len(values) - 1)
 
-    def y_position(value):
+    def y_pos(value):
         return TOP + PLOT_HEIGHT - (value / y_max) * PLOT_HEIGHT
 
     coordinates = [
-        (x_position(i), y_position(value))
+        (x_pos(i), y_pos(value))
         for i, value in enumerate(values)
     ]
 
+    # Build the actual daily commit path used by the snake.
     path_data = " ".join(
         ("M" if i == 0 else "L") + f" {x:.2f} {y:.2f}"
         for i, (x, y) in enumerate(coordinates)
     )
+    safe_path = escape(path_data, {'"': "&quot;"})
 
     parts = [
         f'<svg xmlns="http://www.w3.org/2000/svg" '
         f'width="{WIDTH}" height="{HEIGHT}" '
         f'viewBox="0 0 {WIDTH} {HEIGHT}" '
         'role="img" aria-labelledby="title desc">',
+
         '<title id="title">Daily GitHub Commit Progress</title>',
         f'<desc id="desc">Daily commit counts for {escape(USERNAME)} '
         f'over the last {DAYS} days.</desc>',
 
-        # Black background and compact typography.
-        '<rect width="100%" height="100%" fill="#000000"/>',
+        # Matching dark theme background.
+        f'<rect width="100%" height="100%" fill="{BG}"/>',
+
         '<style>',
         'text{font-family:Arial,Helvetica,sans-serif;fill:#FFFFFF}',
-        '.grid{stroke:#303030;stroke-width:1}',
-        '.axis{stroke:#777777;stroke-width:1.5}',
-        '.commit-line{fill:none;stroke:#FFFFFF;stroke-width:3;'
+        f'.grid{{stroke:{GRID};stroke-width:1}}',
+        '.axis{stroke:#697386;stroke-width:1.5}',
+        f'.commit-line{{fill:none;stroke:{WHITE};stroke-width:3;'
         'stroke-linejoin:round;stroke-linecap:round}',
-        '.commit-point{fill:#000000;stroke:#FFFFFF;stroke-width:2}',
+        f'.commit-point{{fill:{BG};stroke:{YELLOW};stroke-width:2}}',
+        f'.chart-title{{fill:{PINK}}}',
         '</style>',
 
-        '<text x="65" y="22" font-size="16" font-weight="600">'
+        '<text class="chart-title" x="65" y="22" '
+        'font-size="16" font-weight="600">'
         'Daily GitHub Commit Progress</text>',
     ]
 
-    # Horizontal gridlines and commit-count labels.
-    tick_step = max(1, y_max // 4)
-    ticks = list(range(0, y_max + 1, tick_step))
+    # Y-axis ticks and gridlines.
+    step = max(1, y_max // 4)
+    ticks = list(range(0, y_max + 1, step))
     if ticks[-1] != y_max:
         ticks.append(y_max)
 
     for tick in ticks:
-        y = y_position(tick)
+        y = y_pos(tick)
         parts.append(
             f'<line class="grid" x1="{LEFT}" y1="{y:.2f}" '
-            f'x2="{WIDTH - RIGHT}" y2="{y:.2f}"/>'
+            f'x2="{WIDTH-RIGHT}" y2="{y:.2f}"/>'
         )
         parts.append(
-            f'<text x="{LEFT - 12}" y="{y + 4:.2f}" '
+            f'<text x="{LEFT-12}" y="{y+4:.2f}" '
             f'text-anchor="end" font-size="11">{tick}</text>'
         )
 
-    # Vertical gridlines and readable date labels.
-    for index, label in enumerate(labels):
-        if index % 3 == 0 or index == len(labels) - 1:
-            x = x_position(index)
+    # X-axis dates.
+    for i, label in enumerate(labels):
+        if i % 3 == 0 or i == len(labels) - 1:
+            x = x_pos(i)
             parts.append(
                 f'<line class="grid" x1="{x:.2f}" y1="{TOP}" '
-                f'x2="{x:.2f}" y2="{TOP + PLOT_HEIGHT}"/>'
+                f'x2="{x:.2f}" y2="{TOP+PLOT_HEIGHT}"/>'
             )
             parts.append(
-                f'<text x="{x:.2f}" y="{TOP + PLOT_HEIGHT + 18}" '
+                f'<text x="{x:.2f}" y="{TOP+PLOT_HEIGHT+18}" '
                 f'text-anchor="middle" font-size="10">'
                 f'{escape(label)}</text>'
             )
 
-    # Axes.
+    # Axis lines.
     parts.extend([
         f'<line class="axis" x1="{LEFT}" y1="{TOP}" '
-        f'x2="{LEFT}" y2="{TOP + PLOT_HEIGHT}"/>',
-        f'<line class="axis" x1="{LEFT}" y1="{TOP + PLOT_HEIGHT}" '
-        f'x2="{WIDTH - RIGHT}" y2="{TOP + PLOT_HEIGHT}"/>',
-        f'<text x="15" y="{TOP + PLOT_HEIGHT / 2}" '
+        f'x2="{LEFT}" y2="{TOP+PLOT_HEIGHT}"/>',
+        f'<line class="axis" x1="{LEFT}" y1="{TOP+PLOT_HEIGHT}" '
+        f'x2="{WIDTH-RIGHT}" y2="{TOP+PLOT_HEIGHT}"/>',
+        f'<text x="15" y="{TOP+PLOT_HEIGHT/2}" '
         f'text-anchor="middle" font-size="11" '
-        f'transform="rotate(-90 15 {TOP + PLOT_HEIGHT / 2})">'
+        f'transform="rotate(-90 15 {TOP+PLOT_HEIGHT/2})">'
         'Commits</text>',
     ])
 
-    # Actual daily commit line.
+    # White line representing daily commit counts.
+    point_string = " ".join(
+        f"{x:.2f},{y:.2f}" for x, y in coordinates
+    )
     parts.append(
         f'<polyline id="commit-path" class="commit-line" '
-        f'points="{" ".join(f"{x:.2f},{y:.2f}" for x, y in coordinates)}"/>'
+        f'points="{point_string}"/>'
     )
 
-    # Static points for every day.
-    for index, (x, y) in enumerate(coordinates):
+    # Daily data points.
+    for i, (x, y) in enumerate(coordinates):
         parts.append(
-            f'<circle class="commit-point" cx="{x:.2f}" cy="{y:.2f}" '
-            f'r="3"><title>{escape(labels[index])}: '
-            f'{values[index]} commits</title></circle>'
+            f'<circle class="commit-point" cx="{x:.2f}" '
+            f'cy="{y:.2f}" r="3">'
+            f'<title>{escape(labels[i])}: {values[i]} commits</title>'
+            '</circle>'
         )
 
-    # Animated snake following the plotted commit line.
-    # Animation support depends on the SVG viewer; GitHub README
-    # images may not play this animation.
-    if coordinates:
-        animation_path = escape(path_data, {'"': '&quot;'})
+    # Animated green snake: tapered segments follow the real commit line.
+    # Staggering each segment creates a trailing-body effect.
+    if len(coordinates) >= 2:
+        segment_count = 12
 
-        # Body segments follow the same path with staggered start offsets.
-        for index, offset in enumerate((0, 0.18, 0.36, 0.54, 0.72)):
-            radius = 5.5 - index * 0.5
+        for i in range(segment_count):
+            delay = i * 0.075
+            radius_x = max(3.5, 7.0 - i * 0.28)
+            radius_y = max(3.0, 5.5 - i * 0.20)
+
             parts.append(
-                f'<circle r="{radius:.1f}" fill="#FFFFFF" '
-                'stroke="#000000" stroke-width="1.5">'
+                f'<ellipse cx="0" cy="0" '
+                f'rx="{radius_x:.2f}" ry="{radius_y:.2f}" '
+                f'fill="{GREEN}" stroke="{GREEN_DARK}" '
+                'stroke-width="1.2">'
                 f'<animateMotion dur="8s" repeatCount="indefinite" '
-                f'begin="-{offset}s" path="{animation_path}"/>'
-                '</circle>'
+                f'begin="-{delay:.3f}s" rotate="auto" '
+                f'path="{safe_path}"/>'
+                '</ellipse>'
             )
 
-        # Snake head, with black eyes, follows the same line.
+        # Head, eyes, nostrils, and forked tongue.
         parts.extend([
             '<g>',
-            '<circle r="7" fill="#FFFFFF" stroke="#000000" '
-            'stroke-width="1.5"/>',
-            '<circle cx="-2.5" cy="-2" r="1.2" fill="#000000"/>',
-            '<circle cx="2.5" cy="-2" r="1.2" fill="#000000"/>',
+            f'<ellipse cx="0" cy="0" rx="10" ry="8" '
+            f'fill="{GREEN}" stroke="{GREEN_DARK}" stroke-width="2"/>',
+
+            # Eyes
+            '<ellipse cx="-3.5" cy="-3" rx="2.4" ry="2.8" '
+            'fill="#FFFFFF"/>',
+            '<ellipse cx="4" cy="-3" rx="2.4" ry="2.8" '
+            'fill="#FFFFFF"/>',
+            '<circle cx="-3" cy="-2.5" r="1.3" fill="#111111"/>',
+            '<circle cx="4.5" cy="-2.5" r="1.3" fill="#111111"/>',
+
+            # Nostril details
+            '<circle cx="7" cy="1" r="0.8" fill="#145523"/>',
+
+            # Forked tongue
+            f'<path d="M 1,6 L 1,11 L -2,14 M 1,11 L 4,14" '
+            f'fill="none" stroke="{TONGUE}" stroke-width="1.8" '
+            'stroke-linecap="round" stroke-linejoin="round"/>',
+
             f'<animateMotion dur="8s" repeatCount="indefinite" '
-            f'path="{animation_path}"/>',
+            f'rotate="auto" path="{safe_path}"/>',
             '</g>',
         ])
 
