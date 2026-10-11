@@ -274,19 +274,8 @@ My contact links are provided below — feel free to reach out and connect.
       alt="Top Languages" />
   </picture>
 
-<!-- GitHub Contribution Graph -->
-<br/><br/>
-<h2 align="center">📈 Contribution Graph</h2>
-
-<p align="center">
-  <a href="https://github.com/aonontojahan">
-    <img
-      src="https://YOUR-DEPLOYMENT-HOST/graph?username=aonontojahan&theme=react-dark&bg_color=1F222E&color=F8D866&line=F85D7F&point=FFFFFF&area=true&hide_border=true"
-      width="95%"
-      alt="GitHub Contribution Graph"
-    />
-  </a>
-</p>
+<!-- BEGIN ACTIVITY-GRAPH -->
+<!-- END ACTIVITY-GRAPH -->
 
 </div>
 
