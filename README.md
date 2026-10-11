@@ -298,7 +298,7 @@ I genuinely enjoy designing clean, elegant and intuitive interfaces — good UI 
 
 Debugging feels like solving a mystery — except I’m both the detective and the one who caused it.
 
-I once spent 3 hours automating a 5-minute of task… and honestly, it was absolutely worth it for me.
+I once spent 3 hours automating a 5-minute of task and honestly, it was absolutely worth it for me.
 
 I often find myself talking to computers more than people — and surprisingly, they respond much better.
 
