@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 430" role="img" aria-labelledby="title desc">
+<title id="title">Daily GitHub Commit Progress</title>
+<desc id="desc">Daily commit counts for the last 30 days for aonontojahan.</desc>
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<style>
+text{font-family:Arial,Helvetica,sans-serif;fill:#6B7280}
+.grid{stroke:#D1D5DB;stroke-width:1}
+.axis{stroke:#666666;stroke-width:2}
+.line{fill:none;stroke:#48B7C2;stroke-width:4;stroke-linejoin:round;stroke-linecap:round}
+.point{fill:#FFFFFF;stroke:#48B7C2;stroke-width:3}
+</style>
+<text x="70" y="25" font-size="18" font-weight="600" fill="#374151">Daily GitHub Commit Progress</text>
+<line class="grid" x1="70" y1="325.00" x2="1070" y2="325.00"/>
+<text x="55" y="330.00" text-anchor="end" font-size="13">0</text>
+<line class="grid" x1="70" y1="269.00" x2="1070" y2="269.00"/>
+<text x="55" y="274.00" text-anchor="end" font-size="13">4</text>
+<line class="grid" x1="70" y1="213.00" x2="1070" y2="213.00"/>
+<text x="55" y="218.00" text-anchor="end" font-size="13">8</text>
+<line class="grid" x1="70" y1="157.00" x2="1070" y2="157.00"/>
+<text x="55" y="162.00" text-anchor="end" font-size="13">12</text>
+<line class="grid" x1="70" y1="101.00" x2="1070" y2="101.00"/>
+<text x="55" y="106.00" text-anchor="end" font-size="13">16</text>
+<line class="grid" x1="70" y1="45.00" x2="1070" y2="45.00"/>
+<text x="55" y="50.00" text-anchor="end" font-size="13">20</text>
+<line class="grid" x1="70.00" y1="45" x2="70.00" y2="325"/>
+<text x="70.00" y="343" text-anchor="end" font-size="11" transform="rotate(-45 70.00 343)">Sep 12</text>
+<line class="grid" x1="138.97" y1="45" x2="138.97" y2="325"/>
+<text x="138.97" y="343" text-anchor="end" font-size="11" transform="rotate(-45 138.97 343)">Sep 14</text>
+<line class="grid" x1="207.93" y1="45" x2="207.93" y2="325"/>
+<text x="207.93" y="343" text-anchor="end" font-size="11" transform="rotate(-45 207.93 343)">Sep 16</text>
+<line class="grid" x1="276.90" y1="45" x2="276.90" y2="325"/>
+<text x="276.90" y="343" text-anchor="end" font-size="11" transform="rotate(-45 276.90 343)">Sep 18</text>
+<line class="grid" x1="345.86" y1="45" x2="345.86" y2="325"/>
+<text x="345.86" y="343" text-anchor="end" font-size="11" transform="rotate(-45 345.86 343)">Sep 20</text>
+<line class="grid" x1="414.83" y1="45" x2="414.83" y2="325"/>
+<text x="414.83" y="343" text-anchor="end" font-size="11" transform="rotate(-45 414.83 343)">Sep 22</text>
+<line class="grid" x1="483.79" y1="45" x2="483.79" y2="325"/>
+<text x="483.79" y="343" text-anchor="end" font-size="11" transform="rotate(-45 483.79 343)">Sep 24</text>
+<line class="grid" x1="552.76" y1="45" x2="552.76" y2="325"/>
+<text x="552.76" y="343" text-anchor="end" font-size="11" transform="rotate(-45 552.76 343)">Sep 26</text>
+<line class="grid" x1="621.72" y1="45" x2="621.72" y2="325"/>
+<text x="621.72" y="343" text-anchor="end" font-size="11" transform="rotate(-45 621.72 343)">Sep 28</text>
+<line class="grid" x1="690.69" y1="45" x2="690.69" y2="325"/>
+<text x="690.69" y="343" text-anchor="end" font-size="11" transform="rotate(-45 690.69 343)">Sep 30</text>
+<line class="grid" x1="759.66" y1="45" x2="759.66" y2="325"/>
+<text x="759.66" y="343" text-anchor="end" font-size="11" transform="rotate(-45 759.66 343)">Oct 02</text>
+<line class="grid" x1="828.62" y1="45" x2="828.62" y2="325"/>
+<text x="828.62" y="343" text-anchor="end" font-size="11" transform="rotate(-45 828.62 343)">Oct 04</text>
+<line class="grid" x1="897.59" y1="45" x2="897.59" y2="325"/>
+<text x="897.59" y="343" text-anchor="end" font-size="11" transform="rotate(-45 897.59 343)">Oct 06</text>
+<line class="grid" x1="966.55" y1="45" x2="966.55" y2="325"/>
+<text x="966.55" y="343" text-anchor="end" font-size="11" transform="rotate(-45 966.55 343)">Oct 08</text>
+<line class="grid" x1="1035.52" y1="45" x2="1035.52" y2="325"/>
+<text x="1035.52" y="343" text-anchor="end" font-size="11" transform="rotate(-45 1035.52 343)">Oct 10</text>
+<line class="grid" x1="1070.00" y1="45" x2="1070.00" y2="325"/>
+<text x="1070.00" y="343" text-anchor="end" font-size="11" transform="rotate(-45 1070.00 343)">Oct 11</text>
+<line class="axis" x1="70" y1="45" x2="70" y2="325"/>
+<line class="axis" x1="70" y1="325" x2="1070" y2="325"/>
+<text x="570.0" y="420" text-anchor="middle" font-size="14">Day</text>
+<text x="18" y="185.0" text-anchor="middle" font-size="14" transform="rotate(-90 18 185.0)">Commits</text>
+<polyline class="line" points="70.00,59.00 104.48,227.00 138.97,325.00 173.45,325.00 207.93,325.00 242.41,325.00 276.90,227.00 311.38,325.00 345.86,325.00 380.34,325.00 414.83,325.00 449.31,325.00 483.79,325.00 518.28,325.00 552.76,325.00 587.24,325.00 621.72,325.00 656.21,311.00 690.69,325.00 725.17,325.00 759.66,325.00 794.14,311.00 828.62,325.00 863.10,325.00 897.59,311.00 932.07,325.00 966.55,325.00 1001.03,325.00 1035.52,325.00 1070.00,185.00"/>
+<circle class="point" cx="70.00" cy="59.00" r="5"><title>Sep 12: 19 commits</title></circle>
+<circle class="point" cx="104.48" cy="227.00" r="5"><title>Sep 13: 7 commits</title></circle>
+<circle class="point" cx="138.97" cy="325.00" r="5"><title>Sep 14: 0 commits</title></circle>
+<circle class="point" cx="173.45" cy="325.00" r="5"><title>Sep 15: 0 commits</title></circle>
+<circle class="point" cx="207.93" cy="325.00" r="5"><title>Sep 16: 0 commits</title></circle>
+<circle class="point" cx="242.41" cy="325.00" r="5"><title>Sep 17: 0 commits</title></circle>
+<circle class="point" cx="276.90" cy="227.00" r="5"><title>Sep 18: 7 commits</title></circle>
+<circle class="point" cx="311.38" cy="325.00" r="5"><title>Sep 19: 0 commits</title></circle>
+<circle class="point" cx="345.86" cy="325.00" r="5"><title>Sep 20: 0 commits</title></circle>
+<circle class="point" cx="380.34" cy="325.00" r="5"><title>Sep 21: 0 commits</title></circle>
+<circle class="point" cx="414.83" cy="325.00" r="5"><title>Sep 22: 0 commits</title></circle>
+<circle class="point" cx="449.31" cy="325.00" r="5"><title>Sep 23: 0 commits</title></circle>
+<circle class="point" cx="483.79" cy="325.00" r="5"><title>Sep 24: 0 commits</title></circle>
+<circle class="point" cx="518.28" cy="325.00" r="5"><title>Sep 25: 0 commits</title></circle>
+<circle class="point" cx="552.76" cy="325.00" r="5"><title>Sep 26: 0 commits</title></circle>
+<circle class="point" cx="587.24" cy="325.00" r="5"><title>Sep 27: 0 commits</title></circle>
+<circle class="point" cx="621.72" cy="325.00" r="5"><title>Sep 28: 0 commits</title></circle>
+<circle class="point" cx="656.21" cy="311.00" r="5"><title>Sep 29: 1 commits</title></circle>
+<circle class="point" cx="690.69" cy="325.00" r="5"><title>Sep 30: 0 commits</title></circle>
+<circle class="point" cx="725.17" cy="325.00" r="5"><title>Oct 01: 0 commits</title></circle>
+<circle class="point" cx="759.66" cy="325.00" r="5"><title>Oct 02: 0 commits</title></circle>
+<circle class="point" cx="794.14" cy="311.00" r="5"><title>Oct 03: 1 commits</title></circle>
+<circle class="point" cx="828.62" cy="325.00" r="5"><title>Oct 04: 0 commits</title></circle>
+<circle class="point" cx="863.10" cy="325.00" r="5"><title>Oct 05: 0 commits</title></circle>
+<circle class="point" cx="897.59" cy="311.00" r="5"><title>Oct 06: 1 commits</title></circle>
+<circle class="point" cx="932.07" cy="325.00" r="5"><title>Oct 07: 0 commits</title></circle>
+<circle class="point" cx="966.55" cy="325.00" r="5"><title>Oct 08: 0 commits</title></circle>
+<circle class="point" cx="1001.03" cy="325.00" r="5"><title>Oct 09: 0 commits</title></circle>
+<circle class="point" cx="1035.52" cy="325.00" r="5"><title>Oct 10: 0 commits</title></circle>
+<circle class="point" cx="1070.00" cy="185.00" r="5"><title>Oct 11: 10 commits</title></circle>
+</svg>
