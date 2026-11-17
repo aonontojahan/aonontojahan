@@ -38,12 +38,13 @@
 
 <div align="center">
 
-In the final chapter of my Computer Science journey at IUBAT, I'm not just a student — I'm an intern, a builder, and a dreamer crafting the future one line of code at a time. I believe great software isn't just written; it's carefully architected at the beautiful crossroads of development and operations, where scalability meets reliability, and automation dances with innovation.
-**Currently**, I'm painting my story through a **personal portfolio website** — a canvas where modern stack meets creative expression. Simultaneously, I'm sailing through the vast seas of **DevOps Engineering**: navigating Docker containers, charting Kubernetes constellations, riding the currents of CI/CD, and discovering new horizons in AWS cloud.
+I am a Computer Science and Engineering graduate from IUBAT, specializing in Software Engineering and Software Development Engineering in Test (SDET). I am passionate about designing and developing reliable software solutions while ensuring application quality through structured testing and automation. My development experience includes JavaScript, TypeScript, React, Python, FastAPI, SQLAlchemy, and PostgreSQL, which I use to build web applications, RESTful APIs, and database-driven systems. I also leverage AI-powered coding agents to support software development, accelerate implementation, and improve development workflows.
 
-My curiosity knows no bounds — I find myself constantly mesmerized by the **whispers of AI/ML** and the symphony of automation tools. Every framework, every tool, every new technology is an invitation to imagine what's possible.
+My approach to software quality focuses on understanding application behavior, validating functionality, and identifying potential defects through systematic testing. I work across manual and automation testing, applying black-box, gray-box, and white-box testing approaches. My testing practices include functional, integration, regression, and API testing, with an emphasis on test case design, business logic validation, edge-case analysis, and defect identification. I use Postman for API testing, Playwright for browser automation, and Mocha and Chai for API integration testing, focusing on building effective test scenarios and improving application reliability.
 
-I speak the language of Python fluently, but more importantly, I speak the language of collaboration. I'm always seeking kindred spirits in the **open-source community** — fellow builders who believe that code should be clean, systems should be scalable, and user experiences should feel like magic.....
+Currently, I am expanding my knowledge of Docker, containerization, application deployment, Linux, CI/CD, and DevOps practices to strengthen my understanding of the software delivery lifecycle. I believe software quality is not limited to testing; it is an essential part of every stage of software engineering, from design and development to testing and deployment. By combining software development, quality engineering, and test automation, I aim to contribute to building scalable, maintainable, and dependable software solutions.
+
+Beyond the technologies, my philosophy as an engineer is simple. I develop with purpose, test with precision and automate for quality.
 
 </div>
 
