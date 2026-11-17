@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:4C71F2,100:F85D7F&text=Hi,%20I'm%20Aononto%20Jahan%20Junnurain&section=header&reversal=false&fontSize=40&textBg=false&fontColor=FFFFFF&animation=fadeIn&fontAlignY=30&desc=Software%20Engineer%20|%20SDET%20|%20Test%20Automation%20%26%20Quality%20Engineering%20|%20API%20%26%20Integration%20Testing%20|%20Playwright%20%C2%B7%20Cypress%20%C2%B7%20Postman&descAlignY=50&descAlign=50&descSize=14"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:4C71F2,100:F85D7F&text=Hi,%20I'm%20Aononto%20Jahan%20Junnurain&section=header&reversal=false&fontSize=40&textBg=false&fontColor=FFFFFF&animation=fadeIn&fontAlignY=30&desc=Software%20Engineer%20%7C%20SDET%20%7C%20Test%20Automation%20and%20Quality%20Engineering%20%7C%20API%20and%20Integration%20Testing%20%7C%20Playwright%20%C2%B7%20Cypress%20%C2%B7%20Postman&descAlignY=50&descAlign=50&descSize=14"/>
 </div>
 
 <p align="center">
